@@ -691,13 +691,6 @@
   document.querySelectorAll('main section:not(.pillar-hero)').forEach(section => { section.style.opacity = '0'; section.style.transform = 'translateY(30px)'; section.style.transition = 'opacity 0.8s ease, transform 0.8s ease'; observer.observe(section); });
 
   // Intake beacon
-  const p = new URLSearchParams();
-  p.append('intake_token', 'd8250591bb879e8ded29510a25cc2e32');
-  p.append('page_url', location.href);
-  p.append('page_title', document.title);
-  p.append('source', 'Commercial Roof Guide - Built-Up Roofing Guide');
-  p.append('formName', 'Page View - Commercial - Built-Up Roofing Guide');
-  navigator.sendBeacon('https://partners.minyona.com/api/webhooks/intake', p);
 </script>
 </body>
 </html>

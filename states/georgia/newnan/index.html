@@ -1660,15 +1660,6 @@
     section.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
     observer.observe(section);
   });
-
-  // Lead capture beacon
-  const p = new URLSearchParams();
-  p.append('intake_token', 'd8250591bb879e8ded29510a25cc2e32');
-  p.append('page_url', location.href);
-  p.append('page_title', document.title);
-  p.append('source', 'Commercial Roof Guide - City Page');
-  p.append('formName', 'Page View - Commercial - Newnan GA');
-  navigator.sendBeacon('https://partners.minyona.com/api/webhooks/intake', p);
 </script>
 
 <!-- Cost table mobile card labels -->

@@ -481,14 +481,7 @@ const observerOptions = { threshold: 0, rootMargin: '0px 0px -40px 0px' };
     observer.observe(section);
   });
 
-  // Lead capture beacon
-  const p = new URLSearchParams();
-  p.append('intake_token', 'd8250591bb879e8ded29510a25cc2e32');
-  p.append('page_url', location.href);
-  p.append('page_title', document.title);
-  p.append('source', 'Commercial Roof Guide - City Page');
-  p.append('formName', 'Page View - Commercial - [City] [ST]');
-  navigator.sendBeacon('https://partners.minyona.com/api/webhooks/intake', p);
+  // NOTE: Do NOT add page-view beacons. sendBeacon only fires from form submissions.
 </script>
 
 <!-- Cost table mobile card labels -->
@@ -700,7 +693,7 @@ After completing all files, verify:
 - [ ] Cost table has 7 rows: TPO, EPDM, PVC, Mod Bit, BUR, SPF, Standing Seam Metal
 - [ ] Cost table columns: System, Cost/Sq Ft, Lifespan, Best For
 - [ ] Mobile cost table CSS converts table to card layout at 768px
-- [ ] Lead capture beacon fires on every page with correct source/formName
+- [ ] No page-view beacons — sendBeacon only fires from form submissions
 
 ---
 
@@ -880,25 +873,15 @@ On the homepage, find the matching `coming-soon` tile in the States Coverage gri
 
 ## APPENDIX G: LEAD CAPTURE (DO NOT CHANGE)
 
-Every page fires a tracking beacon on load. The endpoint and token are the same everywhere:
+Lead capture fires ONLY when a user submits a form (free estimate form or calculator). The endpoint and token are:
 
-```javascript
-const p = new URLSearchParams();
-p.append('intake_token', 'd8250591bb879e8ded29510a25cc2e32');
-p.append('page_url', location.href);
-p.append('page_title', document.title);
-p.append('source', 'Commercial Roof Guide - City Page');
-p.append('formName', 'Page View - Commercial - [City] [ST]');
-navigator.sendBeacon('https://partners.minyona.com/api/webhooks/intake', p);
-```
+- **Endpoint:** `https://partners.minyona.com/api/webhooks/intake`
+- **Token:** `d8250591bb879e8ded29510a25cc2e32`
+- **Method:** `navigator.sendBeacon()` with URLSearchParams
 
-For state pages, use:
-```javascript
-p.append('source', 'Commercial Roof Guide - State Page');
-p.append('formName', 'Page View - Commercial - [State]');
-```
+The free estimate form at `/free-estimate/` and calculator at `/calculator/` use this token. Do NOT create new tokens or change the endpoint.
 
-The free estimate form at `/free-estimate/` and calculator at `/calculator/` also use this same token. Do NOT create new tokens or change the endpoint.
+**CRITICAL: Do NOT add page-view tracking beacons.** Never fire `sendBeacon` on page load. The beacon must ONLY fire when a user explicitly submits a form. Every beacon call creates a lead record — firing on page load creates phantom "Unknown" leads that pollute the system. No tracking scripts, no analytics beacons, no page-view pings to the intake endpoint.
 
 ---
 

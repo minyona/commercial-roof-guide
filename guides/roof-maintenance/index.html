@@ -740,14 +740,6 @@
   const observerOptions = { threshold: 0, rootMargin: '0px 0px -40px 0px' };
   const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.style.opacity = '1'; entry.target.style.transform = 'translateY(0)'; } }); }, observerOptions);
   document.querySelectorAll('main section:not(.pillar-hero), main article').forEach(el => { el.style.opacity = '0'; el.style.transform = 'translateY(30px)'; el.style.transition = 'opacity 0.8s ease, transform 0.8s ease'; observer.observe(el); });
-
-  const p = new URLSearchParams();
-  p.append('intake_token', 'd8250591bb879e8ded29510a25cc2e32');
-  p.append('page_url', location.href);
-  p.append('page_title', document.title);
-  p.append('source', 'Commercial Roof Guide - Roof Maintenance Guide');
-  p.append('formName', 'Page View - Commercial - Roof Maintenance');
-  navigator.sendBeacon('https://partners.minyona.com/api/webhooks/intake', p);
 </script>
 </body>
 </html>

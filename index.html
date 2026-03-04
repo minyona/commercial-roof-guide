@@ -882,15 +882,6 @@
     section.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
     observer.observe(section);
   });
-
-  // Lead capture beacon
-  const p = new URLSearchParams();
-  p.append('intake_token', 'd8250591bb879e8ded29510a25cc2e32');
-  p.append('page_url', location.href);
-  p.append('page_title', document.title);
-  p.append('source', 'Commercial Roof Guide - Homepage');
-  p.append('formName', 'Page View - Commercial - Homepage');
-  navigator.sendBeacon('https://partners.minyona.com/api/webhooks/intake', p);
 </script>
 <!-- Cost table mobile card labels -->
 <script>document.querySelectorAll(".cost-table").forEach(t=>{const h=[...t.querySelectorAll("th")].map(th=>th.textContent.trim());t.querySelectorAll("tbody tr").forEach(r=>{[...r.querySelectorAll("td")].forEach((td,i)=>{if(h[i])td.dataset.label=h[i]})})});</script>
