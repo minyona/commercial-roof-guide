@@ -31,823 +31,1242 @@
   }
   </script>
 
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Commercial Roof Cost Calculator",
+    "url": "https://commercialroofguide.com/calculator/",
+    "description": "Free commercial roofing cost calculator using 2026 regional pricing data. Get instant estimates for TPO, EPDM, PVC, metal, and more.",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "Web browser",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "publisher": { "@type": "Organization", "name": "Commercial Roof Guide", "url": "https://commercialroofguide.com" }
+  }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <style>
-    :root{--navy:#1B3A5C;--navy-light:#2D5F8A;--slate:#3d4f5f;--charcoal:#2c3e50;--terracotta:#C45C3E;--terracotta-dark:#A84832;--copper:#B87333;--gold:#C9A959;--cream:#FAF8F5;--warm-gray:#F5F3F0;--stone:#E8E4DF;--white:#ffffff;--text:#3A3A3A;--text-light:#6b6b6b;--text-muted:#8a8a8a;--shadow-sm:0 2px 8px rgba(27,58,92,0.06);--shadow-md:0 8px 30px rgba(27,58,92,0.08);--shadow-lg:0 20px 60px rgba(27,58,92,0.12);--ease-out:cubic-bezier(0.25,0.46,0.45,0.94);--ease-smooth:cubic-bezier(0.4,0,0.2,1)}
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-    html{scroll-behavior:smooth}
-    body{font-family:'DM Sans',-apple-system,BlinkMacSystemFont,sans-serif;font-size:17px;line-height:1.7;color:var(--text);background:var(--white);-webkit-font-smoothing:antialiased}
-    h1,h2,h3,h4{font-family:'Playfair Display',Georgia,serif;line-height:1.2;color:var(--navy)}
-    h1{font-size:clamp(2rem,5vw,3.2rem);font-weight:700}
-    h2{font-size:clamp(1.6rem,3.5vw,2.4rem);font-weight:600}
-    h3{font-size:1.5rem;font-weight:600}
-    a{color:var(--terracotta);text-decoration:none;transition:color 0.3s}
-    a:hover{color:var(--terracotta-dark)}
-    .container{max-width:1320px;margin:0 auto;padding:0 40px}
-    section{padding:100px 0}
-    .btn{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;border-radius:8px;font-family:'DM Sans',sans-serif;font-weight:600;font-size:0.95rem;text-decoration:none;transition:all 0.3s var(--ease-out);cursor:pointer;border:none}
-    .btn-primary{background:var(--terracotta);color:var(--white)}
-    .btn-primary:hover{background:var(--terracotta-dark);color:var(--white);transform:translateY(-2px);box-shadow:0 8px 25px rgba(196,92,62,0.3)}
-    .btn-white{background:var(--white);color:var(--terracotta)}
-    .btn-white:hover{background:var(--cream);color:var(--terracotta-dark);transform:translateY(-2px)}
-    .btn-outline{background:transparent;border:2px solid rgba(255,255,255,0.8);color:var(--white)}
-    .btn-outline:hover{background:rgba(255,255,255,0.1);color:var(--white);transform:translateY(-2px)}
-    .btn-lg{padding:18px 36px;font-size:1.05rem}
-    .btn-secondary{background:var(--navy);color:var(--white)}
-    .btn-secondary:hover{background:var(--navy-light);color:var(--white);transform:translateY(-2px);box-shadow:0 8px 25px rgba(27,58,92,0.3)}
+    :root{--navy:#1B3A5C;--navy-light:#2D5F8A;--terracotta:#C45C3E;--terracotta-dark:#A84832;--copper:#B87333;--gold:#C9A959;--cream:#FAF8F5;--warm-gray:#F5F3F0;--stone:#E8E4DF;--white:#ffffff;--text:#3A3A3A;--text-light:#6b6b6b;--text-muted:#8a8a8a;}
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+    body{font-family:'DM Sans',sans-serif;color:var(--text);background:var(--white);line-height:1.6;}
+    h1,h2,h3,h4{font-family:'Playfair Display',serif;line-height:1.3;}
+    a{color:var(--terracotta);text-decoration:none;}
+    .container{max-width:1320px;margin:0 auto;padding:0 40px;}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 28px;border-radius:6px;font-family:'DM Sans',sans-serif;font-weight:600;font-size:0.95rem;border:none;cursor:pointer;transition:all 0.3s;}
+    .btn-primary{background:var(--terracotta);color:var(--white);}
+    .btn-primary:hover{background:var(--terracotta-dark);}
+    .btn-primary:disabled{opacity:0.5;cursor:not-allowed;}
+    .btn-white{background:var(--white);color:var(--navy);}
+    .btn-white:hover{background:var(--cream);}
+    .btn-lg{padding:18px 36px;font-size:1.05rem;}
 
     /* Header */
-    .header{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(255,255,255,0.98);backdrop-filter:blur(20px);transition:all 0.3s var(--ease-smooth)}
-    .header.scrolled{box-shadow:0 2px 20px rgba(27,58,92,0.08)}
-    .header-inner{display:flex;align-items:center;justify-content:space-between;height:72px}
-    .logo{display:inline-flex;align-items:center;gap:12px;text-decoration:none;color:var(--navy)}
-    .logo-icon{color:var(--terracotta);flex-shrink:0}
-    .logo-text{font-family:'DM Sans',sans-serif;font-weight:700;font-size:1.1rem;line-height:1.2;color:var(--navy)}
-    .logo-text span{display:block;font-weight:400;font-size:0.7rem;color:var(--text-muted);letter-spacing:0.02em}
-    .nav-links{display:flex;list-style:none;gap:36px}
-    .nav-links a{color:var(--text);text-decoration:none;font-weight:500;font-size:0.95rem;position:relative;transition:color 0.3s}
-    .nav-links a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:2px;background:var(--terracotta);transition:width 0.3s var(--ease-out)}
-    .nav-links a:hover{color:var(--navy)}
-    .nav-links a:hover::after{width:100%}
-    .header-cta a{font-size:0.9rem;padding:10px 22px}
-    .nav-toggle{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:8px}
-    .nav-toggle span{display:block;width:24px;height:2px;background:var(--navy);border-radius:2px;transition:all 0.3s}
-    .nav-toggle.active span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
-    .nav-toggle.active span:nth-child(2){opacity:0}
-    .nav-toggle.active span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
+    .header{position:fixed;top:0;left:0;right:0;z-index:1000;background:var(--white);border-bottom:1px solid var(--stone);transition:box-shadow 0.3s;}
+    .header.scrolled{box-shadow:0 2px 20px rgba(0,0,0,0.08);}
+    .header-inner{display:flex;align-items:center;justify-content:space-between;height:72px;}
+    .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--navy);}
+    .logo-icon{color:var(--terracotta);}
+    .logo-text{font-family:'DM Sans',sans-serif;font-weight:700;font-size:1.1rem;line-height:1.2;}
+    .logo-text span{display:block;font-weight:400;font-size:0.7rem;color:var(--text-light);letter-spacing:0.02em;}
+    .nav-links{display:flex;list-style:none;gap:32px;}
+    .nav-links a{font-weight:500;font-size:0.95rem;color:var(--text);transition:color 0.3s;}
+    .nav-links a:hover,.nav-links a.active{color:var(--terracotta);}
+    .header-cta{display:flex;}
+    .nav-toggle{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:8px;}
+    .nav-toggle span{display:block;width:24px;height:2px;background:var(--navy);transition:all 0.3s;}
+    .nav-toggle.active span:nth-child(1){transform:rotate(45deg) translate(5px,5px);}
+    .nav-toggle.active span:nth-child(2){opacity:0;}
+    .nav-toggle.active span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px);}
 
     /* Mobile Nav */
-    .mobile-nav{position:fixed;top:72px;left:0;right:0;bottom:0;z-index:999;background:var(--white);padding:24px 0;overflow-y:auto;transform:translateX(100%);transition:transform 0.4s var(--ease-smooth)}
-    .mobile-nav.active{transform:translateX(0)}
-    .mobile-nav a{display:block;padding:14px 40px;color:var(--text);font-weight:500;font-size:1rem;border-bottom:1px solid var(--stone)}
-    .mobile-nav a:hover{color:var(--terracotta);background:var(--cream)}
-    .mobile-nav .btn-primary{margin:24px 40px 0;text-align:center;color:var(--white);border-bottom:none;border-radius:8px}
-    .mobile-nav-accordion-trigger{display:flex;justify-content:space-between;align-items:center;width:100%;padding:14px 40px;background:none;border:none;border-bottom:1px solid var(--stone);font-family:'DM Sans',sans-serif;font-weight:600;font-size:1rem;color:var(--navy);cursor:pointer}
-    .mobile-nav-accordion-trigger svg{width:16px;height:16px;transition:transform 0.3s}
-    .mobile-nav-accordion-trigger.active svg{transform:rotate(180deg)}
-    .mobile-nav-accordion-content{max-height:0;overflow:hidden;transition:max-height 0.4s var(--ease-smooth)}
-    .mobile-nav-accordion-content a{padding-left:56px;font-size:0.95rem;font-weight:400}
+    .mobile-nav{display:none;position:fixed;top:72px;left:0;right:0;bottom:0;background:var(--white);z-index:999;overflow-y:auto;padding:24px;}
+    .mobile-nav.active{display:block;}
+    .mobile-nav-item a{display:block;padding:16px 0;font-size:1.1rem;font-weight:500;color:var(--text);border-bottom:1px solid var(--stone);}
+    .mobile-nav .btn{width:100%;margin-top:24px;text-align:center;}
+    .mobile-nav-accordion-trigger{display:flex;align-items:center;justify-content:space-between;width:100%;padding:16px 0;font-size:1.1rem;font-weight:500;color:var(--text);background:none;border:none;border-bottom:1px solid var(--stone);cursor:pointer;font-family:'DM Sans',sans-serif;}
+    .mobile-nav-accordion-trigger svg{width:20px;height:20px;transition:transform 0.3s;}
+    .mobile-nav-accordion.open .mobile-nav-accordion-trigger svg{transform:rotate(180deg);}
+    .mobile-nav-accordion-content{max-height:0;overflow:hidden;transition:max-height 0.3s;}
+    .mobile-nav-accordion-content a{display:block;padding:12px 16px;font-size:0.95rem;color:var(--text-light);border-bottom:1px solid var(--warm-gray);}
 
-    /* Tool Hero (cream, not navy) */
-    .tool-hero{background:var(--cream);padding:140px 0 60px;position:relative}
-    .tool-hero .breadcrumb{margin-bottom:24px}
-    .tool-hero .breadcrumb a,.tool-hero .breadcrumb span{color:var(--text-muted);font-size:0.9rem;text-decoration:none}
-    .tool-hero .breadcrumb a:hover{color:var(--terracotta)}
-    .tool-hero .breadcrumb .sep{margin:0 8px;opacity:0.5}
-    .tool-hero h1{margin-bottom:16px}
-    .tool-hero-subtitle{color:var(--text-light);font-size:1.15rem;max-width:700px;line-height:1.7}
-    .freshness-badge{display:inline-flex;align-items:center;gap:6px;margin-top:16px;padding:6px 14px;background:var(--white);border:1px solid var(--stone);border-radius:20px;font-size:0.8rem;color:var(--text-light)}
-    .freshness-badge svg{width:14px;height:14px;color:var(--gold)}
+    /* Page Hero */
+    .page-hero{background:var(--cream);padding:120px 0 60px;text-align:center;}
+    .breadcrumb{display:flex;align-items:center;justify-content:center;gap:8px;font-size:0.85rem;color:var(--text-light);margin-bottom:20px;}
+    .breadcrumb a{color:var(--text-light);}
+    .breadcrumb a:hover{color:var(--terracotta);}
+    .breadcrumb svg{width:14px;height:14px;}
+    .page-hero h1{font-size:2.8rem;color:var(--navy);margin-bottom:16px;}
+    .subtitle{font-size:1.15rem;color:var(--text-light);max-width:680px;margin:0 auto 20px;}
+    .freshness{display:inline-flex;align-items:center;gap:8px;font-size:0.85rem;color:var(--text-muted);padding:8px 16px;background:var(--white);border-radius:20px;}
+    .freshness svg{width:16px;height:16px;}
 
     /* Calculator */
-    .calc-section{background:var(--white);padding:80px 0 100px}
-    .calc-card{max-width:820px;margin:0 auto;background:var(--white);border-radius:16px;border:1px solid var(--stone);box-shadow:var(--shadow-md);overflow:hidden}
-    .calc-header{padding:32px 40px 24px;border-bottom:1px solid var(--stone)}
-    .calc-header h2{font-size:1.3rem;margin-bottom:4px}
-    .calc-header p{font-size:0.9rem;color:var(--text-muted)}
+    .calc-section{padding:80px 0 100px;background:var(--white);}
+    .calc-wrapper{max-width:800px;margin:0 auto;background:var(--white);border-radius:16px;border:1px solid var(--stone);padding:48px;box-shadow:0 4px 24px rgba(0,0,0,0.06);}
 
-    /* Progress Bar */
-    .progress-bar{display:flex;gap:8px;margin-top:20px}
-    .progress-step{flex:1;height:6px;border-radius:3px;background:var(--stone);transition:background 0.4s}
-    .progress-step.active{background:var(--terracotta)}
-    .progress-step.done{background:var(--navy)}
+    /* Progress */
+    .progress-bar{display:flex;gap:8px;margin-bottom:40px;}
+    .progress-step{flex:1;height:4px;border-radius:4px;background:var(--stone);transition:background 0.3s;}
+    .progress-step.active,.progress-step.complete{background:var(--terracotta);}
 
-    .calc-body{padding:40px}
-    .step{display:none}
-    .step.active{display:block}
-    .step-label{font-family:'DM Sans',sans-serif;font-size:0.8rem;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;color:var(--terracotta);margin-bottom:8px}
-    .step h3{margin-bottom:24px;font-size:1.35rem}
+    /* Steps */
+    .calc-step{display:none;}
+    .calc-step.active{display:block;}
+    .step-header{text-align:center;margin-bottom:32px;}
+    .step-number{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:var(--terracotta);color:var(--white);font-weight:700;font-size:0.9rem;margin-bottom:12px;}
+    .step-header h2{font-size:1.5rem;color:var(--navy);margin-bottom:8px;}
+    .step-header p{color:var(--text-light);font-size:0.95rem;}
 
     /* Option Cards */
-    .option-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
-    .option-card{padding:20px;border:2px solid var(--stone);border-radius:10px;cursor:pointer;transition:all 0.25s var(--ease-out);text-align:center;background:var(--white)}
-    .option-card:hover{border-color:var(--navy-light);background:var(--cream)}
-    .option-card.selected{border-color:var(--terracotta);background:rgba(196,92,62,0.04);box-shadow:0 0 0 1px var(--terracotta)}
-    .option-card-title{font-family:'DM Sans',sans-serif;font-weight:600;font-size:0.95rem;color:var(--navy);margin-bottom:4px}
-    .option-card-desc{font-size:0.8rem;color:var(--text-muted);line-height:1.4}
+    .option-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px;}
+    .option-card{background:var(--white);border:2px solid var(--stone);border-radius:12px;padding:24px 20px;cursor:pointer;text-align:center;transition:all 0.3s;}
+    .option-card:hover{border-color:var(--terracotta);background:var(--cream);}
+    .option-card.selected{border-color:var(--terracotta);background:rgba(196,92,62,0.06);}
+    .option-card-icon{font-size:2rem;margin-bottom:8px;}
+    .option-card h4{font-family:'DM Sans',sans-serif;font-size:1rem;color:var(--navy);margin-bottom:4px;}
+    .option-card p{font-size:0.82rem;color:var(--text-light);line-height:1.4;}
 
-    /* ZIP Step */
-    .zip-input-wrap{max-width:360px}
-    .zip-input-wrap label{display:block;font-weight:600;font-size:0.95rem;margin-bottom:8px;color:var(--navy)}
-    .zip-input-wrap input{width:100%;padding:14px 18px;border:2px solid var(--stone);border-radius:8px;font-family:'DM Sans',sans-serif;font-size:1.1rem;letter-spacing:0.05em;transition:border-color 0.3s;outline:none}
-    .zip-input-wrap input:focus{border-color:var(--navy)}
-    .zip-input-wrap input.error{border-color:#d32f2f}
-    .zip-error{color:#d32f2f;font-size:0.85rem;margin-top:6px;display:none}
-    .zip-submit{margin-top:20px}
+    /* Material Cards */
+    .material-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px;}
+    .material-card{background:var(--white);border:2px solid var(--stone);border-radius:12px;padding:20px;cursor:pointer;transition:all 0.3s;position:relative;}
+    .material-card:hover{border-color:var(--terracotta);background:var(--cream);}
+    .material-card.selected{border-color:var(--terracotta);background:rgba(196,92,62,0.06);}
+    .material-card h4{font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--navy);margin-bottom:4px;}
+    .material-card .price-indicator{font-size:0.85rem;font-weight:600;color:var(--terracotta);margin-bottom:4px;}
+    .material-card p{font-size:0.8rem;color:var(--text-light);line-height:1.4;}
+    .material-card .badge{position:absolute;top:-8px;right:12px;background:var(--terracotta);color:var(--white);font-size:0.65rem;font-weight:700;padding:3px 8px;border-radius:10px;text-transform:uppercase;letter-spacing:0.03em;}
 
-    /* Back Button */
-    .calc-back{display:inline-flex;align-items:center;gap:6px;background:none;border:none;font-family:'DM Sans',sans-serif;font-size:0.9rem;font-weight:500;color:var(--text-muted);cursor:pointer;margin-bottom:20px;padding:0;transition:color 0.3s}
-    .calc-back:hover{color:var(--navy)}
-    .calc-back svg{width:16px;height:16px}
+    /* Size Input */
+    .size-input-wrap{display:flex;align-items:center;gap:12px;justify-content:center;padding:16px 0 8px;}
+    .size-input-label{font-size:0.9rem;color:var(--text-light);}
+    .size-input{width:140px;padding:12px 16px;border:2px solid var(--stone);border-radius:8px;font-family:'DM Sans',sans-serif;font-size:1rem;text-align:center;transition:border-color 0.3s;}
+    .size-input:focus{outline:none;border-color:var(--terracotta);}
+
+    /* Detail Options */
+    .detail-group{margin-bottom:24px;}
+    .detail-group label{display:block;font-weight:600;font-size:0.9rem;color:var(--navy);margin-bottom:10px;}
+    .detail-options{display:flex;flex-wrap:wrap;gap:10px;}
+    .detail-option{padding:10px 20px;border:2px solid var(--stone);border-radius:8px;cursor:pointer;font-size:0.9rem;transition:all 0.3s;}
+    .detail-option:hover{border-color:var(--terracotta);}
+    .detail-option.selected{border-color:var(--terracotta);background:rgba(196,92,62,0.06);font-weight:600;}
+    .checkbox-option{display:inline-flex;align-items:center;gap:8px;padding:10px 20px;border:2px solid var(--stone);border-radius:8px;cursor:pointer;font-size:0.9rem;transition:all 0.3s;}
+    .checkbox-option:hover{border-color:var(--terracotta);}
+    .checkbox-option.selected{border-color:var(--terracotta);background:rgba(196,92,62,0.06);font-weight:600;}
+    .checkbox-option .check{width:18px;height:18px;display:flex;align-items:center;justify-content:center;border:2px solid var(--stone);border-radius:4px;transition:all 0.3s;}
+    .checkbox-option .check svg{width:12px;height:12px;opacity:0;transition:opacity 0.3s;}
+    .checkbox-option.selected .check{background:var(--terracotta);border-color:var(--terracotta);}
+    .checkbox-option.selected .check svg{opacity:1;color:var(--white);}
+
+    /* Step Nav */
+    .step-nav{display:flex;justify-content:space-between;align-items:center;margin-top:32px;padding-top:24px;border-top:1px solid var(--stone);}
+    .step-nav.auto-advance{border-top:none;padding-top:0;margin-top:0;}
+    .step-nav.auto-advance .next-btn{display:none;}
+    .back-btn{display:flex;align-items:center;gap:6px;background:none;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text-light);transition:color 0.3s;}
+    .back-btn:hover{color:var(--terracotta);}
+    .back-btn svg{width:18px;height:18px;}
 
     /* Results */
-    .results-section{display:none;padding:80px 0 100px;background:var(--cream)}
-    .results-section.active{display:block}
-    .results-header{text-align:center;margin-bottom:48px}
-    .results-header h2{margin-bottom:8px}
-    .results-header p{color:var(--text-light);font-size:1rem}
+    .results-card{background:var(--cream);border-radius:16px;padding:48px 40px;text-align:center;}
+    .results-header h2{font-size:1.6rem;color:var(--navy);margin-bottom:8px;}
+    .results-header p{color:var(--text-light);font-size:0.95rem;}
+    .region-badge{display:inline-flex;align-items:center;gap:6px;background:var(--white);padding:6px 14px;border-radius:20px;font-size:0.85rem;font-weight:500;color:var(--navy);margin-top:12px;}
+    .region-badge svg{width:16px;height:16px;}
+    .results-range{padding:32px 0;margin:24px 0;}
+    .range-label{font-size:0.85rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:8px;}
+    .range-value{font-family:'Playfair Display',serif;font-size:2.2rem;font-weight:700;color:var(--navy);margin-bottom:8px;}
+    .range-avg{font-size:1rem;color:var(--text-light);}
+    .range-avg strong{color:var(--terracotta);font-size:1.1rem;}
 
-    .estimate-card{max-width:700px;margin:0 auto 48px;background:var(--white);border-radius:16px;border:1px solid var(--stone);box-shadow:var(--shadow-md);padding:48px;text-align:center}
-    .estimate-system{font-family:'DM Sans',sans-serif;font-size:0.8rem;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;color:var(--terracotta);margin-bottom:8px}
-    .estimate-range{font-family:'Playfair Display',Georgia,serif;font-size:clamp(2rem,5vw,2.8rem);font-weight:700;color:var(--navy);margin-bottom:4px}
-    .estimate-persqft{color:var(--text-light);font-size:0.95rem;margin-bottom:24px}
-    .estimate-meta{display:flex;justify-content:center;gap:24px;flex-wrap:wrap;font-size:0.85rem;color:var(--text-muted)}
-    .estimate-meta span{display:inline-flex;align-items:center;gap:4px}
+    /* Blur-to-Reveal */
+    .results-blurred .range-value,
+    .results-blurred .range-avg{filter:blur(8px);user-select:none;pointer-events:none;transition:filter 0.6s ease;}
+    .results-revealed .range-value,
+    .results-revealed .range-avg{filter:blur(0);}
 
-    .breakdown-grid{max-width:700px;margin:0 auto 48px;display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
-    .breakdown-item{background:var(--white);border-radius:12px;padding:24px;border:1px solid var(--stone)}
-    .breakdown-item-label{font-size:0.8rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:var(--text-muted);margin-bottom:6px}
-    .breakdown-item-value{font-family:'Playfair Display',Georgia,serif;font-size:1.4rem;font-weight:700;color:var(--navy)}
-    .breakdown-item-note{font-size:0.8rem;color:var(--text-muted);margin-top:4px}
-    .breakdown-item.total{background:var(--navy);border-color:var(--navy)}
-    .breakdown-item.total .breakdown-item-label{color:rgba(255,255,255,0.7)}
-    .breakdown-item.total .breakdown-item-value{color:var(--white)}
-    .breakdown-item.total .breakdown-item-note{color:rgba(255,255,255,0.6)}
+    /* Unlock Badge */
+    .unlock-badge{display:flex;align-items:center;justify-content:center;gap:8px;background:var(--cream);border:1px dashed var(--stone);border-radius:8px;padding:12px 20px;margin:-8px auto 32px;font-size:0.9rem;font-weight:500;color:var(--terracotta);}
+    .unlock-badge svg{width:18px;height:18px;flex-shrink:0;}
 
-    /* Comparison Table */
-    .comparison-wrap{max-width:820px;margin:0 auto 48px}
-    .comparison-wrap h3{text-align:center;margin-bottom:24px;font-size:1.3rem}
-    .comparison-table{width:100%;border-collapse:collapse;background:var(--white);border-radius:12px;overflow:hidden;border:1px solid var(--stone)}
-    .comparison-table th{background:var(--navy);color:var(--white);font-family:'DM Sans',sans-serif;font-size:0.8rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;padding:14px 20px;text-align:left}
-    .comparison-table td{padding:14px 20px;border-bottom:1px solid var(--stone);font-size:0.9rem}
-    .comparison-table tr:last-child td{border-bottom:none}
-    .comparison-table tr.highlight{background:rgba(196,92,62,0.04);font-weight:600}
-    .comparison-table tr.highlight td{color:var(--navy)}
+    .results-breakdown{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0 0;text-align:left;}
+    .breakdown-item{background:var(--white);border-radius:8px;padding:16px;}
+    .breakdown-item .label{font-size:0.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.03em;margin-bottom:4px;}
+    .breakdown-item .value{font-weight:600;color:var(--navy);font-size:0.95rem;}
 
-    .volume-note{max-width:700px;margin:0 auto 48px;background:var(--white);border-radius:12px;border:1px solid var(--stone);padding:24px 28px;display:flex;align-items:flex-start;gap:14px;font-size:0.9rem;color:var(--text-light);line-height:1.6}
-    .volume-note svg{flex-shrink:0;width:20px;height:20px;color:var(--gold);margin-top:2px}
+    /* Lead Form */
+    .lead-form{background:var(--white);border-radius:12px;padding:36px;border:1px solid var(--stone);margin-top:40px;text-align:left;}
+    .lead-form h3{margin-bottom:8px;font-size:1.3rem;color:var(--navy);}
+    .lead-form>p{color:var(--text-light);margin-bottom:24px;font-size:0.95rem;}
+    .form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;}
+    .form-group{margin-bottom:16px;}
+    .form-group label{display:block;font-weight:600;font-size:0.85rem;color:var(--navy);margin-bottom:6px;}
+    .form-group input,.form-group select{width:100%;padding:14px 16px;border:1px solid var(--stone);border-radius:6px;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text);transition:border-color 0.3s;background:var(--white);}
+    .form-group input:focus,.form-group select:focus{outline:none;border-color:var(--terracotta);}
+    .form-privacy{text-align:center;font-size:0.8rem;color:var(--text-muted);margin-top:12px;}
 
-    .results-cta{text-align:center;display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+    .results-note{background:var(--white);border-radius:8px;padding:20px;margin-top:24px;font-size:0.85rem;color:var(--text-light);text-align:left;}
+    .results-note strong{color:var(--navy);}
 
-    /* CTA Section */
-    .cta-section{background:linear-gradient(135deg,var(--terracotta) 0%,var(--terracotta-dark) 100%);text-align:center;position:relative;overflow:hidden}
-    .cta-section::before{content:'';position:absolute;top:-50%;right:-20%;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,0.08) 0%,transparent 70%)}
-    .cta-content{position:relative;z-index:1}
-    .cta-content h2{color:var(--white);margin-bottom:16px}
-    .cta-content p{color:rgba(255,255,255,0.85);font-size:1.1rem;margin-bottom:32px;max-width:600px;margin-left:auto;margin-right:auto}
-    .cta-btns{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+    /* How Section */
+    .how-section{padding:100px 0;background:var(--cream);}
+    .how-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:48px;}
+    .how-card{background:var(--white);border-radius:12px;padding:36px 28px;text-align:center;}
+    .how-card-num{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:var(--terracotta);color:var(--white);font-weight:700;font-size:1.1rem;margin-bottom:16px;}
+    .how-card h4{font-family:'DM Sans',sans-serif;font-size:1.05rem;color:var(--navy);margin-bottom:8px;}
+    .how-card p{font-size:0.9rem;color:var(--text-light);}
+
+    /* CTA */
+    .cta-section{padding:100px 0;background:var(--navy);color:var(--white);text-align:center;}
+    .cta-section h2{color:var(--white);font-size:2rem;margin-bottom:16px;}
+    .cta-section p{color:rgba(255,255,255,0.8);max-width:600px;margin:0 auto 32px;font-size:1.1rem;}
 
     /* Footer */
-    .footer{background:var(--navy);padding:80px 0 32px}
-    .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;margin-bottom:48px}
-    .footer-brand p{color:rgba(255,255,255,0.7);font-size:0.9rem;margin-top:16px;line-height:1.6}
-    .footer h4{color:var(--white);font-family:'DM Sans',sans-serif;font-size:0.9rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:16px}
-    .footer ul{list-style:none}
-    .footer li{margin-bottom:10px}
-    .footer a{color:rgba(255,255,255,0.7);font-size:0.9rem;transition:color 0.3s;text-decoration:none}
-    .footer a:hover{color:var(--white)}
-    .footer-bottom{display:flex;justify-content:space-between;align-items:center;padding-top:32px;border-top:1px solid rgba(255,255,255,0.1)}
-    .footer-bottom p{color:rgba(255,255,255,0.5);font-size:0.85rem}
-    .footer-bottom a{color:rgba(255,255,255,0.5)}
-    .footer-bottom a:hover{color:var(--white)}
+    .footer{background:var(--navy);color:rgba(255,255,255,0.7);padding:80px 0 40px;}
+    .footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:48px;margin-bottom:48px;}
+    .footer-brand p{margin-top:16px;font-size:0.9rem;line-height:1.7;}
+    .footer h4{color:var(--white);font-family:'DM Sans',sans-serif;font-size:0.9rem;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:16px;}
+    .footer ul{list-style:none;}
+    .footer ul li{margin-bottom:10px;}
+    .footer ul a{color:rgba(255,255,255,0.7);font-size:0.9rem;transition:color 0.3s;}
+    .footer ul a:hover{color:var(--white);}
+    .footer-bottom{border-top:1px solid rgba(255,255,255,0.1);padding-top:24px;display:flex;justify-content:space-between;font-size:0.85rem;}
+    .footer-bottom a{color:rgba(255,255,255,0.7);}
+    .footer-bottom a:hover{color:var(--white);}
 
-    @media(max-width:1200px){.container{padding:0 32px}}
-    @media(max-width:1024px){.footer-grid{grid-template-columns:repeat(2,1fr)}}
+    /* Responsive */
+    @media(max-width:1200px){
+      .container{padding:0 32px;}
+    }
     @media(max-width:768px){
-      .container{padding:0 24px}
-      section{padding:80px 0}
-      body{font-size:16px}
-      .nav-links,.header-cta{display:none}
-      .nav-toggle{display:flex}
-      .tool-hero{padding:120px 0 48px}
-      .calc-section{padding:48px 0 80px}
-      .calc-header{padding:24px 24px 20px}
-      .calc-body{padding:24px}
-      .option-grid{grid-template-columns:1fr}
-      .breakdown-grid{grid-template-columns:1fr}
-      .estimate-card{padding:32px 24px}
-      .comparison-table{font-size:0.85rem}
-      .comparison-table th,.comparison-table td{padding:10px 14px}
-      .results-cta{flex-direction:column;align-items:center}
-      .results-cta .btn{width:100%;max-width:320px;justify-content:center}
-      .cta-btns{flex-direction:column;align-items:center}
-      .cta-btns .btn{width:100%;max-width:320px;justify-content:center}
-      .footer-grid{grid-template-columns:1fr;gap:32px}
-      .footer-bottom{flex-direction:column;text-align:center;gap:8px}
+      .container{padding:0 24px;}
+      nav,.header-cta{display:none;}
+      .nav-toggle{display:flex;}
+      .page-hero{padding:100px 0 48px;}
+      .page-hero h1{font-size:1.8rem;}
+      .subtitle{font-size:1rem;}
+      .calc-wrapper{padding:28px 20px;}
+      .option-grid{grid-template-columns:1fr 1fr;}
+      .material-grid{grid-template-columns:1fr 1fr;}
+      .results-breakdown{grid-template-columns:1fr;}
+      .how-grid{grid-template-columns:1fr;}
+      .how-section,.cta-section{padding:80px 0;}
+      .footer-grid{grid-template-columns:1fr 1fr;gap:32px;}
+      .footer-bottom{flex-direction:column;gap:8px;text-align:center;}
+      .results-card{padding:32px 20px;}
+      .lead-form{padding:24px 20px;}
+      .form-row{grid-template-columns:1fr;}
+      .range-value{font-size:1.6rem;}
+    }
+    @media(max-width:480px){
+      .option-grid{grid-template-columns:1fr;}
+      .material-grid{grid-template-columns:1fr;}
+      .size-input-wrap{flex-direction:column;align-items:flex-start;}
+      .footer-grid{grid-template-columns:1fr;}
     }
   </style>
 </head>
 <body>
 
-<header class="header" id="header">
-  <div class="container">
-    <div class="header-inner">
-      <a href="/" class="logo" aria-label="Commercial Roof Guide">
-        <svg class="logo-icon" width="36" height="29" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 0L40 30H33L20 10L7 30H0L20 0z" fill="currentColor"/></svg>
-        <div class="logo-text">Commercial Roof Guide<span>Independent Commercial Roofing Resource</span></div>
-      </a>
-      <nav><ul class="nav-links"><li><a href="/guides/">Guides</a></li><li><a href="/states/">States</a></li><li><a href="/calculator/">Calculator</a></li></ul></nav>
-      <div class="header-cta"><a href="/free-estimate/" class="btn btn-primary">Free Estimate</a></div>
-      <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
-    </div>
-  </div>
-</header>
-
-<div class="mobile-nav">
-  <a href="/">Home</a>
-  <div>
-    <button class="mobile-nav-accordion-trigger" data-accordion>Guides <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
-    <div class="mobile-nav-accordion-content">
-      <a href="/guides/">All Guides</a>
-      <a href="/guides/commercial-roof-cost/">Commercial Roof Costs</a>
-      <a href="/guides/tpo-roofing/">TPO Roofing</a>
-      <a href="/guides/epdm-roofing/">EPDM Roofing</a>
-      <a href="/guides/pvc-roofing/">PVC Roofing</a>
-      <a href="/guides/modified-bitumen/">Modified Bitumen</a>
-      <a href="/guides/built-up-roofing/">Built-Up Roofing</a>
-      <a href="/guides/spray-foam-roofing/">Spray Foam Roofing</a>
-      <a href="/guides/metal-roofing-commercial/">Commercial Metal Roofing</a>
-      <a href="/guides/roof-maintenance/">Roof Maintenance</a>
-      <a href="/guides/roof-coatings/">Roof Coatings</a>
-      <a href="/guides/cool-roofs/">Cool Roofs</a>
-      <a href="/guides/roof-inspections/">Roof Inspections</a>
-      <a href="/guides/warranties/">Warranties</a>
-      <a href="/guides/green-roofs/">Green Roofs</a>
-    </div>
-  </div>
-  <div>
-    <button class="mobile-nav-accordion-trigger" data-accordion>States <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
-    <div class="mobile-nav-accordion-content"><a href="/states/">All States</a></div>
-  </div>
-  <a href="/calculator/">Calculator</a>
-  <a href="/about/">About</a>
-  <a href="/free-estimate/" class="btn btn-primary">Get Free Estimate</a>
-</div>
-
-<main>
-
-<!-- Hero -->
-<section class="tool-hero">
-  <div class="container">
-    <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="/">Home</a><span class="sep">/</span><span>Calculator</span>
-    </nav>
-    <h1>Commercial Roof Cost Calculator</h1>
-    <p class="tool-hero-subtitle">Get an instant cost estimate for your commercial roofing project. Select your building size, project type, roofing system, and location for 2026 pricing.</p>
-    <div class="freshness-badge">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-      Updated March 2026
-    </div>
-  </div>
-</section>
-
-<!-- Calculator -->
-<section class="calc-section" id="calculator">
-  <div class="container">
-    <div class="calc-card">
-      <div class="calc-header">
-        <h2>Estimate Your Project Cost</h2>
-        <p>Answer 4 quick questions for an instant estimate</p>
-        <div class="progress-bar">
-          <div class="progress-step active" data-step="1"></div>
-          <div class="progress-step" data-step="2"></div>
-          <div class="progress-step" data-step="3"></div>
-          <div class="progress-step" data-step="4"></div>
-        </div>
-      </div>
-      <div class="calc-body">
-
-        <!-- Step 1: Building Size -->
-        <div class="step active" data-step="1">
-          <div class="step-label">Step 1 of 4</div>
-          <h3>What is your building size?</h3>
-          <div class="option-grid">
-            <div class="option-card" data-value="2500" data-label="Under 5,000 sq ft">
-              <div class="option-card-title">Under 5,000 sq ft</div>
-              <div class="option-card-desc">Small retail, offices</div>
-            </div>
-            <div class="option-card" data-value="7500" data-label="5,000 - 10,000 sq ft">
-              <div class="option-card-title">5,000 - 10,000 sq ft</div>
-              <div class="option-card-desc">Mid-size commercial</div>
-            </div>
-            <div class="option-card" data-value="17500" data-label="10,000 - 25,000 sq ft">
-              <div class="option-card-title">10,000 - 25,000 sq ft</div>
-              <div class="option-card-desc">Large retail, churches</div>
-            </div>
-            <div class="option-card" data-value="37500" data-label="25,000 - 50,000 sq ft">
-              <div class="option-card-title">25,000 - 50,000 sq ft</div>
-              <div class="option-card-desc">Warehouses, schools</div>
-            </div>
-            <div class="option-card" data-value="75000" data-label="50,000 - 100,000 sq ft">
-              <div class="option-card-title">50,000 - 100,000 sq ft</div>
-              <div class="option-card-desc">Industrial, big box</div>
-            </div>
-            <div class="option-card" data-value="125000" data-label="Over 100,000 sq ft">
-              <div class="option-card-title">Over 100,000 sq ft</div>
-              <div class="option-card-desc">Distribution centers</div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Step 2: Project Type -->
-        <div class="step" data-step="2">
-          <button class="calc-back" data-back><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg> Back</button>
-          <div class="step-label">Step 2 of 4</div>
-          <h3>What type of project is this?</h3>
-          <div class="option-grid">
-            <div class="option-card" data-value="new" data-label="New Construction">
-              <div class="option-card-title">New Construction</div>
-              <div class="option-card-desc">Brand new roof installation</div>
-            </div>
-            <div class="option-card" data-value="reroof" data-label="Re-Roof (Tear-Off + New)">
-              <div class="option-card-title">Re-Roof (Tear-Off + New)</div>
-              <div class="option-card-desc">Remove old roof, install new</div>
-            </div>
-            <div class="option-card" data-value="coating" data-label="Roof Coating / Restoration">
-              <div class="option-card-title">Roof Coating / Restoration</div>
-              <div class="option-card-desc">Extend life of existing roof</div>
-            </div>
-            <div class="option-card" data-value="repair" data-label="Emergency Repair">
-              <div class="option-card-title">Emergency Repair</div>
-              <div class="option-card-desc">Fix leaks, storm damage</div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Step 3: Roofing System -->
-        <div class="step" data-step="3">
-          <button class="calc-back" data-back><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg> Back</button>
-          <div class="step-label">Step 3 of 4</div>
-          <h3>Current or preferred roofing system?</h3>
-          <div class="option-grid">
-            <div class="option-card" data-value="tpo" data-label="TPO">
-              <div class="option-card-title">TPO</div>
-              <div class="option-card-desc">#1 commercial membrane</div>
-            </div>
-            <div class="option-card" data-value="epdm" data-label="EPDM">
-              <div class="option-card-title">EPDM</div>
-              <div class="option-card-desc">Rubber roofing, proven track record</div>
-            </div>
-            <div class="option-card" data-value="pvc" data-label="PVC">
-              <div class="option-card-title">PVC</div>
-              <div class="option-card-desc">Premium, chemical resistant</div>
-            </div>
-            <div class="option-card" data-value="modbit" data-label="Modified Bitumen">
-              <div class="option-card-title">Modified Bitumen</div>
-              <div class="option-card-desc">Multi-ply asphalt system</div>
-            </div>
-            <div class="option-card" data-value="metal" data-label="Standing Seam Metal">
-              <div class="option-card-title">Standing Seam Metal</div>
-              <div class="option-card-desc">40-70 year lifespan</div>
-            </div>
-            <div class="option-card" data-value="spf" data-label="Spray Foam (SPF)">
-              <div class="option-card-title">Spray Foam (SPF)</div>
-              <div class="option-card-desc">Seamless, high R-value</div>
-            </div>
-            <div class="option-card" data-value="unsure" data-label="Not Sure">
-              <div class="option-card-title">Not Sure</div>
-              <div class="option-card-desc">We'll show all options</div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Step 4: ZIP Code -->
-        <div class="step" data-step="4">
-          <button class="calc-back" data-back><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg> Back</button>
-          <div class="step-label">Step 4 of 4</div>
-          <h3>What is your project ZIP code?</h3>
-          <div class="zip-input-wrap">
-            <label for="zip-input">5-Digit ZIP Code</label>
-            <input type="text" id="zip-input" maxlength="5" inputmode="numeric" pattern="[0-9]*" placeholder="e.g. 75201" autocomplete="postal-code">
-            <div class="zip-error" id="zip-error">Please enter a valid 5-digit ZIP code.</div>
-            <button class="btn btn-primary btn-lg zip-submit" id="zip-submit">Calculate My Estimate</button>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Results -->
-<section class="results-section" id="results">
-  <div class="container">
-    <div class="results-header">
-      <h2>Your Estimated Project Cost</h2>
-      <p id="results-subtitle"></p>
-    </div>
-
-    <div class="estimate-card">
-      <div class="estimate-system" id="result-system"></div>
-      <div class="estimate-range" id="result-range"></div>
-      <div class="estimate-persqft" id="result-persqft"></div>
-      <div class="estimate-meta">
-        <span id="result-size"></span>
-        <span id="result-region"></span>
-        <span id="result-type"></span>
-      </div>
-    </div>
-
-    <div class="breakdown-grid" id="breakdown-grid"></div>
-
-    <div class="comparison-wrap">
-      <h3>All Systems at Your Building Size</h3>
-      <table class="comparison-table">
-        <thead>
-          <tr>
-            <th>Roofing System</th>
-            <th>Per Sq Ft</th>
-            <th>Estimated Total</th>
-          </tr>
-        </thead>
-        <tbody id="comparison-body"></tbody>
-      </table>
-    </div>
-
-    <div class="volume-note" id="volume-note" style="display:none;">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
-      <div id="volume-note-text"></div>
-    </div>
-
-    <div class="results-cta">
-      <a href="/free-estimate/" class="btn btn-primary btn-lg">Get Free Estimate</a>
-      <a href="/guides/commercial-roof-cost/" class="btn btn-secondary btn-lg">View Cost Guide</a>
-    </div>
-  </div>
-</section>
-
-<!-- CTA -->
-<section class="cta-section">
-  <div class="container">
-    <div class="cta-content">
-      <h2>Get a Free Commercial Roofing Estimate</h2>
-      <p>Connect with pre-screened commercial roofing contractors in your area. No obligation, no cost.</p>
-      <div class="cta-btns">
-        <a href="/free-estimate/" class="btn btn-white btn-lg">Get Free Estimate</a>
-        <a href="/guides/" class="btn btn-outline btn-lg">Browse All Guides</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-</main>
-
-<footer class="footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <a href="/" style="display:inline-flex;align-items:center;gap:10px;text-decoration:none;">
-          <svg width="32" height="26" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 0L40 30H33L20 10L7 30H0L20 0z" fill="#C45C3E"/></svg>
-          <span style="font-family:'DM Sans',sans-serif;font-weight:700;font-size:1rem;color:#fff;">Commercial Roof Guide</span>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="/" class="logo" aria-label="Commercial Roof Guide">
+          <svg class="logo-icon" width="36" height="29" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 0L40 30H33L20 10L7 30H0L20 0z" fill="currentColor"/></svg>
+          <div class="logo-text">Commercial Roof Guide<span>Independent Roofing Resource</span></div>
         </a>
-        <p>Independent commercial roofing resource for building owners and facility managers across America.</p>
-      </div>
-      <div>
-        <h4>Guides</h4>
-        <ul>
-          <li><a href="/guides/commercial-roof-cost/">Commercial Roof Costs</a></li>
-          <li><a href="/guides/tpo-roofing/">TPO Roofing</a></li>
-          <li><a href="/guides/epdm-roofing/">EPDM Roofing</a></li>
-          <li><a href="/guides/pvc-roofing/">PVC Roofing</a></li>
-          <li><a href="/guides/roof-maintenance/">Roof Maintenance</a></li>
-          <li><a href="/guides/warranties/">Warranties</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Tools</h4>
-        <ul>
-          <li><a href="/calculator/">Cost Calculator</a></li>
-          <li><a href="/free-estimate/">Free Estimate</a></li>
-        </ul>
-        <h4 style="margin-top:24px;">Company</h4>
-        <ul>
-          <li><a href="/about/">About Us</a></li>
-          <li><a href="/approved/">Approved Contractors</a></li>
-          <li><a href="/states/">All States</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>States</h4>
-        <ul>
-          <li style="color:rgba(255,255,255,0.5);font-size:0.85rem;font-style:italic;">Coming soon — expanding nationwide</li>
-        </ul>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="/guides/">Guides</a></li>
+            <li><a href="/states/">States</a></li>
+            <li><a href="/calculator/" class="active">Calculator</a></li>
+          </ul>
+        </nav>
+        <div class="header-cta">
+          <a href="/free-estimate/" class="btn btn-primary">Get Free Estimate</a>
+        </div>
+        <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
       </div>
     </div>
-    <div class="footer-bottom">
-      <p>&copy; <span id="year"></span> Commercial Roof Guide. Independent commercial roofing resource.</p>
-      <p><a href="/about/">How we make money</a> | Website by <a href="https://minyona.com" target="_blank" rel="noopener">Minyona</a></p>
+  </header>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-nav" id="mobileNav">
+    <div class="mobile-nav-item"><a href="/">Home</a></div>
+    <div class="mobile-nav-accordion" data-accordion>
+      <button class="mobile-nav-accordion-trigger" aria-expanded="false">Guides <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+      <div class="mobile-nav-accordion-content">
+        <a href="/guides/commercial-roof-cost/">Roof Costs</a>
+        <a href="/guides/tpo-roofing/">TPO Roofing</a>
+        <a href="/guides/epdm-roofing/">EPDM Roofing</a>
+        <a href="/guides/pvc-roofing/">PVC Roofing</a>
+        <a href="/guides/metal-roofing-commercial/">Metal Roofing</a>
+        <a href="/guides/roof-maintenance/">Maintenance</a>
+      </div>
     </div>
+    <div class="mobile-nav-item"><a href="/states/">States</a></div>
+    <div class="mobile-nav-item"><a href="/calculator/">Calculator</a></div>
+    <div class="mobile-nav-item"><a href="/about/">About</a></div>
+    <a href="/free-estimate/" class="btn btn-primary">Get Free Estimate</a>
   </div>
-</footer>
 
-<script>
-(function(){
-  /* Footer year */
-  document.getElementById('year').textContent = new Date().getFullYear();
+  <main>
 
-  /* Header scroll */
-  const header = document.getElementById('header');
-  window.addEventListener('scroll', () => { header.classList.toggle('scrolled', window.scrollY > 50); });
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="/">Home</a>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          <span>Calculator</span>
+        </nav>
+        <h1>Commercial Roof Cost Calculator</h1>
+        <p class="subtitle">Get an instant estimate using real 2026 regional pricing data. Answer a few questions about your building, select your roofing system, and we'll calculate your estimated cost range based on local market rates.</p>
+        <div class="freshness">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Updated March 2026 — regional pricing
+        </div>
+      </div>
+    </section>
 
-  /* Mobile nav */
-  const navToggle = document.querySelector('.nav-toggle');
-  const mobileNav = document.querySelector('.mobile-nav');
-  navToggle.addEventListener('click', () => {
-    const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
-    navToggle.setAttribute('aria-expanded', !isExpanded);
-    navToggle.classList.toggle('active');
-    mobileNav.classList.toggle('active');
-    document.body.style.overflow = mobileNav.classList.contains('active') ? 'hidden' : '';
-  });
-  mobileNav.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => { navToggle.classList.remove('active'); mobileNav.classList.remove('active'); navToggle.setAttribute('aria-expanded','false'); document.body.style.overflow = ''; });
-  });
-  document.querySelectorAll('.mobile-nav-accordion-trigger').forEach(trigger => {
-    trigger.addEventListener('click', () => {
-      const content = trigger.nextElementSibling;
-      const isOpen = trigger.classList.contains('active');
-      document.querySelectorAll('.mobile-nav-accordion-trigger').forEach(t => { t.classList.remove('active'); t.nextElementSibling.style.maxHeight = '0'; });
-      if (!isOpen) { trigger.classList.add('active'); content.style.maxHeight = content.scrollHeight + 'px'; }
+    <!-- Calculator -->
+    <section class="calc-section">
+      <div class="container">
+        <div class="calc-wrapper">
+
+          <!-- Progress Bar -->
+          <div class="progress-bar">
+            <div class="progress-step active" data-step="1"></div>
+            <div class="progress-step" data-step="2"></div>
+            <div class="progress-step" data-step="3"></div>
+            <div class="progress-step" data-step="4"></div>
+            <div class="progress-step" data-step="5"></div>
+          </div>
+
+          <!-- Step 1: Project Type -->
+          <div class="calc-step active" data-step="1">
+            <div class="step-header">
+              <div class="step-number">1</div>
+              <h2>What type of roofing project is this?</h2>
+              <p>Select the option that best describes your commercial roofing need.</p>
+            </div>
+            <div class="option-grid">
+              <div class="option-card" data-value="replacement">
+                <div class="option-card-icon">&#127959;</div>
+                <h4>Full Replacement</h4>
+                <p>Remove existing system and install new commercial roof</p>
+              </div>
+              <div class="option-card" data-value="newconstruction">
+                <div class="option-card-icon">&#127970;</div>
+                <h4>New Construction</h4>
+                <p>Roof for a new commercial building or addition</p>
+              </div>
+              <div class="option-card" data-value="recover">
+                <div class="option-card-icon">&#128736;</div>
+                <h4>Recover / Overlay</h4>
+                <p>Install new membrane over existing system</p>
+              </div>
+              <div class="option-card" data-value="coating">
+                <div class="option-card-icon">&#128444;</div>
+                <h4>Coating / Restoration</h4>
+                <p>Apply roof coating to extend system life</p>
+              </div>
+            </div>
+            <div class="step-nav">
+              <div></div>
+              <button class="btn btn-primary next-btn" disabled>Next Step &rarr;</button>
+            </div>
+          </div>
+
+          <!-- Step 2: Building Size -->
+          <div class="calc-step" data-step="2">
+            <div class="step-header">
+              <div class="step-number">2</div>
+              <h2>What is your approximate roof size?</h2>
+              <p>Select a range or enter an exact size. Most commercial buildings are 10,000–50,000 sq ft.</p>
+            </div>
+            <div class="option-grid">
+              <div class="option-card" data-value="5000">
+                <div class="option-card-icon">&#127970;</div>
+                <h4>Small</h4>
+                <p>Under 10,000 sq ft</p>
+              </div>
+              <div class="option-card" data-value="15000">
+                <div class="option-card-icon">&#127963;</div>
+                <h4>Medium</h4>
+                <p>10,000 – 25,000 sq ft</p>
+              </div>
+              <div class="option-card" data-value="50000">
+                <div class="option-card-icon">&#127981;</div>
+                <h4>Large</h4>
+                <p>25,000 – 75,000 sq ft</p>
+              </div>
+              <div class="option-card" data-value="100000">
+                <div class="option-card-icon">&#127964;</div>
+                <h4>Extra Large</h4>
+                <p>75,000+ sq ft</p>
+              </div>
+            </div>
+            <div class="size-input-wrap">
+              <span class="size-input-label">Or enter exact size:</span>
+              <input type="number" class="size-input" id="customSize" placeholder="e.g. 25000" min="1000" max="1000000">
+              <span class="size-input-label">sq ft</span>
+            </div>
+            <div class="step-nav">
+              <button class="back-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg> Back</button>
+              <button class="btn btn-primary next-btn" disabled>Next Step &rarr;</button>
+            </div>
+          </div>
+
+          <!-- Step 3: Roofing System -->
+          <div class="calc-step" data-step="3">
+            <div class="step-header">
+              <div class="step-number">3</div>
+              <h2>What roofing system do you prefer?</h2>
+              <p>Each system has different costs, lifespans, and performance characteristics.</p>
+            </div>
+            <div class="material-grid">
+              <div class="material-card" data-value="tpo">
+                <span class="badge">Most Popular</span>
+                <h4>TPO (60 mil)</h4>
+                <div class="price-indicator">$$</div>
+                <p>Heat-welded seams, 20–30 yr lifespan</p>
+              </div>
+              <div class="material-card" data-value="epdm">
+                <h4>EPDM (60 mil)</h4>
+                <div class="price-indicator">$</div>
+                <p>Rubber membrane, 20–30 yr lifespan</p>
+              </div>
+              <div class="material-card" data-value="pvc">
+                <h4>PVC (60 mil)</h4>
+                <div class="price-indicator">$$$</div>
+                <p>Chemical resistant, 25–35 yr lifespan</p>
+              </div>
+              <div class="material-card" data-value="modbit">
+                <h4>Modified Bitumen</h4>
+                <div class="price-indicator">$$</div>
+                <p>Multi-ply, walkable, 15–25 yr lifespan</p>
+              </div>
+              <div class="material-card" data-value="bur">
+                <h4>Built-Up (BUR)</h4>
+                <div class="price-indicator">$$$</div>
+                <p>Multi-layer, 20–30 yr lifespan</p>
+              </div>
+              <div class="material-card" data-value="spf">
+                <h4>Spray Foam (SPF)</h4>
+                <div class="price-indicator">$$</div>
+                <p>Seamless, R-6.5/inch, 20–30 yr lifespan</p>
+              </div>
+              <div class="material-card" data-value="metal">
+                <h4>Standing Seam Metal</h4>
+                <div class="price-indicator">$$$$</div>
+                <p>Premium, 40–70 yr lifespan</p>
+              </div>
+              <div class="material-card" data-value="not_sure">
+                <h4>Not Sure</h4>
+                <div class="price-indicator">&mdash;</div>
+                <p>We'll estimate using averages</p>
+              </div>
+            </div>
+            <div class="step-nav">
+              <button class="back-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg> Back</button>
+              <button class="btn btn-primary next-btn" disabled>Next Step &rarr;</button>
+            </div>
+          </div>
+
+          <!-- Step 4: Details -->
+          <div class="calc-step" data-step="4">
+            <div class="step-header">
+              <div class="step-number">4</div>
+              <h2>Tell us about your building</h2>
+              <p>These details help us refine your estimate.</p>
+            </div>
+
+            <div class="detail-group">
+              <label>Building type</label>
+              <div class="detail-options" data-field="buildingType">
+                <div class="detail-option selected" data-value="office">Office</div>
+                <div class="detail-option" data-value="retail">Retail</div>
+                <div class="detail-option" data-value="warehouse">Warehouse</div>
+                <div class="detail-option" data-value="restaurant">Restaurant</div>
+                <div class="detail-option" data-value="other">Other</div>
+              </div>
+            </div>
+
+            <div class="detail-group">
+              <label>Current roof condition</label>
+              <div class="detail-options" data-field="condition">
+                <div class="detail-option" data-value="good">Good (maintenance only)</div>
+                <div class="detail-option selected" data-value="fair">Fair (minor issues)</div>
+                <div class="detail-option" data-value="poor">Poor (active leaks)</div>
+              </div>
+            </div>
+
+            <div class="detail-group">
+              <label>Additional requirements (select all that apply)</label>
+              <div class="detail-options" data-field="features">
+                <div class="checkbox-option" data-value="insulation">
+                  <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+                  Insulation upgrade
+                </div>
+                <div class="checkbox-option" data-value="hvac">
+                  <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+                  HVAC penetrations
+                </div>
+                <div class="checkbox-option" data-value="drainage">
+                  <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+                  Drainage improvements
+                </div>
+                <div class="checkbox-option" data-value="none">
+                  <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+                  None of the above
+                </div>
+              </div>
+            </div>
+
+            <div class="step-nav">
+              <button class="back-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg> Back</button>
+              <button class="btn btn-primary next-btn" id="calcBtn">See My Estimate &rarr;</button>
+            </div>
+          </div>
+
+          <!-- Step 5: Results -->
+          <div class="calc-step" data-step="5">
+            <div class="results-card">
+              <div class="results-header">
+                <h2>Your Estimated Commercial Roof Cost</h2>
+                <p>Based on 2026 regional pricing data</p>
+                <div class="region-badge" id="regionBadge" style="display:none;">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  <span id="regionLabel">National Average</span>
+                </div>
+              </div>
+
+              <div class="results-range results-blurred">
+                <div class="range-label">Estimated Range</div>
+                <div class="range-value" id="resultRange">$150,000 - $250,000</div>
+                <div class="range-avg">Average: <strong id="resultAvg">$200,000</strong></div>
+              </div>
+
+              <div class="unlock-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                Enter your details below to unlock your estimate
+              </div>
+
+              <div class="results-breakdown">
+                <div class="breakdown-item">
+                  <div class="label">Project Type</div>
+                  <div class="value" id="brkService">Full Replacement</div>
+                </div>
+                <div class="breakdown-item">
+                  <div class="label">Roof Size</div>
+                  <div class="value" id="brkSize">25,000 sq ft</div>
+                </div>
+                <div class="breakdown-item">
+                  <div class="label">Roofing System</div>
+                  <div class="value" id="brkMaterial">TPO (60 mil)</div>
+                </div>
+                <div class="breakdown-item">
+                  <div class="label">Building Type</div>
+                  <div class="value" id="brkBuilding">Office</div>
+                </div>
+              </div>
+
+              <div class="lead-form">
+                <h3>Unlock Your Personalized Estimate</h3>
+                <p>Your cost estimate is ready. Enter your details to reveal your personalized commercial roofing cost range.</p>
+                <form id="leadForm">
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="firstName">First Name *</label>
+                      <input type="text" id="firstName" name="firstName" required placeholder="John">
+                    </div>
+                    <div class="form-group">
+                      <label for="lastName">Last Name *</label>
+                      <input type="text" id="lastName" name="lastName" required placeholder="Smith">
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="email">Email *</label>
+                      <input type="email" id="email" name="email" required placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="phone">Phone *</label>
+                      <input type="tel" id="phone" name="phone" required placeholder="(555) 123-4567">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="zip">ZIP Code *</label>
+                    <input type="text" id="zip" name="zip" required placeholder="Enter your ZIP code" pattern="[0-9]{5}" maxlength="5" inputmode="numeric">
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-lg" id="leadSubmitBtn" style="width:100%;margin-top:8px;">Unlock My Estimate</button>
+                  <p class="form-privacy">Your information is shared only with qualified local contractors. We never sell your data.</p>
+                </form>
+              </div>
+
+              <div class="results-note">
+                <strong>Note:</strong> This is an estimate based on average regional pricing for commercial roofing projects. Actual costs vary based on specific building details, contractor, roof access, and current material availability. Get a free professional estimate for exact pricing.
+              </div>
+            </div>
+
+            <div class="step-nav">
+              <button class="back-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg> Start Over</button>
+              <div></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-section">
+      <div class="container">
+        <div style="text-align:center;">
+          <h2>How Our Calculator Works</h2>
+          <p style="color:var(--text-light);max-width:600px;margin:12px auto 0;">Our estimates use real pricing data from commercial roofing markets across the country, updated for 2026.</p>
+        </div>
+        <div class="how-grid">
+          <div class="how-card">
+            <div class="how-card-num">1</div>
+            <h4>Regional Pricing Data</h4>
+            <p>We track material costs, labor rates, and regional factors for commercial roofing. Your ZIP code determines which pricing data we use.</p>
+          </div>
+          <div class="how-card">
+            <div class="how-card-num">2</div>
+            <h4>System-Specific Costs</h4>
+            <p>Each commercial roofing system — TPO, EPDM, PVC, metal — has different material and installation costs. We price each one individually.</p>
+          </div>
+          <div class="how-card">
+            <div class="how-card-num">3</div>
+            <h4>Range, Not a Bid</h4>
+            <p>We show a realistic range so you know what to expect. For exact pricing, connect with a qualified commercial roofing contractor.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Need a More Detailed Estimate?</h2>
+        <p>Our calculator gives you a starting point. For exact pricing, get a free professional assessment from a qualified commercial roofer.</p>
+        <a href="/free-estimate/" class="btn btn-white btn-lg">Get Free Professional Estimate</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="logo" style="display:inline-flex;align-items:center;gap:10px;">
+            <svg width="32" height="26" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 0L40 30H33L20 10L7 30H0L20 0z" fill="#C45C3E"/></svg>
+            <span style="font-family:'DM Sans',sans-serif;font-weight:700;font-size:1rem;color:#fff;">Commercial Roof Guide</span>
+          </a>
+          <p>Your independent guide to commercial roofing costs, systems, and contractors across America.</p>
+        </div>
+        <div>
+          <h4>Guides</h4>
+          <ul>
+            <li><a href="/guides/commercial-roof-cost/">Roof Costs</a></li>
+            <li><a href="/guides/tpo-roofing/">TPO Roofing</a></li>
+            <li><a href="/guides/epdm-roofing/">EPDM Roofing</a></li>
+            <li><a href="/guides/pvc-roofing/">PVC Roofing</a></li>
+            <li><a href="/guides/metal-roofing-commercial/">Metal Roofing</a></li>
+            <li><a href="/guides/roof-maintenance/">Maintenance</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Tools</h4>
+          <ul>
+            <li><a href="/calculator/">Cost Calculator</a></li>
+            <li><a href="/free-estimate/">Free Estimate</a></li>
+          </ul>
+          <h4 style="margin-top:24px;">Company</h4>
+          <ul>
+            <li><a href="/about/">About Us</a></li>
+            <li><a href="/states/">All States</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="/guides/roof-coatings/">Roof Coatings</a></li>
+            <li><a href="/guides/cool-roofs/">Cool Roofs</a></li>
+            <li><a href="/guides/roof-inspections/">Inspections</a></li>
+            <li><a href="/guides/warranties/">Warranties</a></li>
+            <li><a href="/guides/green-roofs/">Green Roofs</a></li>
+            <li><a href="/approved/">Approved Contractors</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Commercial Roof Guide. Independent commercial roofing resource.</p>
+        <p><a href="/about/">How we make money</a> | Website by <a href="https://minyona.com" target="_blank" rel="noopener">Minyona</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Header scroll
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => { header.classList.toggle('scrolled', window.scrollY > 50); });
+
+    // Mobile nav toggle
+    const navToggle = document.querySelector('.nav-toggle');
+    const mobileNav = document.getElementById('mobileNav');
+    navToggle.addEventListener('click', () => {
+      const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+      navToggle.setAttribute('aria-expanded', !isExpanded);
+      navToggle.classList.toggle('active');
+      mobileNav.classList.toggle('active');
+      document.body.style.overflow = mobileNav.classList.contains('active') ? 'hidden' : '';
     });
-  });
 
-  /* Scroll-in animations */
-  const observerOptions = { threshold: 0, rootMargin: '0px 0px -40px 0px' };
-  const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.style.opacity = '1'; entry.target.style.transform = 'translateY(0)'; } }); }, observerOptions);
-  document.querySelectorAll('main section:not(.tool-hero)').forEach(section => { section.style.opacity = '0'; section.style.transform = 'translateY(30px)'; section.style.transition = 'opacity 0.8s ease, transform 0.8s ease'; observer.observe(section); });
+    // Close mobile nav on link click
+    mobileNav.querySelectorAll('.mobile-nav-item a, .mobile-nav-accordion-content a, .mobile-nav > .btn').forEach(link => {
+      link.addEventListener('click', () => {
+        navToggle.classList.remove('active');
+        mobileNav.classList.remove('active');
+        navToggle.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      });
+    });
 
-  /* Page view beacon */
-  const pv = new URLSearchParams();
-  pv.append('intake_token', 'd8250591bb879e8ded29510a25cc2e32');
-  pv.append('page_url', location.href);
-  pv.append('page_title', document.title);
-  pv.append('source', 'Commercial Roof Guide - Calculator');
-  pv.append('formName', 'Page View - Commercial - Calculator');
-  navigator.sendBeacon('https://partners.minyona.com/api/webhooks/intake', pv);
+    // Mobile nav accordion
+    document.querySelectorAll('.mobile-nav-accordion-trigger').forEach(trigger => {
+      trigger.addEventListener('click', () => {
+        const accordion = trigger.parentElement;
+        const content = accordion.querySelector('.mobile-nav-accordion-content');
+        const isOpen = accordion.classList.contains('open');
+        document.querySelectorAll('.mobile-nav-accordion').forEach(other => {
+          if (other !== accordion) {
+            other.classList.remove('open');
+            other.querySelector('.mobile-nav-accordion-trigger').setAttribute('aria-expanded', 'false');
+            other.querySelector('.mobile-nav-accordion-content').style.maxHeight = '0';
+          }
+        });
+        if (isOpen) {
+          accordion.classList.remove('open');
+          trigger.setAttribute('aria-expanded', 'false');
+          content.style.maxHeight = '0';
+        } else {
+          accordion.classList.add('open');
+          trigger.setAttribute('aria-expanded', 'true');
+          content.style.maxHeight = content.scrollHeight + 'px';
+        }
+      });
+    });
 
-  /* ============ CALCULATOR LOGIC ============ */
+    // ========================================
+    // CALCULATOR LOGIC
+    // ========================================
 
-  /* Base costs per sq ft (national averages) */
-  const baseCosts = {
-    tpo:    { low: 5.50, avg: 7.00, high: 8.50 },
-    epdm:   { low: 4.50, avg: 6.00, high: 7.50 },
-    pvc:    { low: 6.50, avg: 8.25, high: 10.00 },
-    modbit: { low: 5.00, avg: 6.75, high: 8.50 },
-    metal:  { low: 9.00, avg: 12.50, high: 16.00 },
-    spf:    { low: 5.50, avg: 7.50, high: 9.50 }
-  };
-
-  const systemNames = {
-    tpo: 'TPO Single-Ply',
-    epdm: 'EPDM Rubber',
-    pvc: 'PVC Membrane',
-    modbit: 'Modified Bitumen',
-    metal: 'Standing Seam Metal',
-    spf: 'Spray Foam (SPF)'
-  };
-
-  /* Regional multipliers */
-  const regionMultipliers = {
-    northeast: 1.15,
-    midatlantic: 1.10,
-    southeast: 0.90,
-    texas: 0.95,
-    midwest: 0.95,
-    mountain: 1.00,
-    california: 1.20,
-    pacific_nw: 1.10,
-    national: 1.00
-  };
-
-  const regionNames = {
-    northeast: 'Northeast',
-    midatlantic: 'Mid-Atlantic',
-    southeast: 'Southeast',
-    texas: 'Texas',
-    midwest: 'Midwest',
-    mountain: 'Mountain West',
-    california: 'California',
-    pacific_nw: 'Pacific Northwest',
-    national: 'National Average'
-  };
-
-  function getRegion(zip) {
-    const prefix = parseInt(zip.substring(0, 3), 10);
-    if (prefix >= 10 && prefix <= 119) return 'northeast';
-    if ((prefix >= 150 && prefix <= 196) || (prefix >= 206 && prefix <= 219)) return 'midatlantic';
-    if ((prefix >= 270 && prefix <= 299) || (prefix >= 300 && prefix <= 399)) return 'southeast';
-    if (prefix >= 750 && prefix <= 799) return 'texas';
-    if ((prefix >= 430 && prefix <= 479) || (prefix >= 500 && prefix <= 549) || (prefix >= 600 && prefix <= 629)) return 'midwest';
-    if ((prefix >= 800 && prefix <= 831) || (prefix >= 840 && prefix <= 884)) return 'mountain';
-    if (prefix >= 900 && prefix <= 961) return 'california';
-    if (prefix >= 970 && prefix <= 994) return 'pacific_nw';
-    return 'national';
-  }
-
-  function getVolumeDiscount(sqft) {
-    if (sqft >= 50000) return 0.15;
-    if (sqft >= 25000) return 0.10;
-    return 0;
-  }
-
-  function getProjectMultiplier(type) {
-    switch(type) {
-      case 'reroof': return 1.15;
-      case 'coating': return 0.40;
-      case 'repair': return 0.20;
-      default: return 1.00;
-    }
-  }
-
-  function calcCost(system, sqft, region, projectType) {
-    const base = baseCosts[system];
-    const rm = regionMultipliers[region];
-    const pm = getProjectMultiplier(projectType);
-    const vd = getVolumeDiscount(sqft);
-    const low  = base.low  * rm * pm * (1 - vd);
-    const avg  = base.avg  * rm * pm * (1 - vd);
-    const high = base.high * rm * pm * (1 - vd);
-    return {
-      perSqFt: { low: Math.round(low * 100) / 100, avg: Math.round(avg * 100) / 100, high: Math.round(high * 100) / 100 },
-      total: { low: Math.round(low * sqft), avg: Math.round(avg * sqft), high: Math.round(high * sqft) }
+    const state = {
+      step: 1,
+      service: null,
+      size: null,
+      material: null,
+      buildingType: 'office',
+      condition: 'fair',
+      features: []
     };
-  }
 
-  function fmtMoney(n) {
-    return '$' + n.toLocaleString('en-US');
-  }
-  function fmtSqft(n) {
-    return n.toLocaleString('en-US') + ' sq ft';
-  }
+    // Regional cost data (per sq ft installed) — 2026 commercial roofing pricing
+    const REGIONAL_COSTS = {
+      northeast: {
+        'tpo':      { low: 6.30, avg: 8.05, high: 9.80, name: 'TPO (60 mil)' },
+        'epdm':     { low: 5.20, avg: 6.90, high: 8.60, name: 'EPDM (60 mil)' },
+        'pvc':      { low: 7.50, avg: 9.50, high: 11.50, name: 'PVC (60 mil)' },
+        'modbit':   { low: 5.75, avg: 7.55, high: 9.80, name: 'Modified Bitumen' },
+        'bur':      { low: 6.90, avg: 8.90, high: 11.50, name: 'Built-Up Roofing (BUR)' },
+        'spf':      { low: 6.30, avg: 8.35, high: 10.90, name: 'Spray Foam (SPF)' },
+        'metal':    { low: 10.35, avg: 14.40, high: 18.40, name: 'Standing Seam Metal' },
+        'not_sure': { low: 6.30, avg: 8.50, high: 11.00, name: 'Average (mixed systems)' },
+        label: 'Northeast Pricing'
+      },
+      midatlantic: {
+        'tpo':      { low: 6.05, avg: 7.70, high: 9.35, name: 'TPO (60 mil)' },
+        'epdm':     { low: 4.95, avg: 6.60, high: 8.25, name: 'EPDM (60 mil)' },
+        'pvc':      { low: 7.15, avg: 9.10, high: 11.00, name: 'PVC (60 mil)' },
+        'modbit':   { low: 5.50, avg: 7.25, high: 9.35, name: 'Modified Bitumen' },
+        'bur':      { low: 6.60, avg: 8.60, high: 11.00, name: 'Built-Up Roofing (BUR)' },
+        'spf':      { low: 6.05, avg: 8.05, high: 10.45, name: 'Spray Foam (SPF)' },
+        'metal':    { low: 9.90, avg: 13.75, high: 17.60, name: 'Standing Seam Metal' },
+        'not_sure': { low: 6.05, avg: 8.15, high: 10.50, name: 'Average (mixed systems)' },
+        label: 'Mid-Atlantic Pricing'
+      },
+      southeast: {
+        'tpo':      { low: 4.95, avg: 6.30, high: 7.65, name: 'TPO (60 mil)' },
+        'epdm':     { low: 4.05, avg: 5.40, high: 6.75, name: 'EPDM (60 mil)' },
+        'pvc':      { low: 5.85, avg: 7.45, high: 9.00, name: 'PVC (60 mil)' },
+        'modbit':   { low: 4.50, avg: 5.95, high: 7.65, name: 'Modified Bitumen' },
+        'bur':      { low: 5.40, avg: 7.00, high: 9.00, name: 'Built-Up Roofing (BUR)' },
+        'spf':      { low: 4.95, avg: 6.55, high: 8.55, name: 'Spray Foam (SPF)' },
+        'metal':    { low: 8.10, avg: 11.25, high: 14.40, name: 'Standing Seam Metal' },
+        'not_sure': { low: 4.95, avg: 6.65, high: 8.60, name: 'Average (mixed systems)' },
+        label: 'Southeast Pricing'
+      },
+      midwest: {
+        'tpo':      { low: 5.25, avg: 6.70, high: 8.10, name: 'TPO (60 mil)' },
+        'epdm':     { low: 4.30, avg: 5.75, high: 7.15, name: 'EPDM (60 mil)' },
+        'pvc':      { low: 6.20, avg: 7.85, high: 9.50, name: 'PVC (60 mil)' },
+        'modbit':   { low: 4.75, avg: 6.25, high: 8.10, name: 'Modified Bitumen' },
+        'bur':      { low: 5.70, avg: 7.40, high: 9.50, name: 'Built-Up Roofing (BUR)' },
+        'spf':      { low: 5.25, avg: 6.95, high: 9.05, name: 'Spray Foam (SPF)' },
+        'metal':    { low: 8.55, avg: 11.90, high: 15.20, name: 'Standing Seam Metal' },
+        'not_sure': { low: 5.25, avg: 7.05, high: 9.10, name: 'Average (mixed systems)' },
+        label: 'Midwest Pricing'
+      },
+      texas: {
+        'tpo':      { low: 5.25, avg: 6.70, high: 8.10, name: 'TPO (60 mil)' },
+        'epdm':     { low: 4.30, avg: 5.75, high: 7.15, name: 'EPDM (60 mil)' },
+        'pvc':      { low: 6.20, avg: 7.85, high: 9.50, name: 'PVC (60 mil)' },
+        'modbit':   { low: 4.75, avg: 6.25, high: 8.10, name: 'Modified Bitumen' },
+        'bur':      { low: 5.70, avg: 7.40, high: 9.50, name: 'Built-Up Roofing (BUR)' },
+        'spf':      { low: 5.25, avg: 6.95, high: 9.05, name: 'Spray Foam (SPF)' },
+        'metal':    { low: 8.55, avg: 11.90, high: 15.20, name: 'Standing Seam Metal' },
+        'not_sure': { low: 5.25, avg: 7.05, high: 9.10, name: 'Average (mixed systems)' },
+        label: 'Texas Pricing'
+      },
+      mountain: {
+        'tpo':      { low: 5.50, avg: 7.00, high: 8.50, name: 'TPO (60 mil)' },
+        'epdm':     { low: 4.50, avg: 6.00, high: 7.50, name: 'EPDM (60 mil)' },
+        'pvc':      { low: 6.50, avg: 8.25, high: 10.00, name: 'PVC (60 mil)' },
+        'modbit':   { low: 5.00, avg: 6.75, high: 8.50, name: 'Modified Bitumen' },
+        'bur':      { low: 6.00, avg: 8.00, high: 10.00, name: 'Built-Up Roofing (BUR)' },
+        'spf':      { low: 5.50, avg: 7.50, high: 9.50, name: 'Spray Foam (SPF)' },
+        'metal':    { low: 9.00, avg: 12.50, high: 16.00, name: 'Standing Seam Metal' },
+        'not_sure': { low: 5.50, avg: 7.40, high: 9.60, name: 'Average (mixed systems)' },
+        label: 'Mountain West Pricing'
+      },
+      westcoast: {
+        'tpo':      { low: 6.60, avg: 8.40, high: 10.20, name: 'TPO (60 mil)' },
+        'epdm':     { low: 5.40, avg: 7.20, high: 9.00, name: 'EPDM (60 mil)' },
+        'pvc':      { low: 7.80, avg: 9.90, high: 12.00, name: 'PVC (60 mil)' },
+        'modbit':   { low: 6.00, avg: 7.90, high: 10.20, name: 'Modified Bitumen' },
+        'bur':      { low: 7.20, avg: 9.40, high: 12.00, name: 'Built-Up Roofing (BUR)' },
+        'spf':      { low: 6.60, avg: 8.80, high: 11.40, name: 'Spray Foam (SPF)' },
+        'metal':    { low: 10.80, avg: 15.00, high: 19.20, name: 'Standing Seam Metal' },
+        'not_sure': { low: 6.60, avg: 8.90, high: 11.50, name: 'Average (mixed systems)' },
+        label: 'West Coast Pricing'
+      },
+      national: {
+        'tpo':      { low: 5.50, avg: 7.00, high: 8.50, name: 'TPO (60 mil)' },
+        'epdm':     { low: 4.50, avg: 6.00, high: 7.50, name: 'EPDM (60 mil)' },
+        'pvc':      { low: 6.50, avg: 8.25, high: 10.00, name: 'PVC (60 mil)' },
+        'modbit':   { low: 5.00, avg: 6.75, high: 8.50, name: 'Modified Bitumen' },
+        'bur':      { low: 6.00, avg: 8.00, high: 10.00, name: 'Built-Up Roofing (BUR)' },
+        'spf':      { low: 5.50, avg: 7.50, high: 9.50, name: 'Spray Foam (SPF)' },
+        'metal':    { low: 9.00, avg: 12.50, high: 16.00, name: 'Standing Seam Metal' },
+        'not_sure': { low: 5.50, avg: 7.40, high: 9.60, name: 'Average (mixed systems)' },
+        label: 'National Average'
+      }
+    };
 
-  /* State */
-  let currentStep = 1;
-  let selections = { size: null, sizeLabel: null, type: null, typeLabel: null, system: null, systemLabel: null, zip: null };
-
-  /* Step navigation */
-  function goToStep(step) {
-    currentStep = step;
-    document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
-    document.querySelector('.step[data-step="' + step + '"]').classList.add('active');
-    document.querySelectorAll('.progress-step').forEach(ps => {
-      const s = parseInt(ps.getAttribute('data-step'));
-      ps.classList.remove('active', 'done');
-      if (s === step) ps.classList.add('active');
-      else if (s < step) ps.classList.add('done');
-    });
-  }
-
-  /* Option card clicks — auto advance */
-  document.querySelectorAll('.step[data-step="1"] .option-card').forEach(card => {
-    card.addEventListener('click', () => {
-      document.querySelectorAll('.step[data-step="1"] .option-card').forEach(c => c.classList.remove('selected'));
-      card.classList.add('selected');
-      selections.size = parseInt(card.getAttribute('data-value'));
-      selections.sizeLabel = card.getAttribute('data-label');
-      setTimeout(() => goToStep(2), 250);
-    });
-  });
-
-  document.querySelectorAll('.step[data-step="2"] .option-card').forEach(card => {
-    card.addEventListener('click', () => {
-      document.querySelectorAll('.step[data-step="2"] .option-card').forEach(c => c.classList.remove('selected'));
-      card.classList.add('selected');
-      selections.type = card.getAttribute('data-value');
-      selections.typeLabel = card.getAttribute('data-label');
-      setTimeout(() => goToStep(3), 250);
-    });
-  });
-
-  document.querySelectorAll('.step[data-step="3"] .option-card').forEach(card => {
-    card.addEventListener('click', () => {
-      document.querySelectorAll('.step[data-step="3"] .option-card').forEach(c => c.classList.remove('selected'));
-      card.classList.add('selected');
-      selections.system = card.getAttribute('data-value');
-      selections.systemLabel = card.getAttribute('data-label');
-      setTimeout(() => goToStep(4), 250);
-    });
-  });
-
-  /* Back buttons */
-  document.querySelectorAll('[data-back]').forEach(btn => {
-    btn.addEventListener('click', () => { if (currentStep > 1) goToStep(currentStep - 1); });
-  });
-
-  /* ZIP validation + submit */
-  const zipInput = document.getElementById('zip-input');
-  const zipError = document.getElementById('zip-error');
-  const zipSubmit = document.getElementById('zip-submit');
-
-  zipInput.addEventListener('input', () => {
-    zipInput.value = zipInput.value.replace(/\D/g, '');
-    zipInput.classList.remove('error');
-    zipError.style.display = 'none';
-  });
-
-  zipInput.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') { e.preventDefault(); zipSubmit.click(); }
-  });
-
-  zipSubmit.addEventListener('click', () => {
-    const val = zipInput.value.trim();
-    if (!/^\d{5}$/.test(val)) {
-      zipInput.classList.add('error');
-      zipError.style.display = 'block';
-      return;
-    }
-    selections.zip = val;
-    showResults();
-  });
-
-  /* Show results */
-  function showResults() {
-    const region = getRegion(selections.zip);
-    const sqft = selections.size;
-    const projectType = selections.type;
-    const vd = getVolumeDiscount(sqft);
-
-    /* Determine primary system(s) */
-    const primarySystem = selections.system === 'unsure' ? 'tpo' : selections.system;
-    const cost = calcCost(primarySystem, sqft, region, projectType);
-
-    /* Fill estimate card */
-    document.getElementById('result-system').textContent = selections.system === 'unsure' ? 'Recommended: TPO Single-Ply' : systemNames[primarySystem];
-    document.getElementById('result-range').textContent = fmtMoney(cost.total.low) + ' \u2013 ' + fmtMoney(cost.total.high);
-    document.getElementById('result-persqft').textContent = '$' + cost.perSqFt.low.toFixed(2) + ' \u2013 $' + cost.perSqFt.high.toFixed(2) + ' per sq ft';
-    document.getElementById('result-size').textContent = fmtSqft(sqft);
-    document.getElementById('result-region').textContent = regionNames[region];
-    document.getElementById('result-type').textContent = selections.typeLabel;
-    document.getElementById('results-subtitle').textContent = selections.sizeLabel + ' \u00B7 ' + selections.typeLabel + ' \u00B7 ' + regionNames[region];
-
-    /* Breakdown */
-    const materialPct = 0.45;
-    const laborPct = 0.42;
-    const permitPct = 0.13;
-    const breakdownGrid = document.getElementById('breakdown-grid');
-    breakdownGrid.innerHTML = '' +
-      '<div class="breakdown-item">' +
-        '<div class="breakdown-item-label">Materials</div>' +
-        '<div class="breakdown-item-value">' + fmtMoney(Math.round(cost.total.low * materialPct)) + ' \u2013 ' + fmtMoney(Math.round(cost.total.high * materialPct)) + '</div>' +
-        '<div class="breakdown-item-note">~45% of total cost</div>' +
-      '</div>' +
-      '<div class="breakdown-item">' +
-        '<div class="breakdown-item-label">Labor</div>' +
-        '<div class="breakdown-item-value">' + fmtMoney(Math.round(cost.total.low * laborPct)) + ' \u2013 ' + fmtMoney(Math.round(cost.total.high * laborPct)) + '</div>' +
-        '<div class="breakdown-item-note">~42% of total cost</div>' +
-      '</div>' +
-      '<div class="breakdown-item">' +
-        '<div class="breakdown-item-label">Permits & Engineering</div>' +
-        '<div class="breakdown-item-value">' + fmtMoney(Math.round(cost.total.low * permitPct)) + ' \u2013 ' + fmtMoney(Math.round(cost.total.high * permitPct)) + '</div>' +
-        '<div class="breakdown-item-note">~13% of total cost</div>' +
-      '</div>' +
-      '<div class="breakdown-item total">' +
-        '<div class="breakdown-item-label">Total Project Range</div>' +
-        '<div class="breakdown-item-value">' + fmtMoney(cost.total.low) + ' \u2013 ' + fmtMoney(cost.total.high) + '</div>' +
-        '<div class="breakdown-item-note">' + fmtSqft(sqft) + (vd > 0 ? ' (volume discount applied)' : '') + '</div>' +
-      '</div>';
-
-    /* Comparison table */
-    const allSystems = ['tpo','epdm','pvc','modbit','metal','spf'];
-    const compBody = document.getElementById('comparison-body');
-    compBody.innerHTML = '';
-    allSystems.forEach(sys => {
-      const c = calcCost(sys, sqft, region, projectType);
-      const isSelected = sys === primarySystem;
-      const tr = document.createElement('tr');
-      if (isSelected) tr.className = 'highlight';
-      tr.innerHTML = '<td>' + systemNames[sys] + (isSelected ? ' *' : '') + '</td>' +
-        '<td>$' + c.perSqFt.low.toFixed(2) + ' \u2013 $' + c.perSqFt.high.toFixed(2) + '</td>' +
-        '<td>' + fmtMoney(c.total.low) + ' \u2013 ' + fmtMoney(c.total.high) + '</td>';
-      compBody.appendChild(tr);
-    });
-
-    /* Volume discount note */
-    const volNote = document.getElementById('volume-note');
-    const volText = document.getElementById('volume-note-text');
-    if (sqft >= 25000) {
-      volNote.style.display = 'flex';
-      const pct = vd * 100;
-      volText.innerHTML = '<strong>Volume discount applied (' + pct + '% off).</strong> Buildings over ' + (sqft >= 50000 ? '50,000' : '25,000') + ' sq ft typically receive volume pricing from commercial roofing contractors. Actual discounts vary by contractor and scope.';
-    } else {
-      volNote.style.display = 'none';
+    // ZIP prefix → region mapping
+    function getRegionFromZip(zip) {
+      const prefix = parseInt(zip.substring(0, 3));
+      if (prefix >= 10 && prefix <= 69) return 'northeast';
+      if (prefix >= 70 && prefix <= 89) return 'northeast';
+      if (prefix >= 100 && prefix <= 149) return 'northeast';
+      if (prefix >= 150 && prefix <= 196) return 'midatlantic';
+      if (prefix >= 197 && prefix <= 199) return 'midatlantic';
+      if (prefix >= 200 && prefix <= 219) return 'midatlantic';
+      if (prefix >= 220 && prefix <= 246) return 'midatlantic';
+      if (prefix >= 247 && prefix <= 268) return 'southeast';
+      if (prefix >= 270 && prefix <= 289) return 'southeast';
+      if (prefix >= 290 && prefix <= 299) return 'southeast';
+      if (prefix >= 300 && prefix <= 319) return 'southeast';
+      if (prefix >= 320 && prefix <= 349) return 'southeast';
+      if (prefix >= 350 && prefix <= 369) return 'southeast';
+      if (prefix >= 370 && prefix <= 385) return 'southeast';
+      if (prefix >= 386 && prefix <= 397) return 'southeast';
+      if (prefix >= 400 && prefix <= 427) return 'southeast';
+      if (prefix >= 430 && prefix <= 458) return 'midwest';
+      if (prefix >= 460 && prefix <= 479) return 'midwest';
+      if (prefix >= 480 && prefix <= 499) return 'midwest';
+      if (prefix >= 500 && prefix <= 528) return 'midwest';
+      if (prefix >= 530 && prefix <= 549) return 'midwest';
+      if (prefix >= 550 && prefix <= 567) return 'midwest';
+      if (prefix >= 570 && prefix <= 577) return 'midwest';
+      if (prefix >= 580 && prefix <= 588) return 'midwest';
+      if (prefix >= 590 && prefix <= 599) return 'mountain';
+      if (prefix >= 600 && prefix <= 629) return 'midwest';
+      if (prefix >= 630 && prefix <= 658) return 'midwest';
+      if (prefix >= 660 && prefix <= 679) return 'midwest';
+      if (prefix >= 680 && prefix <= 693) return 'midwest';
+      if (prefix >= 700 && prefix <= 714) return 'southeast';
+      if (prefix >= 716 && prefix <= 729) return 'southeast';
+      if (prefix >= 730 && prefix <= 749) return 'midwest';
+      if (prefix >= 750 && prefix <= 799) return 'texas';
+      if (prefix >= 800 && prefix <= 816) return 'mountain';
+      if (prefix >= 820 && prefix <= 831) return 'mountain';
+      if (prefix >= 832 && prefix <= 838) return 'mountain';
+      if (prefix >= 840 && prefix <= 847) return 'mountain';
+      if (prefix >= 850 && prefix <= 865) return 'mountain';
+      if (prefix >= 870 && prefix <= 884) return 'mountain';
+      if (prefix >= 889 && prefix <= 898) return 'mountain';
+      if (prefix >= 900 && prefix <= 961) return 'westcoast';
+      if (prefix >= 967 && prefix <= 968) return 'westcoast';
+      if (prefix >= 970 && prefix <= 979) return 'westcoast';
+      if (prefix >= 980 && prefix <= 994) return 'westcoast';
+      if (prefix >= 995 && prefix <= 999) return 'mountain';
+      return 'national';
     }
 
-    /* Show results, hide calculator */
-    document.getElementById('results').classList.add('active');
-    document.getElementById('results').style.opacity = '1';
-    document.getElementById('results').style.transform = 'translateY(0)';
-    document.getElementById('results').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    let currentRegion = 'national';
 
-    /* Lead capture beacon */
-    const lp = new URLSearchParams();
-    lp.append('intake_token', 'd8250591bb879e8ded29510a25cc2e32');
-    lp.append('page_url', location.href);
-    lp.append('page_title', document.title);
-    lp.append('source', 'Website - Commercial Roofing Calculator');
-    lp.append('formName', 'Calculator Result - Commercial');
-    lp.append('building_size', selections.sizeLabel);
-    lp.append('project_type', selections.typeLabel);
-    lp.append('roofing_system', selections.systemLabel);
-    lp.append('zip_code', selections.zip);
-    lp.append('region', regionNames[region]);
-    lp.append('estimate_low', cost.total.low.toString());
-    lp.append('estimate_high', cost.total.high.toString());
-    navigator.sendBeacon('https://partners.minyona.com/api/webhooks/intake', lp);
-  }
-})();
-</script>
+    function getCosts() {
+      return REGIONAL_COSTS[currentRegion];
+    }
+
+    const SERVICE_NAMES = {
+      'replacement': 'Full Replacement',
+      'newconstruction': 'New Construction',
+      'recover': 'Recover / Overlay',
+      'coating': 'Coating / Restoration'
+    };
+
+    const BUILDING_NAMES = {
+      'office': 'Office',
+      'retail': 'Retail / Strip Mall',
+      'warehouse': 'Warehouse / Distribution',
+      'restaurant': 'Restaurant',
+      'other': 'Other Commercial'
+    };
+
+    function goToStep(n) {
+      state.step = n;
+      document.querySelectorAll('.calc-step').forEach(s => s.classList.remove('active'));
+      document.querySelector(`.calc-step[data-step="${n}"]`).classList.add('active');
+      document.querySelectorAll('.progress-step').forEach(p => {
+        const s = parseInt(p.dataset.step);
+        p.classList.remove('active', 'complete');
+        if (s === n) p.classList.add('active');
+        else if (s < n) p.classList.add('complete');
+      });
+      document.querySelector('.calc-section').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      updateNextBtn(n);
+    }
+
+    function updateNextBtn(step) {
+      const stepEl = document.querySelector(`.calc-step[data-step="${step}"]`);
+      const nextBtn = stepEl.querySelector('.next-btn');
+      if (!nextBtn) return;
+      if (step === 1) nextBtn.disabled = !state.service;
+      else if (step === 2) nextBtn.disabled = !state.size;
+      else if (step === 3) nextBtn.disabled = !state.material;
+    }
+
+    function autoAdvance(stepNum) {
+      setTimeout(() => { goToStep(stepNum + 1); }, 300);
+    }
+
+    // Auto-advance on steps 1-3
+    document.querySelectorAll('.calc-step[data-step="1"] .step-nav, .calc-step[data-step="2"] .step-nav, .calc-step[data-step="3"] .step-nav').forEach(nav => {
+      nav.classList.add('auto-advance');
+    });
+
+    // Step 1: Project type cards
+    document.querySelectorAll('.calc-step[data-step="1"] .option-card').forEach(card => {
+      card.addEventListener('click', () => {
+        document.querySelectorAll('.calc-step[data-step="1"] .option-card').forEach(c => c.classList.remove('selected'));
+        card.classList.add('selected');
+        state.service = card.dataset.value;
+        updateNextBtn(1);
+        autoAdvance(1);
+      });
+    });
+
+    // Step 2: Size cards
+    document.querySelectorAll('.calc-step[data-step="2"] .option-card').forEach(card => {
+      card.addEventListener('click', () => {
+        document.querySelectorAll('.calc-step[data-step="2"] .option-card').forEach(c => c.classList.remove('selected'));
+        card.classList.add('selected');
+        state.size = parseInt(card.dataset.value);
+        document.getElementById('customSize').value = '';
+        updateNextBtn(2);
+        autoAdvance(2);
+      });
+    });
+
+    // Custom size input
+    document.getElementById('customSize').addEventListener('input', (e) => {
+      const val = parseInt(e.target.value);
+      if (val >= 1000) {
+        state.size = val;
+        document.querySelectorAll('.calc-step[data-step="2"] .option-card').forEach(c => c.classList.remove('selected'));
+        document.querySelector('.calc-step[data-step="2"] .step-nav').classList.remove('auto-advance');
+        updateNextBtn(2);
+      } else {
+        if (!document.querySelector('.calc-step[data-step="2"] .option-card.selected')) {
+          state.size = null;
+          updateNextBtn(2);
+        }
+      }
+    });
+
+    // Step 3: Material cards
+    document.querySelectorAll('.material-card').forEach(card => {
+      card.addEventListener('click', () => {
+        document.querySelectorAll('.material-card').forEach(c => c.classList.remove('selected'));
+        card.classList.add('selected');
+        state.material = card.dataset.value;
+        updateNextBtn(3);
+        autoAdvance(3);
+      });
+    });
+
+    // Step 4: Detail options (single select)
+    document.querySelectorAll('.detail-options:not([data-field="features"]) .detail-option').forEach(opt => {
+      opt.addEventListener('click', () => {
+        const group = opt.parentElement;
+        group.querySelectorAll('.detail-option').forEach(o => o.classList.remove('selected'));
+        opt.classList.add('selected');
+        const field = group.dataset.field;
+        state[field] = opt.dataset.value;
+      });
+    });
+
+    // Step 4: Features (multi-select checkboxes)
+    document.querySelectorAll('.checkbox-option').forEach(opt => {
+      opt.addEventListener('click', () => {
+        const val = opt.dataset.value;
+        if (val === 'none') {
+          document.querySelectorAll('.checkbox-option').forEach(o => o.classList.remove('selected'));
+          opt.classList.add('selected');
+          state.features = [];
+        } else {
+          document.querySelector('.checkbox-option[data-value="none"]').classList.remove('selected');
+          opt.classList.toggle('selected');
+          if (opt.classList.contains('selected')) {
+            state.features.push(val);
+          } else {
+            state.features = state.features.filter(f => f !== val);
+          }
+          if (state.features.length === 0) {
+            document.querySelector('.checkbox-option[data-value="none"]').classList.add('selected');
+          }
+        }
+      });
+    });
+
+    // Next buttons
+    document.querySelectorAll('.next-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (btn.disabled) return;
+        if (state.step < 4) {
+          goToStep(state.step + 1);
+        } else if (state.step === 4) {
+          calculateResults();
+          goToStep(5);
+        }
+      });
+    });
+
+    // Back buttons
+    document.querySelectorAll('.back-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (state.step === 5) {
+          // Reset all
+          state.service = null;
+          state.size = null;
+          state.material = null;
+          state.buildingType = 'office';
+          state.condition = 'fair';
+          state.features = [];
+          document.querySelectorAll('.option-card, .material-card, .detail-option').forEach(c => c.classList.remove('selected'));
+          document.querySelector('.detail-option[data-value="office"]').classList.add('selected');
+          document.querySelector('.detail-options[data-field="condition"] .detail-option[data-value="fair"]').classList.add('selected');
+          document.querySelectorAll('.checkbox-option').forEach(o => o.classList.remove('selected'));
+          document.querySelector('.checkbox-option[data-value="none"]').classList.add('selected');
+          document.getElementById('customSize').value = '';
+          // Reset lead form and blur state
+          document.getElementById('leadForm').reset();
+          const rangeEl = document.querySelector('.results-range');
+          rangeEl.classList.remove('results-revealed');
+          rangeEl.classList.add('results-blurred');
+          document.querySelector('.unlock-badge').style.display = 'flex';
+          document.querySelector('.lead-form').style.display = 'block';
+          const submitBtn = document.getElementById('leadSubmitBtn');
+          submitBtn.textContent = 'Unlock My Estimate';
+          submitBtn.disabled = false;
+          currentRegion = 'national';
+          goToStep(1);
+        } else if (state.step > 1) {
+          goToStep(state.step - 1);
+        }
+      });
+    });
+
+    // Calculate results (uses national average initially, recalculates on ZIP entry)
+    function calculateResults() {
+      const size = state.size;
+      const costs = getCosts();
+      const cost = costs[state.material] || costs['not_sure'];
+
+      let low = cost.low * size;
+      let avg = cost.avg * size;
+      let high = cost.high * size;
+
+      // Coating/restoration is much cheaper
+      if (state.service === 'coating') {
+        low = size * 2.50;
+        avg = size * 3.50;
+        high = size * 5.00;
+      }
+
+      // Recover/overlay — slightly cheaper than full replacement (no tear-off)
+      if (state.service === 'recover') {
+        low *= 0.80;
+        avg *= 0.85;
+        high *= 0.90;
+      }
+
+      // Poor condition adds tear-off complexity
+      if (state.condition === 'poor' && (state.service === 'replacement' || state.service === 'newconstruction')) {
+        low += size * 1.00;
+        avg += size * 1.50;
+        high += size * 2.00;
+      }
+
+      // Feature adders
+      const featureCount = state.features.length;
+      if (featureCount > 0) {
+        const featurePct = featureCount * 0.05;
+        low *= (1 + featurePct);
+        avg *= (1 + featurePct);
+        high *= (1 + featurePct);
+      }
+
+      // Volume discount for large projects
+      if (size >= 50000) {
+        low *= 0.90;
+        avg *= 0.92;
+        high *= 0.95;
+      } else if (size >= 20000) {
+        low *= 0.93;
+        avg *= 0.95;
+        high *= 0.97;
+      }
+
+      // Round to nearest $500 for large commercial projects
+      low = Math.round(low / 500) * 500;
+      avg = Math.round(avg / 500) * 500;
+      high = Math.round(high / 500) * 500;
+
+      // Ensure logical ordering
+      if (avg < low) avg = low;
+      if (high < avg) high = avg;
+
+      // Format and display
+      const fmt = (n) => '$' + n.toLocaleString();
+      document.getElementById('resultRange').textContent = `${fmt(low)} \u2013 ${fmt(high)}`;
+      document.getElementById('resultAvg').textContent = fmt(avg);
+      document.getElementById('brkService').textContent = SERVICE_NAMES[state.service] || state.service;
+      document.getElementById('brkSize').textContent = size.toLocaleString() + ' sq ft';
+      document.getElementById('brkMaterial').textContent = cost.name;
+      document.getElementById('brkBuilding').textContent = BUILDING_NAMES[state.buildingType] || state.buildingType;
+
+      // Show region badge
+      const badge = document.getElementById('regionBadge');
+      document.getElementById('regionLabel').textContent = costs.label;
+      badge.style.display = 'inline-flex';
+    }
+
+    // Lead form submission — unlock blurred estimate
+    document.getElementById('leadForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      const firstName = document.getElementById('firstName').value.trim();
+      const lastName = document.getElementById('lastName').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const zip = document.getElementById('zip').value.trim();
+
+      if (!firstName || !lastName || !email || !phone || !zip) return;
+      if (!/^\d{5}$/.test(zip)) return;
+
+      // Recalculate with regional pricing based on ZIP
+      currentRegion = getRegionFromZip(zip);
+      calculateResults();
+
+      const costs = getCosts();
+      const cost = costs[state.material] || costs['not_sure'];
+      const resultRange = document.getElementById('resultRange').textContent;
+
+      const data = new URLSearchParams({
+        intake_token: 'd8250591bb879e8ded29510a25cc2e32',
+        firstName: firstName,
+        lastName: lastName,
+        name: `${firstName} ${lastName}`,
+        email: email,
+        phone: phone,
+        zip: zip,
+        service_type: 'commercial_roofing',
+        formName: 'Commercial Roof Guide - Roofing Calculator',
+        source: 'Website - Roofing Calculator',
+        service: 'Commercial Roofing - ' + (SERVICE_NAMES[state.service] || ''),
+        roofSize: (state.size || '') + ' sq ft',
+        material: cost.name || '',
+        buildingType: BUILDING_NAMES[state.buildingType] || '',
+        estimatedCost: resultRange,
+        page_url: window.location.href
+      });
+
+      navigator.sendBeacon('https://partners.minyona.com/api/webhooks/intake', data);
+
+      // Reveal blurred estimate
+      const rangeEl = document.querySelector('.results-range');
+      rangeEl.classList.remove('results-blurred');
+      rangeEl.classList.add('results-revealed');
+
+      // Hide unlock badge
+      document.querySelector('.unlock-badge').style.display = 'none';
+
+      // Update button state
+      const submitBtn = document.getElementById('leadSubmitBtn');
+      submitBtn.textContent = 'Estimate Unlocked!';
+      submitBtn.disabled = true;
+
+      // Scroll to revealed estimate
+      rangeEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+      // Redirect after user sees their numbers
+      const estimateRange = document.getElementById('resultRange').textContent;
+      const estimateAvg = document.getElementById('resultAvg').textContent;
+      setTimeout(() => {
+        window.location.href = `/thank-you/?firstName=${encodeURIComponent(firstName)}&service=${encodeURIComponent(SERVICE_NAMES[state.service] || '')}&estimateRange=${encodeURIComponent(estimateRange)}&estimateAvg=${encodeURIComponent(estimateAvg)}`;
+      }, 2500);
+    });
+
+    // Scroll animations
+    const observerOptions = { threshold: 0, rootMargin: '0px 0px -40px 0px' };
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, observerOptions);
+    document.querySelectorAll('.how-section, .cta-section').forEach(section => {
+      section.style.opacity = '0';
+      section.style.transform = 'translateY(30px)';
+      section.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+      observer.observe(section);
+    });
+  </script>
 </body>
 </html>
