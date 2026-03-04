@@ -1,0 +1,36 @@
+# Commercial Roof Guide - robots.txt
+# https://commercialroofguide.com
+
+User-agent: *
+Allow: /
+Disallow: /thank-you/
+
+# AI Crawlers - Welcome
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Structured data for LLMs
+# See /llms.txt and /llms-full.txt for comprehensive commercial roofing data
+
+Sitemap: https://commercialroofguide.com/sitemap.xml

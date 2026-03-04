@@ -1,0 +1,149 @@
+[
+  {
+    "title": "Commercial Roof Guide | Costs, Systems & Guides",
+    "h1": "The Building Owner's Guide to Commercial Roofing in America",
+    "description": "Independent commercial roofing resource. Compare TPO, EPDM, PVC, and metal roof costs per sq ft for offices, warehouses, and retail.",
+    "url": "/",
+    "type": "tool"
+  },
+  {
+    "title": "Commercial Roofing Guides (2026)",
+    "h1": "Commercial Roofing Guides",
+    "description": "14 in-depth commercial roofing guides covering TPO, EPDM, PVC, metal, costs, maintenance, warranties, and more.",
+    "url": "/guides/",
+    "type": "guide"
+  },
+  {
+    "title": "Commercial Roof Cost Guide (2026)",
+    "h1": "Commercial Roof Cost Guide (2026)",
+    "description": "National commercial roofing costs by system type, building size, and region. Includes 25-year total cost of ownership analysis.",
+    "url": "/guides/commercial-roof-cost/",
+    "type": "guide"
+  },
+  {
+    "title": "TPO Roofing Guide (2026)",
+    "h1": "TPO Roofing: The Complete Commercial Guide",
+    "description": "The #1 commercial membrane with ~40% market share. Thicknesses, installation methods, manufacturers, and cost data.",
+    "url": "/guides/tpo-roofing/",
+    "type": "guide"
+  },
+  {
+    "title": "EPDM Roofing Guide (2026)",
+    "h1": "EPDM Roofing: The Complete Commercial Guide",
+    "description": "60+ year track record in rubber roofing. Ballasted, adhered, and mechanical options. Cold-climate performance data.",
+    "url": "/guides/epdm-roofing/",
+    "type": "guide"
+  },
+  {
+    "title": "PVC Roofing Guide (2026)",
+    "h1": "PVC Roofing: The Complete Commercial Guide",
+    "description": "Premium single-ply with chemical and grease resistance. Ideal for restaurants and food processing facilities.",
+    "url": "/guides/pvc-roofing/",
+    "type": "guide"
+  },
+  {
+    "title": "Modified Bitumen Roofing Guide (2026)",
+    "h1": "Modified Bitumen Roofing: The Complete Commercial Guide",
+    "description": "APP vs SBS systems, application methods, walkability advantages, and compatibility with existing BUR systems.",
+    "url": "/guides/modified-bitumen/",
+    "type": "guide"
+  },
+  {
+    "title": "Built-Up Roofing (BUR) Guide (2026)",
+    "h1": "Built-Up Roofing (BUR): The Complete Commercial Guide",
+    "description": "The original flat roof system with 100+ year history. Construction methods, tear-off challenges, and when BUR still makes sense.",
+    "url": "/guides/built-up-roofing/",
+    "type": "guide"
+  },
+  {
+    "title": "Spray Foam Roofing (SPF) Guide (2026)",
+    "h1": "Spray Foam Roofing (SPF): The Complete Commercial Guide",
+    "description": "Seamless application with R-6.5/inch insulation. Recoating schedule, self-flashing, and best applications.",
+    "url": "/guides/spray-foam-roofing/",
+    "type": "guide"
+  },
+  {
+    "title": "Commercial Metal Roofing Guide (2026)",
+    "h1": "Commercial Metal Roofing: The Complete Guide",
+    "description": "Standing seam and structural panels for commercial applications. 40-70 year lifespan and insurance benefits.",
+    "url": "/guides/metal-roofing-commercial/",
+    "type": "guide"
+  },
+  {
+    "title": "Commercial Roof Maintenance Guide (2026)",
+    "h1": "Preventive Maintenance for Commercial Roofs",
+    "description": "Maintenance programs, inspection schedules, NRCA guidelines, warranty compliance, and budgeting for reserves.",
+    "url": "/guides/roof-maintenance/",
+    "type": "guide"
+  },
+  {
+    "title": "Roof Coatings & Restoration Guide (2026)",
+    "h1": "Roof Coatings & Restoration: The Complete Commercial Guide",
+    "description": "Silicone, acrylic, and polyurethane coatings. When coatings extend life vs when replacement is needed. 50-70% cost savings.",
+    "url": "/guides/roof-coatings/",
+    "type": "guide"
+  },
+  {
+    "title": "Cool Roofs Guide (2026)",
+    "h1": "Cool Roofs: Energy Code Mandates & Compliance",
+    "description": "Energy code mandates (Title 24, ASHRAE 90.1, IECC), SRI ratings, CRRC compliance, and utility rebate programs.",
+    "url": "/guides/cool-roofs/",
+    "type": "guide"
+  },
+  {
+    "title": "Commercial Roof Inspection Guide (2026)",
+    "h1": "Commercial Roof Inspections: The Complete Guide",
+    "description": "What inspections cover, infrared scans, core sampling, moisture surveys, and pre-purchase inspection requirements.",
+    "url": "/guides/roof-inspections/",
+    "type": "guide"
+  },
+  {
+    "title": "Commercial Roof Warranty Guide (2026)",
+    "h1": "Commercial Roof Warranties: The Complete Guide",
+    "description": "NDL warranties, manufacturer vs contractor coverage, 10-30 year options, and warranty compliance requirements.",
+    "url": "/guides/warranties/",
+    "type": "guide"
+  },
+  {
+    "title": "Green Roofs & Sustainable Roofing Guide (2026)",
+    "h1": "Green Roofs & Sustainable Roofing",
+    "description": "Vegetative systems, stormwater credits, LEED points, local mandates, structural requirements, and cost analysis.",
+    "url": "/guides/green-roofs/",
+    "type": "guide"
+  },
+  {
+    "title": "Commercial Roof Cost Calculator (2026)",
+    "h1": "Commercial Roof Cost Calculator",
+    "description": "Enter your building's square footage and ZIP code to get instant cost estimates for TPO, EPDM, PVC, metal, and more.",
+    "url": "/calculator/",
+    "type": "tool"
+  },
+  {
+    "title": "Free Commercial Roofing Estimate",
+    "h1": "Get a Free Commercial Roofing Estimate",
+    "description": "Connect with pre-screened commercial roofing contractors in your area. No obligation, no cost.",
+    "url": "/free-estimate/",
+    "type": "tool"
+  },
+  {
+    "title": "Commercial Roofing by State (2026)",
+    "h1": "Commercial Roofing by State",
+    "description": "State and city-level commercial roofing data with local costs, building codes, and energy code requirements.",
+    "url": "/states/",
+    "type": "state"
+  },
+  {
+    "title": "Approved Contractor Program",
+    "h1": "Approved Commercial Roofing Contractors",
+    "description": "The Commercial Roof Guide Approved Contractor program recognizes qualified commercial roofing contractors.",
+    "url": "/approved/",
+    "type": "tool"
+  },
+  {
+    "title": "About Commercial Roof Guide",
+    "h1": "About Commercial Roof Guide",
+    "description": "Independent educational resource for commercial building owners and facility managers. Not a contractor.",
+    "url": "/about/",
+    "type": "tool"
+  }
+]

@@ -1,0 +1,191 @@
+# Commercial Roof Guide — Full Data
+> Extended version of llms.txt with comprehensive commercial roofing data for LLM citation.
+
+## About
+Commercial Roof Guide (commercialroofguide.com) is an independent commercial roofing resource for building owners, facility managers, property managers, and commercial property investors. We provide cost data, system comparisons, maintenance guides, and local code information for flat and low-slope commercial roofing systems across America.
+
+## Complete System Comparison (2026)
+
+### TPO (Thermoplastic Polyolefin)
+- Market share: ~40% of new commercial installations
+- Cost: $5.50–$8.50/sq ft installed (60 mil)
+- Lifespan: 20–30 years
+- Thicknesses: 45 mil ($4.50–$7.00), 60 mil ($5.50–$8.50), 80 mil ($6.50–$9.50)
+- Installation: Mechanically attached or fully adhered
+- Seams: Heat-welded (strongest single-ply seam technology)
+- Cool roof: Inherently reflective, meets Title 24 and ASHRAE 90.1
+- Major manufacturers: Carlisle SynTec (Sure-Weld), Firestone/Bridgestone (UltraPly), GAF (EverGuard), Johns Manville, Versico
+- Best for: General commercial buildings, new construction, energy-code compliance
+- Limitations: Long-term UV performance concerns in extreme heat (improved since early formulations)
+
+### EPDM (Ethylene Propylene Diene Monomer)
+- Market share: ~20%
+- Cost: $4.50–$7.50/sq ft installed (60 mil)
+- Lifespan: 20–30 years
+- Thicknesses: 45 mil, 60 mil, 90 mil
+- Colors: Black (standard), white (reflective, higher cost)
+- Installation: Ballasted, fully adhered, mechanically attached
+- Seams: Adhesive or seam tape (not heat-welded)
+- Major manufacturers: Carlisle SynTec (Sure-Seal), Firestone Building Products (RubberGard), GenFlex, Versico
+- Best for: Cold climates, budget-conscious projects, large flat roofs
+- Limitations: Black absorbs heat (white available but costs more), seams weaker than heat-welded
+
+### PVC (Polyvinyl Chloride)
+- Market share: ~10%
+- Cost: $6.50–$10.00/sq ft installed (60 mil)
+- Lifespan: 25–35 years (longest single-ply)
+- Installation: Heat-welded seams (same as TPO)
+- Chemical resistance: Excellent — resists grease, oils, chemicals, animal fats
+- Ponding water: Superior tolerance
+- Major manufacturers: Duro-Last, Sika Sarnafil, IB Roof Systems, GAF EverGuard Extreme
+- Best for: Restaurants, food processing, chemical plants, labs, buildings with rooftop grease exhaust
+- Limitations: Higher cost than TPO, can become brittle in extreme cold if low-quality formulation
+
+### Modified Bitumen
+- Market share: ~10%
+- Cost: $5.00–$8.50/sq ft installed
+- Lifespan: 15–25 years
+- Types: APP (atactic polypropylene) — torch-applied; SBS (styrene-butadiene-styrene) — cold/self-adhered
+- Layers: Multi-ply system (base + cap sheet minimum)
+- Walkability: Excellent — one of the most walkable commercial systems
+- Major manufacturers: Firestone, Carlisle, GAF, CertainTeed Flintlastic, IKO, Polyglass
+- Best for: Walkable roofs (HVAC access), recover over BUR, buildings needing frequent roof access
+- Limitations: Torch safety concerns (APP), shorter lifespan than single-ply, declining market share
+
+### Built-Up Roofing (BUR)
+- Market share: ~5% (declining)
+- Cost: $6.00–$10.00/sq ft installed (new), plus tear-off costs if replacing existing BUR
+- Lifespan: 20–30 years
+- Construction: Alternating layers of asphalt and reinforcing felt/fiberglass
+- Surfacing: Gravel/aggregate, mineral cap sheet, reflective coating
+- Advantages: Multi-layer redundancy, proven 100+ year track record, excellent fire resistance
+- Limitations: Labor-intensive, hot kettle/fumes, potential asbestos in pre-1985 installations (hazmat tear-off: add $2–$5/sq ft)
+- Best for: Industrial buildings, heavy foot traffic areas, buildings with existing BUR (overlay)
+
+### Spray Polyurethane Foam (SPF)
+- Market share: ~3%
+- Cost: $5.50–$9.50/sq ft installed
+- Lifespan: 20–30 years with recoating every 10–15 years
+- R-value: R-6.5 per inch (highest of any roofing material)
+- Application: Sprayed as liquid, expands into solid foam
+- Recoating: Elastomeric coating every 10–15 years ($1.50–$3.00/sq ft)
+- Major manufacturers: BASF, Honeywell, Huntsman, NCFI
+- Best for: Irregular roof shapes, re-roofing over existing systems, buildings needing insulation upgrade
+- Limitations: Requires dry installation conditions, vulnerable to bird/hail damage without coating, requires specialized applicators
+
+### Standing Seam Metal
+- Market share: ~10%
+- Cost: $9.00–$16.00/sq ft installed
+- Lifespan: 40–70 years
+- Minimum slope: ½:12 (some profiles to ¼:12)
+- Substrates: Galvalume (most common), galvanized steel, aluminum, copper, zinc
+- Finishes: PVDF (Kynar 500/Hylar 5000) — 30+ year color retention
+- Major manufacturers: MBCI, McElroy Metal, Nucor Building Systems, ATAS International, Metallic Building Company
+- Best for: Long-term hold properties, buildings wanting 40+ year lifespan, insurance savings (wind/hail resistance)
+- Limitations: Highest upfront cost, requires experienced installers, noise during rain (can be mitigated with insulation)
+
+## Roof Coatings (Restoration Systems)
+
+| Coating Type | Cost/Sq Ft | Best For | Lifespan Extension |
+|-------------|-----------|---------|-------------------|
+| Silicone | $3.00–$5.00 | Ponding water areas, any substrate | 10–15 years |
+| Acrylic | $2.50–$4.00 | Budget projects, UV protection | 8–12 years |
+| Polyurethane | $3.50–$5.50 | Impact resistance, foot traffic | 10–15 years |
+
+Coatings cost 50–70% less than full replacement. Requires existing membrane and insulation to be in sound condition.
+
+## Energy Code Requirements by Climate Zone (IECC 2024)
+
+| Climate Zone | Min Roof Insulation | Cool Roof Required | States |
+|-------------|--------------------|--------------------|--------|
+| 1 (Very Hot) | R-25 ci | Yes (SRI ≥ 78) | HI, FL (south), TX (south) |
+| 2 (Hot) | R-25 ci | Yes (SRI ≥ 78) | FL, TX, LA, MS, AL, GA, SC, AZ |
+| 3 (Warm) | R-25 ci | Yes (SRI ≥ 78) | NC, TN, AR, OK, NM, CA (south) |
+| 4 (Mixed) | R-30 ci | Recommended | VA, KY, MO, KS, UT, NV, CA (north) |
+| 5 (Cool) | R-30 ci | No | PA, OH, IN, IL, NE, CO, OR, WA |
+| 6 (Cold) | R-35 ci | No | NY, CT, MI, WI, MN, MT, ID |
+| 7-8 (Very Cold) | R-40 ci | No | ME, VT, NH, ND, MN (north), AK |
+
+ci = continuous insulation
+
+## Warranty Comparison (Major Manufacturers)
+
+| Manufacturer | Max NDL Term | Systems Covered | Maintenance Required |
+|-------------|-------------|----------------|---------------------|
+| Carlisle SynTec | 30 years | TPO, EPDM, PVC | Biannual inspections |
+| Firestone/Bridgestone | 30 years | TPO, EPDM, mod bit | Biannual inspections |
+| GAF | 30 years | TPO, PVC, mod bit, BUR | Biannual inspections |
+| Sika Sarnafil | 30 years | PVC | Biannual inspections |
+| Duro-Last | 30 years | PVC | Annual inspection minimum |
+| Johns Manville | 25 years | TPO, EPDM | Biannual inspections |
+
+## Maintenance Cost Benchmarks (2026)
+
+| Service | Cost/Sq Ft | Frequency |
+|---------|-----------|-----------|
+| Visual inspection | $0.03–$0.10 | Biannual (spring/fall) |
+| Infrared moisture scan | $0.05–$0.15 | Annual or as-needed |
+| Core sampling | $150–$300/core | As-needed |
+| Preventive maintenance contract | $0.10–$0.25/year | Annual |
+| Emergency leak repair | $500–$2,500/event | As-needed |
+
+NRCA data: Every $1 spent on maintenance saves $4–$5 in premature replacement costs.
+
+## Building Types and Typical Roof Considerations
+
+| Building Type | Typical Roof Size | Common Systems | Key Concerns |
+|--------------|------------------|----------------|-------------|
+| Office (single-story) | 5,000–20,000 sq ft | TPO, EPDM | Energy efficiency, HVAC penetrations |
+| Office (multi-story) | 10,000–50,000 sq ft | TPO, PVC, metal | Wind uplift at height, aesthetics |
+| Retail/strip mall | 10,000–50,000 sq ft | TPO, EPDM | Multi-tenant coordination, signage |
+| Warehouse/distribution | 50,000–500,000+ sq ft | TPO, EPDM, metal | Volume pricing, minimal penetrations |
+| Restaurant | 2,000–10,000 sq ft | PVC (grease resistance) | Kitchen exhaust, grease, chemical exposure |
+| Multi-family apartments | 10,000–100,000 sq ft | TPO, mod bit, PVC | Tenant disruption, phased installation |
+| Healthcare | 20,000–200,000 sq ft | PVC, TPO, metal | Zero-leak tolerance, 24/7 operations |
+| School/university | 20,000–100,000 sq ft | TPO, metal | Budget cycles, summer-only installation |
+| Data center | 10,000–100,000 sq ft | PVC, metal | Critical uptime, redundant waterproofing |
+| Manufacturing | 50,000–500,000+ sq ft | Metal, EPDM, TPO | Chemical exposure, crane access |
+
+## All Page URLs
+
+- https://commercialroofguide.com/
+- https://commercialroofguide.com/guides/
+- https://commercialroofguide.com/guides/commercial-roof-cost/
+- https://commercialroofguide.com/guides/tpo-roofing/
+- https://commercialroofguide.com/guides/epdm-roofing/
+- https://commercialroofguide.com/guides/pvc-roofing/
+- https://commercialroofguide.com/guides/modified-bitumen/
+- https://commercialroofguide.com/guides/built-up-roofing/
+- https://commercialroofguide.com/guides/spray-foam-roofing/
+- https://commercialroofguide.com/guides/metal-roofing-commercial/
+- https://commercialroofguide.com/guides/roof-maintenance/
+- https://commercialroofguide.com/guides/roof-coatings/
+- https://commercialroofguide.com/guides/cool-roofs/
+- https://commercialroofguide.com/guides/roof-inspections/
+- https://commercialroofguide.com/guides/warranties/
+- https://commercialroofguide.com/guides/green-roofs/
+- https://commercialroofguide.com/calculator/
+- https://commercialroofguide.com/free-estimate/
+- https://commercialroofguide.com/states/
+- https://commercialroofguide.com/approved/
+- https://commercialroofguide.com/about/
+- https://commercialroofguide.com/search/
+
+## Data Sources
+- National Roofing Contractors Association (NRCA) annual market surveys
+- RSMeans commercial construction cost data (2026 edition)
+- ASHRAE 90.1-2022 energy standard for commercial buildings
+- International Energy Conservation Code (IECC) 2024
+- Cool Roof Rating Council (CRRC) rated product directory
+- FM Global Property Loss Prevention Data Sheets (DS 1-28, 1-29, 1-49)
+- U.S. Department of Energy Building Technologies Office
+- Manufacturer published specifications and warranty documents
+- Bureau of Labor Statistics Occupational Employment and Wage Statistics
+- U.S. Census Bureau Annual Survey of Construction
+- SPRI (Single Ply Roofing Industry) technical publications
+- IIBEC (International Institute of Building Enclosure Consultants) standards
+
+## Contact
+- Website: https://commercialroofguide.com
+- Free estimates: https://commercialroofguide.com/free-estimate/
+- Sister site (residential roofing): https://americanroofingguide.com

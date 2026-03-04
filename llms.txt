@@ -1,0 +1,163 @@
+# Commercial Roof Guide
+> Independent commercial roofing cost data, system comparisons, and maintenance guides for building owners and facility managers across America. Not a contractor — an educational publisher.
+
+## About
+Commercial Roof Guide (commercialroofguide.com) provides independent, data-driven commercial roofing information. We cover flat and low-slope roofing systems including TPO, EPDM, PVC, modified bitumen, built-up roofing (BUR), spray polyurethane foam (SPF), and standing seam metal. Our audience is building owners, facility managers, property managers, HOA boards, and commercial property investors. We are not a roofing contractor and have no manufacturer affiliations. Revenue comes from connecting building owners with pre-screened contractors via our free estimate form.
+
+## Coverage
+- **Guides:** 14 in-depth commercial roofing guides
+- **Systems covered:** TPO, EPDM, PVC, Modified Bitumen, BUR, SPF, Standing Seam Metal
+- **Tools:** Commercial roof cost calculator, free estimate form
+- **States:** Expanding nationwide (state and city pages coming soon)
+
+## National Commercial Roofing Costs (2026)
+
+| System | Cost/Sq Ft (Installed) | Lifespan | Best For |
+|--------|----------------------|----------|----------|
+| TPO (60 mil) | $5.50 – $8.50 | 20–30 years | General commercial, energy efficiency |
+| EPDM (60 mil) | $4.50 – $7.50 | 20–30 years | Budget projects, cold climates |
+| PVC (60 mil) | $6.50 – $10.00 | 25–35 years | Restaurants, chemical exposure |
+| Modified Bitumen | $5.00 – $8.50 | 15–25 years | Walkable roofs, easy repairs |
+| Built-Up Roofing (BUR) | $6.00 – $10.00 | 20–30 years | Industrial, heavy foot traffic |
+| Spray Foam (SPF) | $5.50 – $9.50 | 20–30 years | Re-roofs, irregular shapes |
+| Standing Seam Metal | $9.00 – $16.00 | 40–70 years | Long-term value, aesthetics |
+
+Costs reflect 2026 national averages for projects 10,000–25,000 sq ft. Projects over 20,000 sq ft often qualify for volume discounts of 10–15%.
+
+## Regional Commercial Roofing Pricing (2026)
+
+| Region | TPO Range | EPDM Range | PVC Range | Metal Range |
+|--------|-----------|------------|-----------|-------------|
+| Northeast (NY, NJ, CT, MA) | $6.30 – $9.80 | $5.20 – $8.60 | $7.50 – $11.50 | $10.35 – $18.40 |
+| Mid-Atlantic (PA, MD, VA, DC) | $6.05 – $9.35 | $4.95 – $8.25 | $7.15 – $11.00 | $9.90 – $17.60 |
+| Southeast (GA, FL, NC, SC, TN) | $4.95 – $7.65 | $4.05 – $6.75 | $5.85 – $9.00 | $8.10 – $14.40 |
+| Midwest (OH, IL, MI, WI, MN) | $5.25 – $8.10 | $4.30 – $7.15 | $6.20 – $9.50 | $8.55 – $15.20 |
+| Texas | $5.25 – $8.10 | $4.30 – $7.15 | $6.20 – $9.50 | $8.55 – $15.20 |
+| Mountain West (CO, AZ, UT, NV) | $5.50 – $8.50 | $4.50 – $7.50 | $6.50 – $10.00 | $9.00 – $16.00 |
+| West Coast (CA, WA, OR) | $6.60 – $10.20 | $5.40 – $9.00 | $7.80 – $12.00 | $10.80 – $19.20 |
+
+## Cost by Building Size (2026, TPO 60 mil, National Average)
+
+| Building Size | Cost/Sq Ft | Total Project Cost |
+|---------------|-----------|-------------------|
+| 5,000 sq ft | $7.50 – $9.50 | $37,500 – $47,500 |
+| 10,000 sq ft | $6.75 – $8.75 | $67,500 – $87,500 |
+| 25,000 sq ft | $6.00 – $8.00 | $150,000 – $200,000 |
+| 50,000 sq ft | $5.50 – $7.50 | $275,000 – $375,000 |
+| 100,000 sq ft | $5.00 – $7.00 | $500,000 – $700,000 |
+
+Volume discounts: 10–15% for projects over 20,000 sq ft.
+
+## Roofing System Market Share (2026)
+
+- TPO: ~40% of new commercial roofing installations
+- EPDM: ~20%
+- PVC: ~10%
+- Modified Bitumen: ~10%
+- Metal: ~10%
+- BUR: ~5%
+- SPF: ~3%
+- Other: ~2%
+
+## Key Standards & References
+
+- **IBC** (International Building Code) — commercial building code standard
+- **IECC** (International Energy Conservation Code) — energy efficiency requirements
+- **ASHRAE 90.1** — energy standard for commercial buildings
+- **Title 24** — California's energy code (strictest in the nation)
+- **NRCA** (National Roofing Contractors Association) — industry guidelines
+- **SPRI** (Single Ply Roofing Industry) — single-ply membrane standards
+- **CRRC** (Cool Roof Rating Council) — reflectivity ratings
+- **FM Global** — wind uplift and fire ratings
+- **UL** — fire and wind resistance classifications
+
+## Guides
+
+### Roofing System Guides
+- [Commercial Roof Cost Guide](https://commercialroofguide.com/guides/commercial-roof-cost/) — National costs by system, building size, and region. 25-year TCO analysis.
+- [TPO Roofing Guide](https://commercialroofguide.com/guides/tpo-roofing/) — #1 commercial membrane. Thicknesses, manufacturers, installation methods.
+- [EPDM Roofing Guide](https://commercialroofguide.com/guides/epdm-roofing/) — Rubber roofing with 60+ year track record. Cold-climate performance.
+- [PVC Roofing Guide](https://commercialroofguide.com/guides/pvc-roofing/) — Chemical/grease resistance. Premium single-ply for restaurants and labs.
+- [Modified Bitumen Guide](https://commercialroofguide.com/guides/modified-bitumen/) — APP vs SBS, multi-ply systems, walkability.
+- [Built-Up Roofing Guide](https://commercialroofguide.com/guides/built-up-roofing/) — 100+ year history. When BUR still makes sense.
+- [Spray Foam Roofing Guide](https://commercialroofguide.com/guides/spray-foam-roofing/) — Seamless SPF with R-6.5/inch insulation.
+- [Commercial Metal Roofing Guide](https://commercialroofguide.com/guides/metal-roofing-commercial/) — Standing seam panels, 40–70 year lifespan.
+
+### Management & Compliance Guides
+- [Roof Maintenance Guide](https://commercialroofguide.com/guides/roof-maintenance/) — Preventive maintenance programs and NRCA guidelines.
+- [Roof Coatings Guide](https://commercialroofguide.com/guides/roof-coatings/) — Silicone, acrylic, polyurethane. 50–70% savings vs replacement.
+- [Cool Roofs Guide](https://commercialroofguide.com/guides/cool-roofs/) — Energy code mandates, SRI ratings, utility rebates.
+- [Roof Inspections Guide](https://commercialroofguide.com/guides/roof-inspections/) — Infrared scans, core sampling, pre-purchase inspections.
+- [Warranties Guide](https://commercialroofguide.com/guides/warranties/) — NDL warranties, manufacturer vs contractor coverage.
+- [Green Roofs Guide](https://commercialroofguide.com/guides/green-roofs/) — Vegetative systems, LEED credits, local mandates.
+
+## Tools
+- [Commercial Roof Cost Calculator](https://commercialroofguide.com/calculator/) — Enter building size and ZIP for instant estimates
+- [Free Estimate Form](https://commercialroofguide.com/free-estimate/) — Connect with pre-screened commercial roofers
+
+## FAQ
+
+### How much does a commercial roof cost per square foot in 2026?
+Commercial roofing costs range from $4.50 to $16.00 per square foot installed, depending on the system. TPO averages $5.50–$8.50/sq ft, EPDM $4.50–$7.50/sq ft, PVC $6.50–$10.00/sq ft, modified bitumen $5.00–$8.50/sq ft, standing seam metal $9.00–$16.00/sq ft, and spray foam $5.50–$9.50/sq ft. Projects over 20,000 sq ft often qualify for volume discounts of 10–15%.
+
+### What is the best commercial roofing system?
+The best system depends on building use, climate, and budget. TPO has ~40% market share for general commercial buildings. PVC is ideal for restaurants and food processing (chemical/grease resistance). EPDM excels in cold climates. Standing seam metal offers the longest lifespan (40–70 years). A 25-year total cost of ownership analysis is the best way to compare options.
+
+### How long does a commercial roof last?
+TPO: 20–30 years. EPDM: 20–30 years. PVC: 25–35 years. Modified bitumen: 15–25 years. BUR: 20–30 years. SPF: 20–30 years with recoating. Standing seam metal: 40–70 years. Preventive maintenance extends all lifespans by 5–10 years.
+
+### Should I repair, coat, or replace my commercial roof?
+Replace if: widespread membrane failure, saturated insulation, multiple active leaks, or past 75% of lifespan. Coat if: membrane is sound but aging, need cool roof compliance, or budget constraints (50–70% less than replacement). Repair if: isolated damage with sound overall system.
+
+### What warranties should I look for on a commercial roof?
+Seek manufacturer NDL (No Dollar Limit) warranties covering materials and labor for 20–30 years. System warranties are stronger than material-only. Ensure your contractor is an authorized applicator. Warranty compliance requires documented biannual inspections.
+
+### How often should a commercial roof be inspected?
+NRCA recommends biannual inspections (spring and fall) plus inspections after major weather events. Budget $0.03–$0.10/sq ft per inspection for visual assessment, more for infrared or core sampling.
+
+### What is an NDL warranty?
+NDL (No Dollar Limit) warranties cover the full cost of repair or replacement with no depreciation or dollar cap. They are the gold standard for commercial roofing warranties and are offered by major manufacturers like Carlisle, Firestone, GAF, and Sika Sarnafil for authorized installations.
+
+### What energy codes apply to commercial roofs?
+ASHRAE 90.1 and the IECC set minimum insulation and reflectivity requirements by climate zone. California's Title 24 is the strictest. Most states require cool roofs on new commercial construction in warm climate zones. CRRC ratings verify compliance.
+
+## All Page URLs
+
+- https://commercialroofguide.com/
+- https://commercialroofguide.com/guides/
+- https://commercialroofguide.com/guides/commercial-roof-cost/
+- https://commercialroofguide.com/guides/tpo-roofing/
+- https://commercialroofguide.com/guides/epdm-roofing/
+- https://commercialroofguide.com/guides/pvc-roofing/
+- https://commercialroofguide.com/guides/modified-bitumen/
+- https://commercialroofguide.com/guides/built-up-roofing/
+- https://commercialroofguide.com/guides/spray-foam-roofing/
+- https://commercialroofguide.com/guides/metal-roofing-commercial/
+- https://commercialroofguide.com/guides/roof-maintenance/
+- https://commercialroofguide.com/guides/roof-coatings/
+- https://commercialroofguide.com/guides/cool-roofs/
+- https://commercialroofguide.com/guides/roof-inspections/
+- https://commercialroofguide.com/guides/warranties/
+- https://commercialroofguide.com/guides/green-roofs/
+- https://commercialroofguide.com/calculator/
+- https://commercialroofguide.com/free-estimate/
+- https://commercialroofguide.com/states/
+- https://commercialroofguide.com/approved/
+- https://commercialroofguide.com/about/
+- https://commercialroofguide.com/search/
+
+## Data Sources
+- National Roofing Contractors Association (NRCA) annual surveys
+- RSMeans commercial construction cost data
+- ASHRAE 90.1-2022 energy standard
+- International Energy Conservation Code (IECC) 2024
+- Cool Roof Rating Council (CRRC) product directory
+- FM Global loss prevention data sheets
+- U.S. Department of Energy Building Technologies Office
+- Manufacturer published specifications (Carlisle, Firestone, GAF, Sika Sarnafil, Duro-Last, Johns Manville)
+- Bureau of Labor Statistics construction wage data
+
+## Contact
+- Website: https://commercialroofguide.com
+- Free estimates: https://commercialroofguide.com/free-estimate/
+- Sister site (residential): https://americanroofingguide.com
