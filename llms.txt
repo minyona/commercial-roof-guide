@@ -8,7 +8,7 @@ Commercial Roof Guide (commercialroofguide.com) provides independent, data-drive
 - **Guides:** 14 in-depth commercial roofing guides
 - **Systems covered:** TPO, EPDM, PVC, Modified Bitumen, BUR, SPF, Standing Seam Metal
 - **Tools:** Commercial roof cost calculator, free estimate form
-- **States:** Expanding nationwide (state and city pages coming soon)
+- **States:** 1 active state (Georgia) with 30 city guides
 
 ## National Commercial Roofing Costs (2026)
 
@@ -70,6 +70,17 @@ Volume discounts: 10–15% for projects over 20,000 sq ft.
 - **CRRC** (Cool Roof Rating Council) — reflectivity ratings
 - **FM Global** — wind uplift and fire ratings
 - **UL** — fire and wind resistance classifications
+
+
+## Georgia Commercial Roofing Data
+- TPO (60 mil): $4.95 - $7.65/sq ft
+- EPDM (60 mil): $4.05 - $6.75/sq ft
+- PVC (60 mil): $5.85 - $9.00/sq ft
+- Modified Bitumen: $4.50 - $7.65/sq ft
+- Standing Seam Metal: $8.10 - $14.40/sq ft
+- Georgia building code baseline: 2024 IBC with Georgia amendments effective January 1, 2026
+- Georgia energy path: IECC 2015 with state supplements/amendments (ASHRAE 90.1 alternative path)
+- 30 city guides across Atlanta Metro, Coastal Georgia, Middle Georgia, East Georgia, West Georgia, Northeast Georgia, Northwest Georgia, and South Georgia
 
 ## Guides
 
@@ -145,6 +156,37 @@ ASHRAE 90.1 and the IECC set minimum insulation and reflectivity requirements by
 - https://commercialroofguide.com/approved/
 - https://commercialroofguide.com/about/
 - https://commercialroofguide.com/search/
+- https://commercialroofguide.com/states/georgia/
+- https://commercialroofguide.com/states/georgia/albany/
+- https://commercialroofguide.com/states/georgia/alpharetta/
+- https://commercialroofguide.com/states/georgia/athens/
+- https://commercialroofguide.com/states/georgia/atlanta/
+- https://commercialroofguide.com/states/georgia/augusta/
+- https://commercialroofguide.com/states/georgia/brookhaven/
+- https://commercialroofguide.com/states/georgia/brunswick/
+- https://commercialroofguide.com/states/georgia/columbus/
+- https://commercialroofguide.com/states/georgia/dalton/
+- https://commercialroofguide.com/states/georgia/douglasville/
+- https://commercialroofguide.com/states/georgia/duluth/
+- https://commercialroofguide.com/states/georgia/dunwoody/
+- https://commercialroofguide.com/states/georgia/gainesville/
+- https://commercialroofguide.com/states/georgia/johns-creek/
+- https://commercialroofguide.com/states/georgia/kennesaw/
+- https://commercialroofguide.com/states/georgia/lagrange/
+- https://commercialroofguide.com/states/georgia/lawrenceville/
+- https://commercialroofguide.com/states/georgia/macon/
+- https://commercialroofguide.com/states/georgia/marietta/
+- https://commercialroofguide.com/states/georgia/newnan/
+- https://commercialroofguide.com/states/georgia/peachtree-corners/
+- https://commercialroofguide.com/states/georgia/rome/
+- https://commercialroofguide.com/states/georgia/roswell/
+- https://commercialroofguide.com/states/georgia/sandy-springs/
+- https://commercialroofguide.com/states/georgia/savannah/
+- https://commercialroofguide.com/states/georgia/smyrna/
+- https://commercialroofguide.com/states/georgia/statesboro/
+- https://commercialroofguide.com/states/georgia/valdosta/
+- https://commercialroofguide.com/states/georgia/warner-robins/
+- https://commercialroofguide.com/states/georgia/woodstock/
 
 ## Data Sources
 - National Roofing Contractors Association (NRCA) annual surveys

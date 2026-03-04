@@ -7,109 +7,18 @@
     "type": "tool"
   },
   {
-    "title": "Commercial Roofing Guides (2026)",
-    "h1": "Commercial Roofing Guides",
-    "description": "14 in-depth commercial roofing guides covering TPO, EPDM, PVC, metal, costs, maintenance, warranties, and more.",
-    "url": "/guides/",
-    "type": "guide"
+    "title": "About Commercial Roof Guide",
+    "h1": "About Commercial Roof Guide",
+    "description": "Independent educational resource for commercial building owners and facility managers. Not a contractor.",
+    "url": "/about/",
+    "type": "tool"
   },
   {
-    "title": "Commercial Roof Cost Guide (2026)",
-    "h1": "Commercial Roof Cost Guide (2026)",
-    "description": "National commercial roofing costs by system type, building size, and region. Includes 25-year total cost of ownership analysis.",
-    "url": "/guides/commercial-roof-cost/",
-    "type": "guide"
-  },
-  {
-    "title": "TPO Roofing Guide (2026)",
-    "h1": "TPO Roofing: The Complete Commercial Guide",
-    "description": "The #1 commercial membrane with ~40% market share. Thicknesses, installation methods, manufacturers, and cost data.",
-    "url": "/guides/tpo-roofing/",
-    "type": "guide"
-  },
-  {
-    "title": "EPDM Roofing Guide (2026)",
-    "h1": "EPDM Roofing: The Complete Commercial Guide",
-    "description": "60+ year track record in rubber roofing. Ballasted, adhered, and mechanical options. Cold-climate performance data.",
-    "url": "/guides/epdm-roofing/",
-    "type": "guide"
-  },
-  {
-    "title": "PVC Roofing Guide (2026)",
-    "h1": "PVC Roofing: The Complete Commercial Guide",
-    "description": "Premium single-ply with chemical and grease resistance. Ideal for restaurants and food processing facilities.",
-    "url": "/guides/pvc-roofing/",
-    "type": "guide"
-  },
-  {
-    "title": "Modified Bitumen Roofing Guide (2026)",
-    "h1": "Modified Bitumen Roofing: The Complete Commercial Guide",
-    "description": "APP vs SBS systems, application methods, walkability advantages, and compatibility with existing BUR systems.",
-    "url": "/guides/modified-bitumen/",
-    "type": "guide"
-  },
-  {
-    "title": "Built-Up Roofing (BUR) Guide (2026)",
-    "h1": "Built-Up Roofing (BUR): The Complete Commercial Guide",
-    "description": "The original flat roof system with 100+ year history. Construction methods, tear-off challenges, and when BUR still makes sense.",
-    "url": "/guides/built-up-roofing/",
-    "type": "guide"
-  },
-  {
-    "title": "Spray Foam Roofing (SPF) Guide (2026)",
-    "h1": "Spray Foam Roofing (SPF): The Complete Commercial Guide",
-    "description": "Seamless application with R-6.5/inch insulation. Recoating schedule, self-flashing, and best applications.",
-    "url": "/guides/spray-foam-roofing/",
-    "type": "guide"
-  },
-  {
-    "title": "Commercial Metal Roofing Guide (2026)",
-    "h1": "Commercial Metal Roofing: The Complete Guide",
-    "description": "Standing seam and structural panels for commercial applications. 40-70 year lifespan and insurance benefits.",
-    "url": "/guides/metal-roofing-commercial/",
-    "type": "guide"
-  },
-  {
-    "title": "Commercial Roof Maintenance Guide (2026)",
-    "h1": "Preventive Maintenance for Commercial Roofs",
-    "description": "Maintenance programs, inspection schedules, NRCA guidelines, warranty compliance, and budgeting for reserves.",
-    "url": "/guides/roof-maintenance/",
-    "type": "guide"
-  },
-  {
-    "title": "Roof Coatings & Restoration Guide (2026)",
-    "h1": "Roof Coatings & Restoration: The Complete Commercial Guide",
-    "description": "Silicone, acrylic, and polyurethane coatings. When coatings extend life vs when replacement is needed. 50-70% cost savings.",
-    "url": "/guides/roof-coatings/",
-    "type": "guide"
-  },
-  {
-    "title": "Cool Roofs Guide (2026)",
-    "h1": "Cool Roofs: Energy Code Mandates & Compliance",
-    "description": "Energy code mandates (Title 24, ASHRAE 90.1, IECC), SRI ratings, CRRC compliance, and utility rebate programs.",
-    "url": "/guides/cool-roofs/",
-    "type": "guide"
-  },
-  {
-    "title": "Commercial Roof Inspection Guide (2026)",
-    "h1": "Commercial Roof Inspections: The Complete Guide",
-    "description": "What inspections cover, infrared scans, core sampling, moisture surveys, and pre-purchase inspection requirements.",
-    "url": "/guides/roof-inspections/",
-    "type": "guide"
-  },
-  {
-    "title": "Commercial Roof Warranty Guide (2026)",
-    "h1": "Commercial Roof Warranties: The Complete Guide",
-    "description": "NDL warranties, manufacturer vs contractor coverage, 10-30 year options, and warranty compliance requirements.",
-    "url": "/guides/warranties/",
-    "type": "guide"
-  },
-  {
-    "title": "Green Roofs & Sustainable Roofing Guide (2026)",
-    "h1": "Green Roofs & Sustainable Roofing",
-    "description": "Vegetative systems, stormwater credits, LEED points, local mandates, structural requirements, and cost analysis.",
-    "url": "/guides/green-roofs/",
-    "type": "guide"
+    "title": "Approved Contractor Program",
+    "h1": "Approved Commercial Roofing Contractors",
+    "description": "The Commercial Roof Guide Approved Contractor program recognizes qualified commercial roofing contractors.",
+    "url": "/approved/",
+    "type": "tool"
   },
   {
     "title": "Commercial Roof Cost Calculator (2026)",
@@ -126,6 +35,111 @@
     "type": "tool"
   },
   {
+    "title": "Commercial Roofing Guides (2026)",
+    "h1": "Commercial Roofing Guides",
+    "description": "14 in-depth commercial roofing guides covering TPO, EPDM, PVC, metal, costs, maintenance, warranties, and more.",
+    "url": "/guides/",
+    "type": "guide"
+  },
+  {
+    "title": "Built-Up Roofing (BUR) Guide (2026)",
+    "h1": "Built-Up Roofing (BUR): The Complete Commercial Guide",
+    "description": "The original flat roof system with 100+ year history. Construction methods, tear-off challenges, and when BUR still makes sense.",
+    "url": "/guides/built-up-roofing/",
+    "type": "guide"
+  },
+  {
+    "title": "Commercial Roof Cost Guide (2026)",
+    "h1": "Commercial Roof Cost Guide (2026)",
+    "description": "National commercial roofing costs by system type, building size, and region. Includes 25-year total cost of ownership analysis.",
+    "url": "/guides/commercial-roof-cost/",
+    "type": "guide"
+  },
+  {
+    "title": "Cool Roofs Guide (2026)",
+    "h1": "Cool Roofs: Energy Code Mandates & Compliance",
+    "description": "Energy code mandates (Title 24, ASHRAE 90.1, IECC), SRI ratings, CRRC compliance, and utility rebate programs.",
+    "url": "/guides/cool-roofs/",
+    "type": "guide"
+  },
+  {
+    "title": "EPDM Roofing Guide (2026)",
+    "h1": "EPDM Roofing: The Complete Commercial Guide",
+    "description": "60+ year track record in rubber roofing. Ballasted, adhered, and mechanical options. Cold-climate performance data.",
+    "url": "/guides/epdm-roofing/",
+    "type": "guide"
+  },
+  {
+    "title": "Green Roofs & Sustainable Roofing Guide (2026)",
+    "h1": "Green Roofs & Sustainable Roofing",
+    "description": "Vegetative systems, stormwater credits, LEED points, local mandates, structural requirements, and cost analysis.",
+    "url": "/guides/green-roofs/",
+    "type": "guide"
+  },
+  {
+    "title": "Commercial Metal Roofing Guide (2026)",
+    "h1": "Commercial Metal Roofing: The Complete Guide",
+    "description": "Standing seam and structural panels for commercial applications. 40-70 year lifespan and insurance benefits.",
+    "url": "/guides/metal-roofing-commercial/",
+    "type": "guide"
+  },
+  {
+    "title": "Modified Bitumen Roofing Guide (2026)",
+    "h1": "Modified Bitumen Roofing: The Complete Commercial Guide",
+    "description": "APP vs SBS systems, application methods, walkability advantages, and compatibility with existing BUR systems.",
+    "url": "/guides/modified-bitumen/",
+    "type": "guide"
+  },
+  {
+    "title": "PVC Roofing Guide (2026)",
+    "h1": "PVC Roofing: The Complete Commercial Guide",
+    "description": "Premium single-ply with chemical and grease resistance. Ideal for restaurants and food processing facilities.",
+    "url": "/guides/pvc-roofing/",
+    "type": "guide"
+  },
+  {
+    "title": "Roof Coatings & Restoration Guide (2026)",
+    "h1": "Roof Coatings & Restoration: The Complete Commercial Guide",
+    "description": "Silicone, acrylic, and polyurethane coatings. When coatings extend life vs when replacement is needed. 50-70% cost savings.",
+    "url": "/guides/roof-coatings/",
+    "type": "guide"
+  },
+  {
+    "title": "Commercial Roof Inspection Guide (2026)",
+    "h1": "Commercial Roof Inspections: The Complete Guide",
+    "description": "What inspections cover, infrared scans, core sampling, moisture surveys, and pre-purchase inspection requirements.",
+    "url": "/guides/roof-inspections/",
+    "type": "guide"
+  },
+  {
+    "title": "Commercial Roof Maintenance Guide (2026)",
+    "h1": "Preventive Maintenance for Commercial Roofs",
+    "description": "Maintenance programs, inspection schedules, NRCA guidelines, warranty compliance, and budgeting for reserves.",
+    "url": "/guides/roof-maintenance/",
+    "type": "guide"
+  },
+  {
+    "title": "Spray Foam Roofing (SPF) Guide (2026)",
+    "h1": "Spray Foam Roofing (SPF): The Complete Commercial Guide",
+    "description": "Seamless application with R-6.5/inch insulation. Recoating schedule, self-flashing, and best applications.",
+    "url": "/guides/spray-foam-roofing/",
+    "type": "guide"
+  },
+  {
+    "title": "TPO Roofing Guide (2026)",
+    "h1": "TPO Roofing: The Complete Commercial Guide",
+    "description": "The #1 commercial membrane with ~40% market share. Thicknesses, installation methods, manufacturers, and cost data.",
+    "url": "/guides/tpo-roofing/",
+    "type": "guide"
+  },
+  {
+    "title": "Commercial Roof Warranty Guide (2026)",
+    "h1": "Commercial Roof Warranties: The Complete Guide",
+    "description": "NDL warranties, manufacturer vs contractor coverage, 10-30 year options, and warranty compliance requirements.",
+    "url": "/guides/warranties/",
+    "type": "guide"
+  },
+  {
     "title": "Commercial Roofing by State (2026)",
     "h1": "Commercial Roofing by State",
     "description": "State and city-level commercial roofing data with local costs, building codes, and energy code requirements.",
@@ -133,17 +147,220 @@
     "type": "state"
   },
   {
-    "title": "Approved Contractor Program",
-    "h1": "Approved Commercial Roofing Contractors",
-    "description": "The Commercial Roof Guide Approved Contractor program recognizes qualified commercial roofing contractors.",
-    "url": "/approved/",
-    "type": "tool"
+    "title": "Commercial Roofing in Georgia (30 Cities)",
+    "h1": "Commercial Roofing in Georgia: Costs & Systems",
+    "description": "Georgia commercial roofing costs, code requirements, and climate guidance across 30 city markets.",
+    "url": "/states/georgia/",
+    "type": "state"
   },
   {
-    "title": "About Commercial Roof Guide",
-    "h1": "About Commercial Roof Guide",
-    "description": "Independent educational resource for commercial building owners and facility managers. Not a contractor.",
-    "url": "/about/",
-    "type": "tool"
+    "title": "Commercial Roofing in Albany GA (2026)",
+    "h1": "Commercial Roofing in Albany, GA (2026)",
+    "description": "Albany, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/albany/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Alpharetta GA (2026)",
+    "h1": "Commercial Roofing in Alpharetta, GA (2026)",
+    "description": "Alpharetta, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/alpharetta/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Athens GA (2026)",
+    "h1": "Commercial Roofing in Athens, GA (2026)",
+    "description": "Athens, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/athens/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Atlanta GA (2026)",
+    "h1": "Commercial Roofing in Atlanta, GA (2026)",
+    "description": "Atlanta, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/atlanta/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Augusta GA (2026)",
+    "h1": "Commercial Roofing in Augusta, GA (2026)",
+    "description": "Augusta, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/augusta/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Brookhaven GA (2026)",
+    "h1": "Commercial Roofing in Brookhaven, GA (2026)",
+    "description": "Brookhaven, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/brookhaven/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Brunswick GA (2026)",
+    "h1": "Commercial Roofing in Brunswick, GA (2026)",
+    "description": "Brunswick, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/brunswick/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Columbus GA (2026)",
+    "h1": "Commercial Roofing in Columbus, GA (2026)",
+    "description": "Columbus, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/columbus/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Dalton GA (2026)",
+    "h1": "Commercial Roofing in Dalton, GA (2026)",
+    "description": "Dalton, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/dalton/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Douglasville GA (2026)",
+    "h1": "Commercial Roofing in Douglasville, GA (2026)",
+    "description": "Douglasville, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/douglasville/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Duluth GA (2026)",
+    "h1": "Commercial Roofing in Duluth, GA (2026)",
+    "description": "Duluth, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/duluth/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Dunwoody GA (2026)",
+    "h1": "Commercial Roofing in Dunwoody, GA (2026)",
+    "description": "Dunwoody, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/dunwoody/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Gainesville GA (2026)",
+    "h1": "Commercial Roofing in Gainesville, GA (2026)",
+    "description": "Gainesville, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/gainesville/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Johns Creek GA (2026)",
+    "h1": "Commercial Roofing in Johns Creek, GA (2026)",
+    "description": "Johns Creek, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/johns-creek/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Kennesaw GA (2026)",
+    "h1": "Commercial Roofing in Kennesaw, GA (2026)",
+    "description": "Kennesaw, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/kennesaw/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in LaGrange GA (2026)",
+    "h1": "Commercial Roofing in LaGrange, GA (2026)",
+    "description": "LaGrange, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/lagrange/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Lawrenceville GA (2026)",
+    "h1": "Commercial Roofing in Lawrenceville, GA (2026)",
+    "description": "Lawrenceville, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/lawrenceville/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Macon GA (2026)",
+    "h1": "Commercial Roofing in Macon, GA (2026)",
+    "description": "Macon, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/macon/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Marietta GA (2026)",
+    "h1": "Commercial Roofing in Marietta, GA (2026)",
+    "description": "Marietta, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/marietta/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Newnan GA (2026)",
+    "h1": "Commercial Roofing in Newnan, GA (2026)",
+    "description": "Newnan, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/newnan/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Peachtree Corners GA (2026)",
+    "h1": "Commercial Roofing in Peachtree Corners, GA (2026)",
+    "description": "Peachtree Corners, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/peachtree-corners/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Rome GA (2026)",
+    "h1": "Commercial Roofing in Rome, GA (2026)",
+    "description": "Rome, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/rome/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Roswell GA (2026)",
+    "h1": "Commercial Roofing in Roswell, GA (2026)",
+    "description": "Roswell, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/roswell/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Sandy Springs GA (2026)",
+    "h1": "Commercial Roofing in Sandy Springs, GA (2026)",
+    "description": "Sandy Springs, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/sandy-springs/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Savannah GA (2026)",
+    "h1": "Commercial Roofing in Savannah, GA (2026)",
+    "description": "Savannah, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/savannah/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Smyrna GA (2026)",
+    "h1": "Commercial Roofing in Smyrna, GA (2026)",
+    "description": "Smyrna, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/smyrna/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Statesboro GA (2026)",
+    "h1": "Commercial Roofing in Statesboro, GA (2026)",
+    "description": "Statesboro, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/statesboro/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Valdosta GA (2026)",
+    "h1": "Commercial Roofing in Valdosta, GA (2026)",
+    "description": "Valdosta, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/valdosta/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Warner Robins GA (2026)",
+    "h1": "Commercial Roofing in Warner Robins, GA (2026)",
+    "description": "Warner Robins, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/warner-robins/",
+    "type": "state"
+  },
+  {
+    "title": "Commercial Roofing in Woodstock GA (2026)",
+    "h1": "Commercial Roofing in Woodstock, GA (2026)",
+    "description": "Woodstock, GA commercial roofing costs, systems, and code requirements for offices, warehouses, and retail.",
+    "url": "/states/georgia/woodstock/",
+    "type": "state"
   }
 ]
