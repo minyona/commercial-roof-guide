@@ -8,7 +8,7 @@ Commercial Roof Guide (commercialroofguide.com) provides independent, data-drive
 - **Guides:** 14 in-depth commercial roofing guides
 - **Systems covered:** TPO, EPDM, PVC, Modified Bitumen, BUR, SPF, Standing Seam Metal
 - **Tools:** Commercial roof cost calculator, free estimate form
-- **States:** 1 active state (Georgia) with 30 city guides
+- **States:** 50 active states with 562 city guides
 
 ## National Commercial Roofing Costs (2026)
 
@@ -72,15 +72,507 @@ Volume discounts: 10–15% for projects over 20,000 sq ft.
 - **UL** — fire and wind resistance classifications
 
 
+
+
+## Alabama Commercial Roofing Data
+- TPO (60 mil): $4.95 - $7.65/sq ft
+- EPDM (60 mil): $4.05 - $6.75/sq ft
+- PVC (60 mil): $5.85 - $9.00/sq ft
+- Modified Bitumen: $4.50 - $7.65/sq ft
+- Standing Seam Metal: $8.10 - $14.40/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 10 city guides in Alabama
+
+## Alaska Commercial Roofing Data
+- TPO (60 mil): $5.50 - $8.50/sq ft
+- EPDM (60 mil): $4.50 - $7.50/sq ft
+- PVC (60 mil): $6.50 - $10.00/sq ft
+- Modified Bitumen: $5.00 - $8.50/sq ft
+- Standing Seam Metal: $9.00 - $16.00/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 8 city guides in Alaska
+
+## Arizona Commercial Roofing Data
+- TPO (60 mil): $5.50 - $8.50/sq ft
+- EPDM (60 mil): $4.50 - $7.50/sq ft
+- PVC (60 mil): $6.50 - $10.00/sq ft
+- Modified Bitumen: $5.00 - $8.50/sq ft
+- Standing Seam Metal: $9.00 - $16.00/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 9 city guides in Arizona
+
+## Arkansas Commercial Roofing Data
+- TPO (60 mil): $4.95 - $7.65/sq ft
+- EPDM (60 mil): $4.05 - $6.75/sq ft
+- PVC (60 mil): $5.85 - $9.00/sq ft
+- Modified Bitumen: $4.50 - $7.65/sq ft
+- Standing Seam Metal: $8.10 - $14.40/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 8 city guides in Arkansas
+
+## California Commercial Roofing Data
+- TPO (60 mil): $6.60 - $10.20/sq ft
+- EPDM (60 mil): $5.40 - $9.00/sq ft
+- PVC (60 mil): $7.80 - $12.00/sq ft
+- Modified Bitumen: $6.00 - $10.20/sq ft
+- Standing Seam Metal: $10.80 - $19.20/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 18 city guides in California
+
+## Colorado Commercial Roofing Data
+- TPO (60 mil): $5.50 - $8.50/sq ft
+- EPDM (60 mil): $4.50 - $7.50/sq ft
+- PVC (60 mil): $6.50 - $10.00/sq ft
+- Modified Bitumen: $5.00 - $8.50/sq ft
+- Standing Seam Metal: $9.00 - $16.00/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 9 city guides in Colorado
+
+## Connecticut Commercial Roofing Data
+- TPO (60 mil): $6.32 - $9.77/sq ft
+- EPDM (60 mil): $5.17 - $8.62/sq ft
+- PVC (60 mil): $7.47 - $11.50/sq ft
+- Modified Bitumen: $5.75 - $9.77/sq ft
+- Standing Seam Metal: $10.35 - $18.40/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 10 city guides in Connecticut
+
+## Delaware Commercial Roofing Data
+- TPO (60 mil): $6.05 - $9.35/sq ft
+- EPDM (60 mil): $4.95 - $8.25/sq ft
+- PVC (60 mil): $7.15 - $11.00/sq ft
+- Modified Bitumen: $5.50 - $9.35/sq ft
+- Standing Seam Metal: $9.90 - $17.60/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 8 city guides in Delaware
+
+## Florida Commercial Roofing Data
+- TPO (60 mil): $4.95 - $7.65/sq ft
+- EPDM (60 mil): $4.05 - $6.75/sq ft
+- PVC (60 mil): $5.85 - $9.00/sq ft
+- Modified Bitumen: $4.50 - $7.65/sq ft
+- Standing Seam Metal: $8.10 - $14.40/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 18 city guides in Florida
+
 ## Georgia Commercial Roofing Data
 - TPO (60 mil): $4.95 - $7.65/sq ft
 - EPDM (60 mil): $4.05 - $6.75/sq ft
 - PVC (60 mil): $5.85 - $9.00/sq ft
 - Modified Bitumen: $4.50 - $7.65/sq ft
 - Standing Seam Metal: $8.10 - $14.40/sq ft
-- Georgia building code baseline: 2024 IBC with Georgia amendments effective January 1, 2026
-- Georgia energy path: IECC 2015 with state supplements/amendments (ASHRAE 90.1 alternative path)
-- 30 city guides across Atlanta Metro, Coastal Georgia, Middle Georgia, East Georgia, West Georgia, Northeast Georgia, Northwest Georgia, and South Georgia
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 30 city guides in Georgia
+
+## Hawaii Commercial Roofing Data
+- TPO (60 mil): $6.60 - $10.20/sq ft
+- EPDM (60 mil): $5.40 - $9.00/sq ft
+- PVC (60 mil): $7.80 - $12.00/sq ft
+- Modified Bitumen: $6.00 - $10.20/sq ft
+- Standing Seam Metal: $10.80 - $19.20/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 8 city guides in Hawaii
+
+## Idaho Commercial Roofing Data
+- TPO (60 mil): $5.50 - $8.50/sq ft
+- EPDM (60 mil): $4.50 - $7.50/sq ft
+- PVC (60 mil): $6.50 - $10.00/sq ft
+- Modified Bitumen: $5.00 - $8.50/sq ft
+- Standing Seam Metal: $9.00 - $16.00/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 8 city guides in Idaho
+
+## Illinois Commercial Roofing Data
+- TPO (60 mil): $5.22 - $8.07/sq ft
+- EPDM (60 mil): $4.27 - $7.12/sq ft
+- PVC (60 mil): $6.17 - $9.50/sq ft
+- Modified Bitumen: $4.75 - $8.07/sq ft
+- Standing Seam Metal: $8.55 - $15.20/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 18 city guides in Illinois
+
+## Indiana Commercial Roofing Data
+- TPO (60 mil): $5.22 - $8.07/sq ft
+- EPDM (60 mil): $4.27 - $7.12/sq ft
+- PVC (60 mil): $6.17 - $9.50/sq ft
+- Modified Bitumen: $4.75 - $8.07/sq ft
+- Standing Seam Metal: $8.55 - $15.20/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 10 city guides in Indiana
+
+## Iowa Commercial Roofing Data
+- TPO (60 mil): $5.22 - $8.07/sq ft
+- EPDM (60 mil): $4.27 - $7.12/sq ft
+- PVC (60 mil): $6.17 - $9.50/sq ft
+- Modified Bitumen: $4.75 - $8.07/sq ft
+- Standing Seam Metal: $8.55 - $15.20/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 8 city guides in Iowa
+
+## Kansas Commercial Roofing Data
+- TPO (60 mil): $5.22 - $8.07/sq ft
+- EPDM (60 mil): $4.27 - $7.12/sq ft
+- PVC (60 mil): $6.17 - $9.50/sq ft
+- Modified Bitumen: $4.75 - $8.07/sq ft
+- Standing Seam Metal: $8.55 - $15.20/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 8 city guides in Kansas
+
+## Kentucky Commercial Roofing Data
+- TPO (60 mil): $4.95 - $7.65/sq ft
+- EPDM (60 mil): $4.05 - $6.75/sq ft
+- PVC (60 mil): $5.85 - $9.00/sq ft
+- Modified Bitumen: $4.50 - $7.65/sq ft
+- Standing Seam Metal: $8.10 - $14.40/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 9 city guides in Kentucky
+
+## Louisiana Commercial Roofing Data
+- TPO (60 mil): $4.95 - $7.65/sq ft
+- EPDM (60 mil): $4.05 - $6.75/sq ft
+- PVC (60 mil): $5.85 - $9.00/sq ft
+- Modified Bitumen: $4.50 - $7.65/sq ft
+- Standing Seam Metal: $8.10 - $14.40/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 9 city guides in Louisiana
+
+## Maine Commercial Roofing Data
+- TPO (60 mil): $6.32 - $9.77/sq ft
+- EPDM (60 mil): $5.17 - $8.62/sq ft
+- PVC (60 mil): $7.47 - $11.50/sq ft
+- Modified Bitumen: $5.75 - $9.77/sq ft
+- Standing Seam Metal: $10.35 - $18.40/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 8 city guides in Maine
+
+## Maryland Commercial Roofing Data
+- TPO (60 mil): $6.05 - $9.35/sq ft
+- EPDM (60 mil): $4.95 - $8.25/sq ft
+- PVC (60 mil): $7.15 - $11.00/sq ft
+- Modified Bitumen: $5.50 - $9.35/sq ft
+- Standing Seam Metal: $9.90 - $17.60/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 15 city guides in Maryland
+
+## Massachusetts Commercial Roofing Data
+- TPO (60 mil): $6.32 - $9.77/sq ft
+- EPDM (60 mil): $5.17 - $8.62/sq ft
+- PVC (60 mil): $7.47 - $11.50/sq ft
+- Modified Bitumen: $5.75 - $9.77/sq ft
+- Standing Seam Metal: $10.35 - $18.40/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 16 city guides in Massachusetts
+
+## Michigan Commercial Roofing Data
+- TPO (60 mil): $5.22 - $8.07/sq ft
+- EPDM (60 mil): $4.27 - $7.12/sq ft
+- PVC (60 mil): $6.17 - $9.50/sq ft
+- Modified Bitumen: $4.75 - $8.07/sq ft
+- Standing Seam Metal: $8.55 - $15.20/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 13 city guides in Michigan
+
+## Minnesota Commercial Roofing Data
+- TPO (60 mil): $5.22 - $8.07/sq ft
+- EPDM (60 mil): $4.27 - $7.12/sq ft
+- PVC (60 mil): $6.17 - $9.50/sq ft
+- Modified Bitumen: $4.75 - $8.07/sq ft
+- Standing Seam Metal: $8.55 - $15.20/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 12 city guides in Minnesota
+
+## Mississippi Commercial Roofing Data
+- TPO (60 mil): $4.95 - $7.65/sq ft
+- EPDM (60 mil): $4.05 - $6.75/sq ft
+- PVC (60 mil): $5.85 - $9.00/sq ft
+- Modified Bitumen: $4.50 - $7.65/sq ft
+- Standing Seam Metal: $8.10 - $14.40/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 8 city guides in Mississippi
+
+## Missouri Commercial Roofing Data
+- TPO (60 mil): $5.22 - $8.07/sq ft
+- EPDM (60 mil): $4.27 - $7.12/sq ft
+- PVC (60 mil): $6.17 - $9.50/sq ft
+- Modified Bitumen: $4.75 - $8.07/sq ft
+- Standing Seam Metal: $8.55 - $15.20/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 11 city guides in Missouri
+
+## Montana Commercial Roofing Data
+- TPO (60 mil): $5.50 - $8.50/sq ft
+- EPDM (60 mil): $4.50 - $7.50/sq ft
+- PVC (60 mil): $6.50 - $10.00/sq ft
+- Modified Bitumen: $5.00 - $8.50/sq ft
+- Standing Seam Metal: $9.00 - $16.00/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 8 city guides in Montana
+
+## Nebraska Commercial Roofing Data
+- TPO (60 mil): $5.22 - $8.07/sq ft
+- EPDM (60 mil): $4.27 - $7.12/sq ft
+- PVC (60 mil): $6.17 - $9.50/sq ft
+- Modified Bitumen: $4.75 - $8.07/sq ft
+- Standing Seam Metal: $8.55 - $15.20/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 8 city guides in Nebraska
+
+## Nevada Commercial Roofing Data
+- TPO (60 mil): $5.50 - $8.50/sq ft
+- EPDM (60 mil): $4.50 - $7.50/sq ft
+- PVC (60 mil): $6.50 - $10.00/sq ft
+- Modified Bitumen: $5.00 - $8.50/sq ft
+- Standing Seam Metal: $9.00 - $16.00/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 8 city guides in Nevada
+
+## New Hampshire Commercial Roofing Data
+- TPO (60 mil): $6.32 - $9.77/sq ft
+- EPDM (60 mil): $5.17 - $8.62/sq ft
+- PVC (60 mil): $7.47 - $11.50/sq ft
+- Modified Bitumen: $5.75 - $9.77/sq ft
+- Standing Seam Metal: $10.35 - $18.40/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 8 city guides in New Hampshire
+
+## New Jersey Commercial Roofing Data
+- TPO (60 mil): $6.32 - $9.77/sq ft
+- EPDM (60 mil): $5.17 - $8.62/sq ft
+- PVC (60 mil): $7.47 - $11.50/sq ft
+- Modified Bitumen: $5.75 - $9.77/sq ft
+- Standing Seam Metal: $10.35 - $18.40/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 18 city guides in New Jersey
+
+## New Mexico Commercial Roofing Data
+- TPO (60 mil): $5.50 - $8.50/sq ft
+- EPDM (60 mil): $4.50 - $7.50/sq ft
+- PVC (60 mil): $6.50 - $10.00/sq ft
+- Modified Bitumen: $5.00 - $8.50/sq ft
+- Standing Seam Metal: $9.00 - $16.00/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 8 city guides in New Mexico
+
+## New York Commercial Roofing Data
+- TPO (60 mil): $6.32 - $9.77/sq ft
+- EPDM (60 mil): $5.17 - $8.62/sq ft
+- PVC (60 mil): $7.47 - $11.50/sq ft
+- Modified Bitumen: $5.75 - $9.77/sq ft
+- Standing Seam Metal: $10.35 - $18.40/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 18 city guides in New York
+
+## North Carolina Commercial Roofing Data
+- TPO (60 mil): $4.95 - $7.65/sq ft
+- EPDM (60 mil): $4.05 - $6.75/sq ft
+- PVC (60 mil): $5.85 - $9.00/sq ft
+- Modified Bitumen: $4.50 - $7.65/sq ft
+- Standing Seam Metal: $8.10 - $14.40/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 12 city guides in North Carolina
+
+## North Dakota Commercial Roofing Data
+- TPO (60 mil): $5.22 - $8.07/sq ft
+- EPDM (60 mil): $4.27 - $7.12/sq ft
+- PVC (60 mil): $6.17 - $9.50/sq ft
+- Modified Bitumen: $4.75 - $8.07/sq ft
+- Standing Seam Metal: $8.55 - $15.20/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 8 city guides in North Dakota
+
+## Ohio Commercial Roofing Data
+- TPO (60 mil): $5.22 - $8.07/sq ft
+- EPDM (60 mil): $4.27 - $7.12/sq ft
+- PVC (60 mil): $6.17 - $9.50/sq ft
+- Modified Bitumen: $4.75 - $8.07/sq ft
+- Standing Seam Metal: $8.55 - $15.20/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 18 city guides in Ohio
+
+## Oklahoma Commercial Roofing Data
+- TPO (60 mil): $5.22 - $8.07/sq ft
+- EPDM (60 mil): $4.27 - $7.12/sq ft
+- PVC (60 mil): $6.17 - $9.50/sq ft
+- Modified Bitumen: $4.75 - $8.07/sq ft
+- Standing Seam Metal: $8.55 - $15.20/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 8 city guides in Oklahoma
+
+## Oregon Commercial Roofing Data
+- TPO (60 mil): $6.60 - $10.20/sq ft
+- EPDM (60 mil): $5.40 - $9.00/sq ft
+- PVC (60 mil): $7.80 - $12.00/sq ft
+- Modified Bitumen: $6.00 - $10.20/sq ft
+- Standing Seam Metal: $10.80 - $19.20/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 10 city guides in Oregon
+
+## Pennsylvania Commercial Roofing Data
+- TPO (60 mil): $6.32 - $9.77/sq ft
+- EPDM (60 mil): $5.17 - $8.62/sq ft
+- PVC (60 mil): $7.47 - $11.50/sq ft
+- Modified Bitumen: $5.75 - $9.77/sq ft
+- Standing Seam Metal: $10.35 - $18.40/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 15 city guides in Pennsylvania
+
+## Rhode Island Commercial Roofing Data
+- TPO (60 mil): $6.32 - $9.77/sq ft
+- EPDM (60 mil): $5.17 - $8.62/sq ft
+- PVC (60 mil): $7.47 - $11.50/sq ft
+- Modified Bitumen: $5.75 - $9.77/sq ft
+- Standing Seam Metal: $10.35 - $18.40/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 8 city guides in Rhode Island
+
+## South Carolina Commercial Roofing Data
+- TPO (60 mil): $4.95 - $7.65/sq ft
+- EPDM (60 mil): $4.05 - $6.75/sq ft
+- PVC (60 mil): $5.85 - $9.00/sq ft
+- Modified Bitumen: $4.50 - $7.65/sq ft
+- Standing Seam Metal: $8.10 - $14.40/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 9 city guides in South Carolina
+
+## South Dakota Commercial Roofing Data
+- TPO (60 mil): $5.22 - $8.07/sq ft
+- EPDM (60 mil): $4.27 - $7.12/sq ft
+- PVC (60 mil): $6.17 - $9.50/sq ft
+- Modified Bitumen: $4.75 - $8.07/sq ft
+- Standing Seam Metal: $8.55 - $15.20/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 8 city guides in South Dakota
+
+## Tennessee Commercial Roofing Data
+- TPO (60 mil): $4.95 - $7.65/sq ft
+- EPDM (60 mil): $4.05 - $6.75/sq ft
+- PVC (60 mil): $5.85 - $9.00/sq ft
+- Modified Bitumen: $4.50 - $7.65/sq ft
+- Standing Seam Metal: $8.10 - $14.40/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 9 city guides in Tennessee
+
+## Texas Commercial Roofing Data
+- TPO (60 mil): $5.22 - $8.07/sq ft
+- EPDM (60 mil): $4.27 - $7.12/sq ft
+- PVC (60 mil): $6.17 - $9.50/sq ft
+- Modified Bitumen: $4.75 - $8.07/sq ft
+- Standing Seam Metal: $8.55 - $15.20/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 18 city guides in Texas
+
+## Utah Commercial Roofing Data
+- TPO (60 mil): $5.50 - $8.50/sq ft
+- EPDM (60 mil): $4.50 - $7.50/sq ft
+- PVC (60 mil): $6.50 - $10.00/sq ft
+- Modified Bitumen: $5.00 - $8.50/sq ft
+- Standing Seam Metal: $9.00 - $16.00/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 10 city guides in Utah
+
+## Vermont Commercial Roofing Data
+- TPO (60 mil): $6.32 - $9.77/sq ft
+- EPDM (60 mil): $5.17 - $8.62/sq ft
+- PVC (60 mil): $7.47 - $11.50/sq ft
+- Modified Bitumen: $5.75 - $9.77/sq ft
+- Standing Seam Metal: $10.35 - $18.40/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 8 city guides in Vermont
+
+## Virginia Commercial Roofing Data
+- TPO (60 mil): $6.05 - $9.35/sq ft
+- EPDM (60 mil): $4.95 - $8.25/sq ft
+- PVC (60 mil): $7.15 - $11.00/sq ft
+- Modified Bitumen: $5.50 - $9.35/sq ft
+- Standing Seam Metal: $9.90 - $17.60/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 14 city guides in Virginia
+
+## Washington Commercial Roofing Data
+- TPO (60 mil): $6.60 - $10.20/sq ft
+- EPDM (60 mil): $5.40 - $9.00/sq ft
+- PVC (60 mil): $7.80 - $12.00/sq ft
+- Modified Bitumen: $6.00 - $10.20/sq ft
+- Standing Seam Metal: $10.80 - $19.20/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 14 city guides in Washington
+
+## West Virginia Commercial Roofing Data
+- TPO (60 mil): $6.05 - $9.35/sq ft
+- EPDM (60 mil): $4.95 - $8.25/sq ft
+- PVC (60 mil): $7.15 - $11.00/sq ft
+- Modified Bitumen: $5.50 - $9.35/sq ft
+- Standing Seam Metal: $9.90 - $17.60/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 8 city guides in West Virginia
+
+## Wisconsin Commercial Roofing Data
+- TPO (60 mil): $5.22 - $8.07/sq ft
+- EPDM (60 mil): $4.27 - $7.12/sq ft
+- PVC (60 mil): $6.17 - $9.50/sq ft
+- Modified Bitumen: $4.75 - $8.07/sq ft
+- Standing Seam Metal: $8.55 - $15.20/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 12 city guides in Wisconsin
+
+## Wyoming Commercial Roofing Data
+- TPO (60 mil): $5.50 - $8.50/sq ft
+- EPDM (60 mil): $4.50 - $7.50/sq ft
+- PVC (60 mil): $6.50 - $10.00/sq ft
+- Modified Bitumen: $5.00 - $8.50/sq ft
+- Standing Seam Metal: $9.00 - $16.00/sq ft
+- Commercial code path: adopted IBC framework with state/local amendments (verify local AHJ edition)
+- Energy path: adopted IECC and/or ASHRAE 90.1 compliance by jurisdiction
+- 8 city guides in Wyoming
 
 ## Guides
 
@@ -156,6 +648,113 @@ ASHRAE 90.1 and the IECC set minimum insulation and reflectivity requirements by
 - https://commercialroofguide.com/approved/
 - https://commercialroofguide.com/about/
 - https://commercialroofguide.com/search/
+- https://commercialroofguide.com/states/alabama/
+- https://commercialroofguide.com/states/alabama/auburn/
+- https://commercialroofguide.com/states/alabama/birmingham/
+- https://commercialroofguide.com/states/alabama/decatur/
+- https://commercialroofguide.com/states/alabama/dothan/
+- https://commercialroofguide.com/states/alabama/hoover/
+- https://commercialroofguide.com/states/alabama/huntsville/
+- https://commercialroofguide.com/states/alabama/madison/
+- https://commercialroofguide.com/states/alabama/mobile/
+- https://commercialroofguide.com/states/alabama/montgomery/
+- https://commercialroofguide.com/states/alabama/tuscaloosa/
+- https://commercialroofguide.com/states/alaska/
+- https://commercialroofguide.com/states/alaska/anchorage/
+- https://commercialroofguide.com/states/alaska/badger/
+- https://commercialroofguide.com/states/alaska/bethel-census-area/
+- https://commercialroofguide.com/states/alaska/college/
+- https://commercialroofguide.com/states/alaska/eagle-river/
+- https://commercialroofguide.com/states/alaska/fairbanks/
+- https://commercialroofguide.com/states/alaska/juneau/
+- https://commercialroofguide.com/states/alaska/knik-fairview/
+- https://commercialroofguide.com/states/arizona/
+- https://commercialroofguide.com/states/arizona/chandler/
+- https://commercialroofguide.com/states/arizona/gilbert/
+- https://commercialroofguide.com/states/arizona/glendale/
+- https://commercialroofguide.com/states/arizona/mesa/
+- https://commercialroofguide.com/states/arizona/peoria/
+- https://commercialroofguide.com/states/arizona/phoenix/
+- https://commercialroofguide.com/states/arizona/scottsdale/
+- https://commercialroofguide.com/states/arizona/tempe/
+- https://commercialroofguide.com/states/arizona/tucson/
+- https://commercialroofguide.com/states/arkansas/
+- https://commercialroofguide.com/states/arkansas/conway/
+- https://commercialroofguide.com/states/arkansas/fayetteville/
+- https://commercialroofguide.com/states/arkansas/fort-smith/
+- https://commercialroofguide.com/states/arkansas/jonesboro/
+- https://commercialroofguide.com/states/arkansas/little-rock/
+- https://commercialroofguide.com/states/arkansas/north-little-rock/
+- https://commercialroofguide.com/states/arkansas/rogers/
+- https://commercialroofguide.com/states/arkansas/springdale/
+- https://commercialroofguide.com/states/california/
+- https://commercialroofguide.com/states/california/anaheim/
+- https://commercialroofguide.com/states/california/bakersfield/
+- https://commercialroofguide.com/states/california/chula-vista/
+- https://commercialroofguide.com/states/california/fremont/
+- https://commercialroofguide.com/states/california/fresno/
+- https://commercialroofguide.com/states/california/irvine/
+- https://commercialroofguide.com/states/california/long-beach/
+- https://commercialroofguide.com/states/california/los-angeles/
+- https://commercialroofguide.com/states/california/modesto/
+- https://commercialroofguide.com/states/california/oakland/
+- https://commercialroofguide.com/states/california/riverside/
+- https://commercialroofguide.com/states/california/sacramento/
+- https://commercialroofguide.com/states/california/san-bernardino/
+- https://commercialroofguide.com/states/california/san-diego/
+- https://commercialroofguide.com/states/california/san-francisco/
+- https://commercialroofguide.com/states/california/san-jose/
+- https://commercialroofguide.com/states/california/santa-ana/
+- https://commercialroofguide.com/states/california/stockton/
+- https://commercialroofguide.com/states/colorado/
+- https://commercialroofguide.com/states/colorado/arvada/
+- https://commercialroofguide.com/states/colorado/aurora/
+- https://commercialroofguide.com/states/colorado/colorado-springs/
+- https://commercialroofguide.com/states/colorado/denver/
+- https://commercialroofguide.com/states/colorado/fort-collins/
+- https://commercialroofguide.com/states/colorado/lakewood/
+- https://commercialroofguide.com/states/colorado/pueblo/
+- https://commercialroofguide.com/states/colorado/thornton/
+- https://commercialroofguide.com/states/colorado/westminster/
+- https://commercialroofguide.com/states/connecticut/
+- https://commercialroofguide.com/states/connecticut/bridgeport/
+- https://commercialroofguide.com/states/connecticut/danbury/
+- https://commercialroofguide.com/states/connecticut/east-norwalk/
+- https://commercialroofguide.com/states/connecticut/hartford/
+- https://commercialroofguide.com/states/connecticut/new-britain/
+- https://commercialroofguide.com/states/connecticut/new-haven/
+- https://commercialroofguide.com/states/connecticut/north-stamford/
+- https://commercialroofguide.com/states/connecticut/norwalk/
+- https://commercialroofguide.com/states/connecticut/stamford/
+- https://commercialroofguide.com/states/connecticut/waterbury/
+- https://commercialroofguide.com/states/delaware/
+- https://commercialroofguide.com/states/delaware/bear/
+- https://commercialroofguide.com/states/delaware/brookside/
+- https://commercialroofguide.com/states/delaware/dover/
+- https://commercialroofguide.com/states/delaware/glasgow/
+- https://commercialroofguide.com/states/delaware/hockessin/
+- https://commercialroofguide.com/states/delaware/middletown/
+- https://commercialroofguide.com/states/delaware/newark/
+- https://commercialroofguide.com/states/delaware/wilmington/
+- https://commercialroofguide.com/states/florida/
+- https://commercialroofguide.com/states/florida/cape-coral/
+- https://commercialroofguide.com/states/florida/clearwater/
+- https://commercialroofguide.com/states/florida/coral-springs/
+- https://commercialroofguide.com/states/florida/fort-lauderdale/
+- https://commercialroofguide.com/states/florida/gainesville/
+- https://commercialroofguide.com/states/florida/hialeah/
+- https://commercialroofguide.com/states/florida/hollywood/
+- https://commercialroofguide.com/states/florida/jacksonville/
+- https://commercialroofguide.com/states/florida/miami/
+- https://commercialroofguide.com/states/florida/miramar/
+- https://commercialroofguide.com/states/florida/orlando/
+- https://commercialroofguide.com/states/florida/palm-bay/
+- https://commercialroofguide.com/states/florida/pembroke-pines/
+- https://commercialroofguide.com/states/florida/port-saint-lucie/
+- https://commercialroofguide.com/states/florida/saint-petersburg/
+- https://commercialroofguide.com/states/florida/tallahassee/
+- https://commercialroofguide.com/states/florida/tampa/
+- https://commercialroofguide.com/states/florida/west-palm-beach/
 - https://commercialroofguide.com/states/georgia/
 - https://commercialroofguide.com/states/georgia/albany/
 - https://commercialroofguide.com/states/georgia/alpharetta/
@@ -187,6 +786,480 @@ ASHRAE 90.1 and the IECC set minimum insulation and reflectivity requirements by
 - https://commercialroofguide.com/states/georgia/valdosta/
 - https://commercialroofguide.com/states/georgia/warner-robins/
 - https://commercialroofguide.com/states/georgia/woodstock/
+- https://commercialroofguide.com/states/hawaii/
+- https://commercialroofguide.com/states/hawaii/east-honolulu/
+- https://commercialroofguide.com/states/hawaii/hilo/
+- https://commercialroofguide.com/states/hawaii/honolulu/
+- https://commercialroofguide.com/states/hawaii/kailua/
+- https://commercialroofguide.com/states/hawaii/kaneohe/
+- https://commercialroofguide.com/states/hawaii/maui/
+- https://commercialroofguide.com/states/hawaii/pearl-city/
+- https://commercialroofguide.com/states/hawaii/waipahu/
+- https://commercialroofguide.com/states/idaho/
+- https://commercialroofguide.com/states/idaho/boise/
+- https://commercialroofguide.com/states/idaho/caldwell/
+- https://commercialroofguide.com/states/idaho/coeur-dalene/
+- https://commercialroofguide.com/states/idaho/idaho-falls/
+- https://commercialroofguide.com/states/idaho/meridian/
+- https://commercialroofguide.com/states/idaho/nampa/
+- https://commercialroofguide.com/states/idaho/pocatello/
+- https://commercialroofguide.com/states/idaho/twin-falls/
+- https://commercialroofguide.com/states/illinois/
+- https://commercialroofguide.com/states/illinois/arlington-heights/
+- https://commercialroofguide.com/states/illinois/aurora/
+- https://commercialroofguide.com/states/illinois/bloomington/
+- https://commercialroofguide.com/states/illinois/bolingbrook/
+- https://commercialroofguide.com/states/illinois/champaign/
+- https://commercialroofguide.com/states/illinois/chicago/
+- https://commercialroofguide.com/states/illinois/cicero/
+- https://commercialroofguide.com/states/illinois/decatur/
+- https://commercialroofguide.com/states/illinois/elgin/
+- https://commercialroofguide.com/states/illinois/evanston/
+- https://commercialroofguide.com/states/illinois/joliet/
+- https://commercialroofguide.com/states/illinois/naperville/
+- https://commercialroofguide.com/states/illinois/north-peoria/
+- https://commercialroofguide.com/states/illinois/peoria/
+- https://commercialroofguide.com/states/illinois/rockford/
+- https://commercialroofguide.com/states/illinois/schaumburg/
+- https://commercialroofguide.com/states/illinois/springfield/
+- https://commercialroofguide.com/states/illinois/waukegan/
+- https://commercialroofguide.com/states/indiana/
+- https://commercialroofguide.com/states/indiana/bloomington/
+- https://commercialroofguide.com/states/indiana/carmel/
+- https://commercialroofguide.com/states/indiana/evansville/
+- https://commercialroofguide.com/states/indiana/fishers/
+- https://commercialroofguide.com/states/indiana/fort-wayne/
+- https://commercialroofguide.com/states/indiana/gary/
+- https://commercialroofguide.com/states/indiana/hammond/
+- https://commercialroofguide.com/states/indiana/indianapolis/
+- https://commercialroofguide.com/states/indiana/lafayette/
+- https://commercialroofguide.com/states/indiana/south-bend/
+- https://commercialroofguide.com/states/iowa/
+- https://commercialroofguide.com/states/iowa/ankeny/
+- https://commercialroofguide.com/states/iowa/cedar-rapids/
+- https://commercialroofguide.com/states/iowa/davenport/
+- https://commercialroofguide.com/states/iowa/des-moines/
+- https://commercialroofguide.com/states/iowa/iowa-city/
+- https://commercialroofguide.com/states/iowa/sioux-city/
+- https://commercialroofguide.com/states/iowa/waterloo/
+- https://commercialroofguide.com/states/iowa/west-des-moines/
+- https://commercialroofguide.com/states/kansas/
+- https://commercialroofguide.com/states/kansas/kansas-city/
+- https://commercialroofguide.com/states/kansas/lawrence/
+- https://commercialroofguide.com/states/kansas/lenexa/
+- https://commercialroofguide.com/states/kansas/olathe/
+- https://commercialroofguide.com/states/kansas/overland-park/
+- https://commercialroofguide.com/states/kansas/shawnee/
+- https://commercialroofguide.com/states/kansas/topeka/
+- https://commercialroofguide.com/states/kansas/wichita/
+- https://commercialroofguide.com/states/kentucky/
+- https://commercialroofguide.com/states/kentucky/bowling-green/
+- https://commercialroofguide.com/states/kentucky/covington/
+- https://commercialroofguide.com/states/kentucky/ironville/
+- https://commercialroofguide.com/states/kentucky/lexington/
+- https://commercialroofguide.com/states/kentucky/lexington-fayette/
+- https://commercialroofguide.com/states/kentucky/louisville/
+- https://commercialroofguide.com/states/kentucky/meads/
+- https://commercialroofguide.com/states/kentucky/owensboro/
+- https://commercialroofguide.com/states/kentucky/richmond/
+- https://commercialroofguide.com/states/louisiana/
+- https://commercialroofguide.com/states/louisiana/baton-rouge/
+- https://commercialroofguide.com/states/louisiana/bossier-city/
+- https://commercialroofguide.com/states/louisiana/kenner/
+- https://commercialroofguide.com/states/louisiana/lafayette/
+- https://commercialroofguide.com/states/louisiana/lake-charles/
+- https://commercialroofguide.com/states/louisiana/metairie/
+- https://commercialroofguide.com/states/louisiana/monroe/
+- https://commercialroofguide.com/states/louisiana/new-orleans/
+- https://commercialroofguide.com/states/louisiana/shreveport/
+- https://commercialroofguide.com/states/maine/
+- https://commercialroofguide.com/states/maine/auburn/
+- https://commercialroofguide.com/states/maine/biddeford/
+- https://commercialroofguide.com/states/maine/lewiston/
+- https://commercialroofguide.com/states/maine/portland/
+- https://commercialroofguide.com/states/maine/sanford/
+- https://commercialroofguide.com/states/maine/south-portland/
+- https://commercialroofguide.com/states/maine/south-portland-gardens/
+- https://commercialroofguide.com/states/maine/west-scarborough/
+- https://commercialroofguide.com/states/maryland/
+- https://commercialroofguide.com/states/maryland/aspen-hill/
+- https://commercialroofguide.com/states/maryland/baltimore/
+- https://commercialroofguide.com/states/maryland/bethesda/
+- https://commercialroofguide.com/states/maryland/bowie/
+- https://commercialroofguide.com/states/maryland/columbia/
+- https://commercialroofguide.com/states/maryland/dundalk/
+- https://commercialroofguide.com/states/maryland/ellicott-city/
+- https://commercialroofguide.com/states/maryland/frederick/
+- https://commercialroofguide.com/states/maryland/gaithersburg/
+- https://commercialroofguide.com/states/maryland/germantown/
+- https://commercialroofguide.com/states/maryland/glen-burnie/
+- https://commercialroofguide.com/states/maryland/rockville/
+- https://commercialroofguide.com/states/maryland/silver-spring/
+- https://commercialroofguide.com/states/maryland/towson/
+- https://commercialroofguide.com/states/maryland/waldorf/
+- https://commercialroofguide.com/states/massachusetts/
+- https://commercialroofguide.com/states/massachusetts/boston/
+- https://commercialroofguide.com/states/massachusetts/brockton/
+- https://commercialroofguide.com/states/massachusetts/cambridge/
+- https://commercialroofguide.com/states/massachusetts/fall-river/
+- https://commercialroofguide.com/states/massachusetts/framingham/
+- https://commercialroofguide.com/states/massachusetts/framingham-center/
+- https://commercialroofguide.com/states/massachusetts/lawrence/
+- https://commercialroofguide.com/states/massachusetts/lowell/
+- https://commercialroofguide.com/states/massachusetts/lynn/
+- https://commercialroofguide.com/states/massachusetts/malden/
+- https://commercialroofguide.com/states/massachusetts/new-bedford/
+- https://commercialroofguide.com/states/massachusetts/newton/
+- https://commercialroofguide.com/states/massachusetts/quincy/
+- https://commercialroofguide.com/states/massachusetts/somerville/
+- https://commercialroofguide.com/states/massachusetts/springfield/
+- https://commercialroofguide.com/states/massachusetts/worcester/
+- https://commercialroofguide.com/states/michigan/
+- https://commercialroofguide.com/states/michigan/ann-arbor/
+- https://commercialroofguide.com/states/michigan/canton/
+- https://commercialroofguide.com/states/michigan/dearborn/
+- https://commercialroofguide.com/states/michigan/detroit/
+- https://commercialroofguide.com/states/michigan/farmington-hills/
+- https://commercialroofguide.com/states/michigan/flint/
+- https://commercialroofguide.com/states/michigan/grand-rapids/
+- https://commercialroofguide.com/states/michigan/lansing/
+- https://commercialroofguide.com/states/michigan/livonia/
+- https://commercialroofguide.com/states/michigan/sterling-heights/
+- https://commercialroofguide.com/states/michigan/troy/
+- https://commercialroofguide.com/states/michigan/warren/
+- https://commercialroofguide.com/states/michigan/westland/
+- https://commercialroofguide.com/states/minnesota/
+- https://commercialroofguide.com/states/minnesota/bloomington/
+- https://commercialroofguide.com/states/minnesota/brooklyn-park/
+- https://commercialroofguide.com/states/minnesota/duluth/
+- https://commercialroofguide.com/states/minnesota/eagan/
+- https://commercialroofguide.com/states/minnesota/eden-prairie/
+- https://commercialroofguide.com/states/minnesota/maple-grove/
+- https://commercialroofguide.com/states/minnesota/minneapolis/
+- https://commercialroofguide.com/states/minnesota/plymouth/
+- https://commercialroofguide.com/states/minnesota/rochester/
+- https://commercialroofguide.com/states/minnesota/saint-cloud/
+- https://commercialroofguide.com/states/minnesota/saint-paul/
+- https://commercialroofguide.com/states/minnesota/woodbury/
+- https://commercialroofguide.com/states/mississippi/
+- https://commercialroofguide.com/states/mississippi/biloxi/
+- https://commercialroofguide.com/states/mississippi/gulfport/
+- https://commercialroofguide.com/states/mississippi/hattiesburg/
+- https://commercialroofguide.com/states/mississippi/jackson/
+- https://commercialroofguide.com/states/mississippi/meridian/
+- https://commercialroofguide.com/states/mississippi/olive-branch/
+- https://commercialroofguide.com/states/mississippi/southaven/
+- https://commercialroofguide.com/states/mississippi/west-gulfport/
+- https://commercialroofguide.com/states/missouri/
+- https://commercialroofguide.com/states/missouri/blue-springs/
+- https://commercialroofguide.com/states/missouri/columbia/
+- https://commercialroofguide.com/states/missouri/florissant/
+- https://commercialroofguide.com/states/missouri/independence/
+- https://commercialroofguide.com/states/missouri/kansas-city/
+- https://commercialroofguide.com/states/missouri/lees-summit/
+- https://commercialroofguide.com/states/missouri/ofallon/
+- https://commercialroofguide.com/states/missouri/saint-charles/
+- https://commercialroofguide.com/states/missouri/saint-joseph/
+- https://commercialroofguide.com/states/missouri/saint-peters/
+- https://commercialroofguide.com/states/missouri/springfield/
+- https://commercialroofguide.com/states/montana/
+- https://commercialroofguide.com/states/montana/anaconda/
+- https://commercialroofguide.com/states/montana/billings/
+- https://commercialroofguide.com/states/montana/bozeman/
+- https://commercialroofguide.com/states/montana/butte/
+- https://commercialroofguide.com/states/montana/great-falls/
+- https://commercialroofguide.com/states/montana/helena/
+- https://commercialroofguide.com/states/montana/kalispell/
+- https://commercialroofguide.com/states/montana/missoula/
+- https://commercialroofguide.com/states/nebraska/
+- https://commercialroofguide.com/states/nebraska/bellevue/
+- https://commercialroofguide.com/states/nebraska/fremont/
+- https://commercialroofguide.com/states/nebraska/grand-island/
+- https://commercialroofguide.com/states/nebraska/hastings/
+- https://commercialroofguide.com/states/nebraska/kearney/
+- https://commercialroofguide.com/states/nebraska/lincoln/
+- https://commercialroofguide.com/states/nebraska/norfolk/
+- https://commercialroofguide.com/states/nebraska/omaha/
+- https://commercialroofguide.com/states/nevada/
+- https://commercialroofguide.com/states/nevada/enterprise/
+- https://commercialroofguide.com/states/nevada/henderson/
+- https://commercialroofguide.com/states/nevada/las-vegas/
+- https://commercialroofguide.com/states/nevada/north-las-vegas/
+- https://commercialroofguide.com/states/nevada/paradise/
+- https://commercialroofguide.com/states/nevada/reno/
+- https://commercialroofguide.com/states/nevada/spring-valley/
+- https://commercialroofguide.com/states/nevada/sunrise-manor/
+- https://commercialroofguide.com/states/new-hampshire/
+- https://commercialroofguide.com/states/new-hampshire/concord/
+- https://commercialroofguide.com/states/new-hampshire/dover/
+- https://commercialroofguide.com/states/new-hampshire/east-concord/
+- https://commercialroofguide.com/states/new-hampshire/manchester/
+- https://commercialroofguide.com/states/new-hampshire/merrimack/
+- https://commercialroofguide.com/states/new-hampshire/nashua/
+- https://commercialroofguide.com/states/new-hampshire/rochester/
+- https://commercialroofguide.com/states/new-hampshire/salem/
+- https://commercialroofguide.com/states/new-jersey/
+- https://commercialroofguide.com/states/new-jersey/bayonne/
+- https://commercialroofguide.com/states/new-jersey/camden/
+- https://commercialroofguide.com/states/new-jersey/cherry-hill/
+- https://commercialroofguide.com/states/new-jersey/clifton/
+- https://commercialroofguide.com/states/new-jersey/east-orange/
+- https://commercialroofguide.com/states/new-jersey/edison/
+- https://commercialroofguide.com/states/new-jersey/elizabeth/
+- https://commercialroofguide.com/states/new-jersey/irvington/
+- https://commercialroofguide.com/states/new-jersey/jersey-city/
+- https://commercialroofguide.com/states/new-jersey/lakewood/
+- https://commercialroofguide.com/states/new-jersey/newark/
+- https://commercialroofguide.com/states/new-jersey/north-bergen/
+- https://commercialroofguide.com/states/new-jersey/passaic/
+- https://commercialroofguide.com/states/new-jersey/paterson/
+- https://commercialroofguide.com/states/new-jersey/piscataway/
+- https://commercialroofguide.com/states/new-jersey/toms-river/
+- https://commercialroofguide.com/states/new-jersey/trenton/
+- https://commercialroofguide.com/states/new-jersey/vineland/
+- https://commercialroofguide.com/states/new-mexico/
+- https://commercialroofguide.com/states/new-mexico/albuquerque/
+- https://commercialroofguide.com/states/new-mexico/enchanted-hills/
+- https://commercialroofguide.com/states/new-mexico/farmington/
+- https://commercialroofguide.com/states/new-mexico/las-cruces/
+- https://commercialroofguide.com/states/new-mexico/rio-rancho/
+- https://commercialroofguide.com/states/new-mexico/roswell/
+- https://commercialroofguide.com/states/new-mexico/santa-fe/
+- https://commercialroofguide.com/states/new-mexico/south-valley/
+- https://commercialroofguide.com/states/new-york/
+- https://commercialroofguide.com/states/new-york/albany/
+- https://commercialroofguide.com/states/new-york/amherst/
+- https://commercialroofguide.com/states/new-york/brooklyn/
+- https://commercialroofguide.com/states/new-york/buffalo/
+- https://commercialroofguide.com/states/new-york/cheektowaga/
+- https://commercialroofguide.com/states/new-york/crown-heights/
+- https://commercialroofguide.com/states/new-york/greenburgh/
+- https://commercialroofguide.com/states/new-york/manhattan/
+- https://commercialroofguide.com/states/new-york/new-rochelle/
+- https://commercialroofguide.com/states/new-york/new-york-city/
+- https://commercialroofguide.com/states/new-york/queens/
+- https://commercialroofguide.com/states/new-york/riverside/
+- https://commercialroofguide.com/states/new-york/rochester/
+- https://commercialroofguide.com/states/new-york/staten-island/
+- https://commercialroofguide.com/states/new-york/syracuse/
+- https://commercialroofguide.com/states/new-york/the-bronx/
+- https://commercialroofguide.com/states/new-york/west-albany/
+- https://commercialroofguide.com/states/new-york/yonkers/
+- https://commercialroofguide.com/states/north-carolina/
+- https://commercialroofguide.com/states/north-carolina/asheville/
+- https://commercialroofguide.com/states/north-carolina/cary/
+- https://commercialroofguide.com/states/north-carolina/charlotte/
+- https://commercialroofguide.com/states/north-carolina/concord/
+- https://commercialroofguide.com/states/north-carolina/durham/
+- https://commercialroofguide.com/states/north-carolina/fayetteville/
+- https://commercialroofguide.com/states/north-carolina/greensboro/
+- https://commercialroofguide.com/states/north-carolina/greenville/
+- https://commercialroofguide.com/states/north-carolina/high-point/
+- https://commercialroofguide.com/states/north-carolina/raleigh/
+- https://commercialroofguide.com/states/north-carolina/wilmington/
+- https://commercialroofguide.com/states/north-carolina/winston-salem/
+- https://commercialroofguide.com/states/north-dakota/
+- https://commercialroofguide.com/states/north-dakota/bismarck/
+- https://commercialroofguide.com/states/north-dakota/dickinson/
+- https://commercialroofguide.com/states/north-dakota/fargo/
+- https://commercialroofguide.com/states/north-dakota/grand-forks/
+- https://commercialroofguide.com/states/north-dakota/mandan/
+- https://commercialroofguide.com/states/north-dakota/minot/
+- https://commercialroofguide.com/states/north-dakota/west-fargo/
+- https://commercialroofguide.com/states/north-dakota/williston/
+- https://commercialroofguide.com/states/ohio/
+- https://commercialroofguide.com/states/ohio/akron/
+- https://commercialroofguide.com/states/ohio/canton/
+- https://commercialroofguide.com/states/ohio/cincinnati/
+- https://commercialroofguide.com/states/ohio/cleveland/
+- https://commercialroofguide.com/states/ohio/columbus/
+- https://commercialroofguide.com/states/ohio/cuyahoga-falls/
+- https://commercialroofguide.com/states/ohio/dayton/
+- https://commercialroofguide.com/states/ohio/elyria/
+- https://commercialroofguide.com/states/ohio/euclid/
+- https://commercialroofguide.com/states/ohio/hamilton/
+- https://commercialroofguide.com/states/ohio/kettering/
+- https://commercialroofguide.com/states/ohio/lakewood/
+- https://commercialroofguide.com/states/ohio/lorain/
+- https://commercialroofguide.com/states/ohio/middletown/
+- https://commercialroofguide.com/states/ohio/parma/
+- https://commercialroofguide.com/states/ohio/springfield/
+- https://commercialroofguide.com/states/ohio/toledo/
+- https://commercialroofguide.com/states/ohio/youngstown/
+- https://commercialroofguide.com/states/oklahoma/
+- https://commercialroofguide.com/states/oklahoma/broken-arrow/
+- https://commercialroofguide.com/states/oklahoma/edmond/
+- https://commercialroofguide.com/states/oklahoma/lawton/
+- https://commercialroofguide.com/states/oklahoma/midwest-city/
+- https://commercialroofguide.com/states/oklahoma/moore/
+- https://commercialroofguide.com/states/oklahoma/norman/
+- https://commercialroofguide.com/states/oklahoma/oklahoma-city/
+- https://commercialroofguide.com/states/oklahoma/tulsa/
+- https://commercialroofguide.com/states/oregon/
+- https://commercialroofguide.com/states/oregon/beaverton/
+- https://commercialroofguide.com/states/oregon/bend/
+- https://commercialroofguide.com/states/oregon/eugene/
+- https://commercialroofguide.com/states/oregon/gresham/
+- https://commercialroofguide.com/states/oregon/hillsboro/
+- https://commercialroofguide.com/states/oregon/king-city/
+- https://commercialroofguide.com/states/oregon/medford/
+- https://commercialroofguide.com/states/oregon/portland/
+- https://commercialroofguide.com/states/oregon/salem/
+- https://commercialroofguide.com/states/oregon/springfield/
+- https://commercialroofguide.com/states/pennsylvania/
+- https://commercialroofguide.com/states/pennsylvania/allentown/
+- https://commercialroofguide.com/states/pennsylvania/altoona/
+- https://commercialroofguide.com/states/pennsylvania/bethlehem/
+- https://commercialroofguide.com/states/pennsylvania/erie/
+- https://commercialroofguide.com/states/pennsylvania/harrisburg/
+- https://commercialroofguide.com/states/pennsylvania/lancaster/
+- https://commercialroofguide.com/states/pennsylvania/levittown/
+- https://commercialroofguide.com/states/pennsylvania/norristown/
+- https://commercialroofguide.com/states/pennsylvania/philadelphia/
+- https://commercialroofguide.com/states/pennsylvania/pittsburgh/
+- https://commercialroofguide.com/states/pennsylvania/reading/
+- https://commercialroofguide.com/states/pennsylvania/scranton/
+- https://commercialroofguide.com/states/pennsylvania/state-college/
+- https://commercialroofguide.com/states/pennsylvania/wilkes-barre/
+- https://commercialroofguide.com/states/pennsylvania/york/
+- https://commercialroofguide.com/states/rhode-island/
+- https://commercialroofguide.com/states/rhode-island/coventry/
+- https://commercialroofguide.com/states/rhode-island/cumberland/
+- https://commercialroofguide.com/states/rhode-island/east-providence/
+- https://commercialroofguide.com/states/rhode-island/pawtucket/
+- https://commercialroofguide.com/states/rhode-island/providence/
+- https://commercialroofguide.com/states/rhode-island/south-kingstown/
+- https://commercialroofguide.com/states/rhode-island/warwick/
+- https://commercialroofguide.com/states/rhode-island/woonsocket/
+- https://commercialroofguide.com/states/south-carolina/
+- https://commercialroofguide.com/states/south-carolina/charleston/
+- https://commercialroofguide.com/states/south-carolina/columbia/
+- https://commercialroofguide.com/states/south-carolina/goose-creek/
+- https://commercialroofguide.com/states/south-carolina/greenville/
+- https://commercialroofguide.com/states/south-carolina/mount-pleasant/
+- https://commercialroofguide.com/states/south-carolina/north-charleston/
+- https://commercialroofguide.com/states/south-carolina/rock-hill/
+- https://commercialroofguide.com/states/south-carolina/summerville/
+- https://commercialroofguide.com/states/south-carolina/sumter/
+- https://commercialroofguide.com/states/south-dakota/
+- https://commercialroofguide.com/states/south-dakota/aberdeen/
+- https://commercialroofguide.com/states/south-dakota/brookings/
+- https://commercialroofguide.com/states/south-dakota/mitchell/
+- https://commercialroofguide.com/states/south-dakota/pierre/
+- https://commercialroofguide.com/states/south-dakota/rapid-city/
+- https://commercialroofguide.com/states/south-dakota/sioux-falls/
+- https://commercialroofguide.com/states/south-dakota/watertown/
+- https://commercialroofguide.com/states/south-dakota/yankton/
+- https://commercialroofguide.com/states/tennessee/
+- https://commercialroofguide.com/states/tennessee/chattanooga/
+- https://commercialroofguide.com/states/tennessee/clarksville/
+- https://commercialroofguide.com/states/tennessee/east-chattanooga/
+- https://commercialroofguide.com/states/tennessee/franklin/
+- https://commercialroofguide.com/states/tennessee/jackson/
+- https://commercialroofguide.com/states/tennessee/knoxville/
+- https://commercialroofguide.com/states/tennessee/memphis/
+- https://commercialroofguide.com/states/tennessee/murfreesboro/
+- https://commercialroofguide.com/states/tennessee/nashville/
+- https://commercialroofguide.com/states/texas/
+- https://commercialroofguide.com/states/texas/amarillo/
+- https://commercialroofguide.com/states/texas/arlington/
+- https://commercialroofguide.com/states/texas/austin/
+- https://commercialroofguide.com/states/texas/brownsville/
+- https://commercialroofguide.com/states/texas/corpus-christi/
+- https://commercialroofguide.com/states/texas/cypress/
+- https://commercialroofguide.com/states/texas/dallas/
+- https://commercialroofguide.com/states/texas/el-paso/
+- https://commercialroofguide.com/states/texas/fort-worth/
+- https://commercialroofguide.com/states/texas/garland/
+- https://commercialroofguide.com/states/texas/grand-prairie/
+- https://commercialroofguide.com/states/texas/houston/
+- https://commercialroofguide.com/states/texas/irving/
+- https://commercialroofguide.com/states/texas/laredo/
+- https://commercialroofguide.com/states/texas/lubbock/
+- https://commercialroofguide.com/states/texas/mckinney/
+- https://commercialroofguide.com/states/texas/plano/
+- https://commercialroofguide.com/states/texas/san-antonio/
+- https://commercialroofguide.com/states/utah/
+- https://commercialroofguide.com/states/utah/layton/
+- https://commercialroofguide.com/states/utah/ogden/
+- https://commercialroofguide.com/states/utah/orem/
+- https://commercialroofguide.com/states/utah/provo/
+- https://commercialroofguide.com/states/utah/saint-george/
+- https://commercialroofguide.com/states/utah/salt-lake-city/
+- https://commercialroofguide.com/states/utah/sandy/
+- https://commercialroofguide.com/states/utah/south-jordan/
+- https://commercialroofguide.com/states/utah/west-jordan/
+- https://commercialroofguide.com/states/utah/west-valley-city/
+- https://commercialroofguide.com/states/vermont/
+- https://commercialroofguide.com/states/vermont/bennington/
+- https://commercialroofguide.com/states/vermont/burlington/
+- https://commercialroofguide.com/states/vermont/colchester/
+- https://commercialroofguide.com/states/vermont/essex-junction/
+- https://commercialroofguide.com/states/vermont/hartford/
+- https://commercialroofguide.com/states/vermont/rutland/
+- https://commercialroofguide.com/states/vermont/south-burlington/
+- https://commercialroofguide.com/states/vermont/williston/
+- https://commercialroofguide.com/states/virginia/
+- https://commercialroofguide.com/states/virginia/alexandria/
+- https://commercialroofguide.com/states/virginia/arlington/
+- https://commercialroofguide.com/states/virginia/chesapeake/
+- https://commercialroofguide.com/states/virginia/city-of-alexandria/
+- https://commercialroofguide.com/states/virginia/city-of-norfolk/
+- https://commercialroofguide.com/states/virginia/city-of-portsmouth/
+- https://commercialroofguide.com/states/virginia/east-hampton/
+- https://commercialroofguide.com/states/virginia/hampton/
+- https://commercialroofguide.com/states/virginia/newport-news/
+- https://commercialroofguide.com/states/virginia/norfolk/
+- https://commercialroofguide.com/states/virginia/portsmouth/
+- https://commercialroofguide.com/states/virginia/portsmouth-heights/
+- https://commercialroofguide.com/states/virginia/roanoke/
+- https://commercialroofguide.com/states/virginia/virginia-beach/
+- https://commercialroofguide.com/states/washington/
+- https://commercialroofguide.com/states/washington/auburn/
+- https://commercialroofguide.com/states/washington/bellevue/
+- https://commercialroofguide.com/states/washington/bellingham/
+- https://commercialroofguide.com/states/washington/everett/
+- https://commercialroofguide.com/states/washington/federal-way/
+- https://commercialroofguide.com/states/washington/kent/
+- https://commercialroofguide.com/states/washington/kirkland/
+- https://commercialroofguide.com/states/washington/renton/
+- https://commercialroofguide.com/states/washington/seattle/
+- https://commercialroofguide.com/states/washington/spokane/
+- https://commercialroofguide.com/states/washington/spokane-valley/
+- https://commercialroofguide.com/states/washington/tacoma/
+- https://commercialroofguide.com/states/washington/vancouver/
+- https://commercialroofguide.com/states/washington/yakima/
+- https://commercialroofguide.com/states/west-virginia/
+- https://commercialroofguide.com/states/west-virginia/charleston/
+- https://commercialroofguide.com/states/west-virginia/fairmont/
+- https://commercialroofguide.com/states/west-virginia/huntington/
+- https://commercialroofguide.com/states/west-virginia/morgantown/
+- https://commercialroofguide.com/states/west-virginia/parkersburg/
+- https://commercialroofguide.com/states/west-virginia/weirton/
+- https://commercialroofguide.com/states/west-virginia/weirton-heights/
+- https://commercialroofguide.com/states/west-virginia/wheeling/
+- https://commercialroofguide.com/states/wisconsin/
+- https://commercialroofguide.com/states/wisconsin/appleton/
+- https://commercialroofguide.com/states/wisconsin/eau-claire/
+- https://commercialroofguide.com/states/wisconsin/green-bay/
+- https://commercialroofguide.com/states/wisconsin/janesville/
+- https://commercialroofguide.com/states/wisconsin/kenosha/
+- https://commercialroofguide.com/states/wisconsin/la-crosse/
+- https://commercialroofguide.com/states/wisconsin/madison/
+- https://commercialroofguide.com/states/wisconsin/milwaukee/
+- https://commercialroofguide.com/states/wisconsin/oshkosh/
+- https://commercialroofguide.com/states/wisconsin/racine/
+- https://commercialroofguide.com/states/wisconsin/waukesha/
+- https://commercialroofguide.com/states/wisconsin/west-allis/
+- https://commercialroofguide.com/states/wyoming/
+- https://commercialroofguide.com/states/wyoming/casper/
+- https://commercialroofguide.com/states/wyoming/cheyenne/
+- https://commercialroofguide.com/states/wyoming/evanston/
+- https://commercialroofguide.com/states/wyoming/gillette/
+- https://commercialroofguide.com/states/wyoming/green-river/
+- https://commercialroofguide.com/states/wyoming/laramie/
+- https://commercialroofguide.com/states/wyoming/rock-springs/
+- https://commercialroofguide.com/states/wyoming/sheridan/
 
 ## Data Sources
 - National Roofing Contractors Association (NRCA) annual surveys
