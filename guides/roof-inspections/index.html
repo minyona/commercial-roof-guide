@@ -215,6 +215,20 @@
     @media(max-width:1200px){.container{padding:0 32px}}
     @media(max-width:1024px){.footer-grid{grid-template-columns:repeat(2,1fr)}}
     @media(max-width:768px){.container{padding:0 24px}section{padding:80px 0}body{font-size:16px}.nav-links,.header-cta{display:none}.nav-toggle{display:flex}.pillar-hero{padding:120px 0 60px}.article-content{padding:60px 24px}.cost-table{font-size:0.85rem}.cost-table th,.cost-table td{padding:10px 14px}.cta-btns{flex-direction:column;align-items:center}.cta-btns .btn{width:100%;max-width:320px;justify-content:center}.footer-grid{grid-template-columns:1fr;gap:32px}.footer-bottom{flex-direction:column;text-align:center;gap:8px}}
+  
+    .footer-coverage { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); border-radius: 14px; padding: 24px 22px; }
+    .footer-coverage h4 { margin-bottom: 12px; }
+    .footer-coverage p { color: rgba(255,255,255,0.72); font-size: 0.88rem; line-height: 1.6; margin-bottom: 14px; }
+    .footer-coverage-link { display: inline-flex; align-items: center; justify-content: center; padding: 10px 14px; border-radius: 999px; background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.2); color: var(--white); font-size: 0.82rem; font-weight: 600; text-decoration: none; transition: all 0.25s var(--ease-out); }
+    .footer-coverage-link:hover { background: rgba(196,92,62,0.28); border-color: rgba(196,92,62,0.6); color: var(--white); }
+    .footer-state-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .footer-state-chips a { display: inline-flex; align-items: center; padding: 6px 10px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.04); color: rgba(255,255,255,0.8); font-size: 0.76rem; font-weight: 500; text-decoration: none; transition: all 0.25s var(--ease-out); }
+    .footer-state-chips a:hover { border-color: rgba(196,92,62,0.6); background: rgba(196,92,62,0.22); color: var(--white); }
+
+    @media (max-width: 768px) {
+      .footer-coverage { padding: 20px; }
+      .footer-coverage-link { width: 100%; }
+    }
   </style>
 </head>
 <body>
@@ -701,60 +715,20 @@
           <li><a href="/states/">All States</a></li>
         </ul>
       </div>
-      <div>
-        <h4>States</h4>
-        <ul>
-          <li><a href="/states/alabama/">Alabama (10 cities)</a></li>
-          <li><a href="/states/alaska/">Alaska (8 cities)</a></li>
-          <li><a href="/states/arizona/">Arizona (9 cities)</a></li>
-          <li><a href="/states/arkansas/">Arkansas (8 cities)</a></li>
-          <li><a href="/states/california/">California (18 cities)</a></li>
-          <li><a href="/states/colorado/">Colorado (9 cities)</a></li>
-          <li><a href="/states/connecticut/">Connecticut (10 cities)</a></li>
-          <li><a href="/states/delaware/">Delaware (8 cities)</a></li>
-          <li><a href="/states/florida/">Florida (18 cities)</a></li>
-          <li><a href="/states/georgia/">Georgia (30 cities)</a></li>
-          <li><a href="/states/hawaii/">Hawaii (8 cities)</a></li>
-          <li><a href="/states/idaho/">Idaho (8 cities)</a></li>
-          <li><a href="/states/illinois/">Illinois (18 cities)</a></li>
-          <li><a href="/states/indiana/">Indiana (10 cities)</a></li>
-          <li><a href="/states/iowa/">Iowa (8 cities)</a></li>
-          <li><a href="/states/kansas/">Kansas (8 cities)</a></li>
-          <li><a href="/states/kentucky/">Kentucky (9 cities)</a></li>
-          <li><a href="/states/louisiana/">Louisiana (9 cities)</a></li>
-          <li><a href="/states/maine/">Maine (8 cities)</a></li>
-          <li><a href="/states/maryland/">Maryland (15 cities)</a></li>
-          <li><a href="/states/massachusetts/">Massachusetts (16 cities)</a></li>
-          <li><a href="/states/michigan/">Michigan (13 cities)</a></li>
-          <li><a href="/states/minnesota/">Minnesota (12 cities)</a></li>
-          <li><a href="/states/mississippi/">Mississippi (8 cities)</a></li>
-          <li><a href="/states/missouri/">Missouri (11 cities)</a></li>
-          <li><a href="/states/montana/">Montana (8 cities)</a></li>
-          <li><a href="/states/nebraska/">Nebraska (8 cities)</a></li>
-          <li><a href="/states/nevada/">Nevada (8 cities)</a></li>
-          <li><a href="/states/new-hampshire/">New Hampshire (8 cities)</a></li>
-          <li><a href="/states/new-jersey/">New Jersey (18 cities)</a></li>
-          <li><a href="/states/new-mexico/">New Mexico (8 cities)</a></li>
-          <li><a href="/states/new-york/">New York (18 cities)</a></li>
-          <li><a href="/states/north-carolina/">North Carolina (12 cities)</a></li>
-          <li><a href="/states/north-dakota/">North Dakota (8 cities)</a></li>
-          <li><a href="/states/ohio/">Ohio (18 cities)</a></li>
-          <li><a href="/states/oklahoma/">Oklahoma (8 cities)</a></li>
-          <li><a href="/states/oregon/">Oregon (10 cities)</a></li>
-          <li><a href="/states/pennsylvania/">Pennsylvania (15 cities)</a></li>
-          <li><a href="/states/rhode-island/">Rhode Island (8 cities)</a></li>
-          <li><a href="/states/south-carolina/">South Carolina (9 cities)</a></li>
-          <li><a href="/states/south-dakota/">South Dakota (8 cities)</a></li>
-          <li><a href="/states/tennessee/">Tennessee (9 cities)</a></li>
-          <li><a href="/states/texas/">Texas (18 cities)</a></li>
-          <li><a href="/states/utah/">Utah (10 cities)</a></li>
-          <li><a href="/states/vermont/">Vermont (8 cities)</a></li>
-          <li><a href="/states/virginia/">Virginia (14 cities)</a></li>
-          <li><a href="/states/washington/">Washington (14 cities)</a></li>
-          <li><a href="/states/west-virginia/">West Virginia (8 cities)</a></li>
-          <li><a href="/states/wisconsin/">Wisconsin (12 cities)</a></li>
-          <li><a href="/states/wyoming/">Wyoming (8 cities)</a></li>
-        </ul>
+            <div class="footer-coverage">
+        <h4>State Coverage</h4>
+        <p>Live in all 50 states with 562 city guides built for commercial building owners and facility managers.</p>
+        <a class="footer-coverage-link" href="/states/">Browse all 50 state guides</a>
+        <div class="footer-state-chips">
+          <a href="/states/california/">California</a>
+          <a href="/states/texas/">Texas</a>
+          <a href="/states/florida/">Florida</a>
+          <a href="/states/new-york/">New York</a>
+          <a href="/states/georgia/">Georgia</a>
+          <a href="/states/illinois/">Illinois</a>
+          <a href="/states/pennsylvania/">Pennsylvania</a>
+          <a href="/states/north-carolina/">North Carolina</a>
+        </div>
       </div>
     </div>
     <div class="footer-bottom">
